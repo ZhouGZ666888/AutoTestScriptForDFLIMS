@@ -1,0 +1,1 @@
+python C:\Users\admin\Desktop\工作文件夹\自动化文档\ 正式脚本\迪飞LIMS脚本\DFei_LIMS\MyRun.py

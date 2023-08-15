@@ -1,0 +1,56 @@
+[2023-05-24 17:48:18,458] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-05-24 17:48:18,463] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入核酸提取页面
+[2023-05-24 17:48:18,480] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-05-24 17:48:18,621] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-05-24 17:48:18,665] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-05-24 17:48:21,897] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-05-24 17:48:21,930] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-05-24 17:48:21,974] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guanzhong.zhou
+[2023-05-24 17:48:22,716] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ff123456!
+[2023-05-24 17:48:23,363] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-05-24 17:48:26,003] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-05-24 17:48:31,497] - logs.py[line:34] - fuc:__console- INFO: 进入样本接收页面
+[2023-05-24 17:48:35,478] - logs.py[line:34] - fuc:__console- INFO: 核酸提取首页，点击新建按钮，进入样本待选表，新增核酸提取任务
+[2023-05-24 17:48:40,420] - logs.py[line:34] - fuc:__console- INFO: 选择任务类型
+[2023-05-24 17:48:44,390] - logs.py[line:34] - fuc:__console- INFO: 操作方式
+[2023-05-24 17:48:45,112] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-05-24 17:48:48,977] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-05-24 17:49:06,046] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-05-24 17:49:06,688] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230524174906_核酸提取待选表.png' width=600 /></div>
+[2023-05-24 17:49:06,689] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取待选表
+[2023-05-24 17:49:06,904] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-05-24 17:49:11,161] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入核酸提取明细表
+[2023-05-24 17:49:16,090] - logs.py[line:34] - fuc:__console- INFO: 样本分管操作
+[2023-05-24 17:49:16,849] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230524174916_核酸提取明细表分管.png' width=600 /></div>
+[2023-05-24 17:49:16,850] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取明细表分管
+[2023-05-24 17:49:17,092] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-05-24 17:49:23,221] - logs.py[line:34] - fuc:__console- INFO: 核酸提取结果表，修改样本产物类型
+[2023-05-24 17:49:29,314] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，点击提交
+[2023-05-24 17:56:45,973] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-05-24 17:56:45,980] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入核酸提取页面
+[2023-05-24 17:56:45,982] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-05-24 17:56:46,115] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-05-24 17:56:46,134] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-05-24 17:56:50,678] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-05-24 17:56:50,693] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-05-24 17:56:50,733] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guanzhong.zhou
+[2023-05-24 17:56:51,452] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ff123456!
+[2023-05-24 17:56:52,105] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-05-24 17:56:54,718] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-05-24 17:57:00,517] - logs.py[line:34] - fuc:__console- INFO: 进入样本接收页面
+[2023-05-24 17:57:04,561] - logs.py[line:34] - fuc:__console- INFO: 核酸提取首页，点击新建按钮，进入样本待选表，新增核酸提取任务
+[2023-05-24 17:57:09,474] - logs.py[line:34] - fuc:__console- INFO: 选择任务类型
+[2023-05-24 17:57:13,405] - logs.py[line:34] - fuc:__console- INFO: 操作方式
+[2023-05-24 17:57:14,138] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-05-24 17:57:17,963] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-05-24 17:57:31,896] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-05-24 17:57:32,530] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230524175732_核酸提取待选表.png' width=600 /></div>
+[2023-05-24 17:57:32,531] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取待选表
+[2023-05-24 17:57:32,831] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-05-24 17:57:36,819] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入核酸提取明细表
+[2023-05-24 17:57:41,864] - logs.py[line:34] - fuc:__console- INFO: 样本分管操作
+[2023-05-24 17:57:42,665] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230524175742_核酸提取明细表分管.png' width=600 /></div>
+[2023-05-24 17:57:42,666] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取明细表分管
+[2023-05-24 17:57:43,015] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-05-24 17:57:49,640] - logs.py[line:34] - fuc:__console- INFO: 核酸提取结果表，修改样本产物类型
+[2023-05-24 17:57:55,785] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，点击提交

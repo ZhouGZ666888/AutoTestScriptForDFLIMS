@@ -1,0 +1,5 @@
+[2023-02-06 14:52:44,343] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-02-06 14:52:57,151] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入样本接收页面
+[2023-02-06 14:53:02,247] - logs.py[line:34] - fuc:__console- INFO: 搜索订单号
+[2023-02-06 14:53:15,761] - logs.py[line:34] - fuc:__console- INFO: 添加样本的项目信息类型
+[2023-02-06 14:53:16,606] - logs.py[line:34] - fuc:__console- INFO: 添加样本

@@ -1,0 +1,54 @@
+[2023-05-26 17:43:06,735] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-05-26 17:43:06,759] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，自动计算
+[2023-05-26 17:43:12,905] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，提交
+[2023-05-26 17:43:12,907] - logs.py[line:34] - fuc:__console- INFO:  MPCR结果表,点击提交
+[2023-05-26 17:44:41,994] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-05-26 17:44:42,013] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，自动计算
+[2023-05-26 17:44:48,150] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，提交
+[2023-05-26 17:44:48,154] - logs.py[line:34] - fuc:__console- INFO:  MPCR结果表,点击提交
+[2023-05-26 17:57:14,662] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-05-26 17:57:14,667] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，自动计算
+[2023-05-26 17:57:20,776] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，提交
+[2023-05-26 17:57:20,777] - logs.py[line:34] - fuc:__console- INFO:  MPCR结果表,点击提交
+[2023-05-26 18:07:54,218] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-05-26 18:07:54,230] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，自动计算
+[2023-05-26 18:08:00,410] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，提交
+[2023-05-26 18:08:00,436] - logs.py[line:34] - fuc:__console- INFO:  MPCR结果表,点击提交
+[2023-05-26 18:09:19,019] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-05-26 18:09:19,041] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入核酸提取页面
+[2023-05-26 18:09:19,075] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-05-26 18:09:19,243] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-05-26 18:09:19,245] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-05-26 18:09:22,800] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-05-26 18:09:22,813] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-05-26 18:09:22,869] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guanzhong.zhou
+[2023-05-26 18:09:23,634] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ff123456!
+[2023-05-26 18:14:30,607] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-05-26 18:14:30,615] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-05-26 18:14:30,761] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-05-26 18:14:30,763] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-05-26 18:14:34,100] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-05-26 18:14:34,132] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-05-26 18:14:34,180] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guanzhong.zhou
+[2023-05-26 18:14:34,908] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ff123456!
+[2023-05-26 18:14:35,572] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-05-26 18:14:38,177] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-05-26 18:14:45,812] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入mPCR页面
+[2023-05-26 18:14:51,049] - logs.py[line:34] - fuc:__console- INFO: MPCR首页，点击新建按钮，进入样本待选表，新增MPCR任务
+[2023-05-26 18:14:55,575] - logs.py[line:34] - fuc:__console- INFO: 选择任务类型:结核耐药mPCR
+[2023-05-26 18:15:00,912] - logs.py[line:34] - fuc:__console- INFO: 核对lims，添加至任务单
+[2023-05-26 18:15:00,929] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-05-26 18:15:06,894] - logs.py[line:34] - fuc:__console- INFO: mPCR明细表自动计算
+[2023-05-26 18:25:36,586] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-05-26 18:25:36,645] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-05-26 18:25:36,790] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-05-26 18:25:36,814] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-05-26 18:25:40,319] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-05-26 18:25:40,334] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-05-26 18:25:40,377] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guanzhong.zhou
+[2023-05-26 18:25:41,107] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ff123456!
+[2023-05-26 18:25:41,752] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-05-26 18:25:44,871] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-05-26 18:25:50,649] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入mPCR页面
+[2023-05-26 18:25:59,081] - logs.py[line:34] - fuc:__console- INFO: MPCR首页，点击新建按钮，进入样本待选表，新增MPCR任务
+[2023-05-26 18:26:04,556] - logs.py[line:34] - fuc:__console- INFO: 选择任务类型:结核耐药mPCR

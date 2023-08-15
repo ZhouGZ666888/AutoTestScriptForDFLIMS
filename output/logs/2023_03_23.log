@@ -1,0 +1,16 @@
+[2023-03-23 14:32:51,036] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-03-23 14:32:51,120] - logs.py[line:34] - fuc:__console- INFO: ------开始登录!------
+[2023-03-23 14:32:51,121] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器,窗口最大化
+[2023-03-23 14:32:51,271] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-03-23 14:32:51,272] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-03-23 14:32:56,022] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-03-23 14:32:56,087] - logs.py[line:34] - fuc:__console- INFO: ------开始登录!------
+[2023-03-23 14:32:56,088] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器,窗口最大化
+[2023-03-23 14:32:56,092] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-03-23 14:32:56,093] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-03-23 14:32:57,725] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-03-23 14:32:57,734] - logs.py[line:34] - fuc:__console- INFO: ------开始登录!------
+[2023-03-23 14:32:57,735] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器,窗口最大化
+[2023-03-23 14:32:57,741] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-03-23 14:32:57,742] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-03-23 14:32:59,351] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录

@@ -1,0 +1,7 @@
+[2023-02-03 15:05:14,855] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-02-03 15:05:25,572] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表数据修改操作
+[2023-02-03 15:05:50,862] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-02-03 15:06:33,955] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表数据修改操作
+[2023-02-03 15:06:47,612] - logs.py[line:34] - fuc:__console- INFO: 切换用户进行数据修改审批
+[2023-02-03 15:07:03,290] - logs.py[line:34] - fuc:__console- INFO: 数据修改审核操作
+[2023-02-03 15:07:14,653] - logs.py[line:34] - fuc:__console- INFO: 数据修改任务单查询操作

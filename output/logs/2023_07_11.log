@@ -1,0 +1,1991 @@
+[2023-07-11 11:46:34,377] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 11:46:34,383] - logs.py[line:34] - fuc:__console- INFO: ------开始登录!------
+[2023-07-11 11:46:34,386] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器,窗口最大化
+[2023-07-11 11:46:34,543] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 11:46:34,544] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 11:46:36,864] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 11:46:36,877] - logs.py[line:34] - fuc:__console- INFO: 输入错误账号/密码登录：error/error
+[2023-07-11 11:46:38,173] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 11:46:38,787] - logs.py[line:34] - fuc:__console- INFO: 获取登录失败的提示语：请填写正确的用户名、密码
+[2023-07-11 11:46:38,787] - logs.py[line:34] - fuc:__console- INFO: ------登录用例结束！------
+[2023-07-11 11:46:38,788] - logs.py[line:34] - fuc:__console- INFO: ------开始登录!------
+[2023-07-11 11:46:38,789] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器,窗口最大化
+[2023-07-11 11:46:38,795] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 11:46:38,795] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 11:46:40,269] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 11:46:40,282] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 11:46:40,322] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guanzhong.zhou
+[2023-07-11 11:46:40,442] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ff123456!
+[2023-07-11 11:46:40,538] - logs.py[line:34] - fuc:__console- INFO: 点击登录
+[2023-07-11 11:46:43,132] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 11:46:48,672] - logs.py[line:34] - fuc:__console- INFO: 登录成功后校验当前地址正确
+[2023-07-11 11:46:48,680] - logs.py[line:34] - fuc:__console- INFO: ------登录用例结束！------
+[2023-07-11 11:46:48,681] - logs.py[line:34] - fuc:__console- INFO: ------开始登录!------
+[2023-07-11 11:46:48,682] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器,窗口最大化
+[2023-07-11 11:46:48,686] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 11:46:48,687] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 11:46:50,174] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 11:46:50,201] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 11:46:50,276] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 11:46:50,381] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 11:46:50,473] - logs.py[line:34] - fuc:__console- INFO: 点击登录
+[2023-07-11 11:46:53,089] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 11:46:58,121] - logs.py[line:34] - fuc:__console- INFO: 登录成功后校验当前地址正确
+[2023-07-11 11:46:58,144] - logs.py[line:34] - fuc:__console- INFO: ------登录用例结束！------
+[2023-07-11 11:47:02,277] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 11:47:07,408] - logs.py[line:34] - fuc:__console- INFO: 进入新增模块
+[2023-07-11 11:47:07,411] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 11:47:12,503] - logs.py[line:34] - fuc:__console- INFO: 读取新的身份证
+[2023-07-11 11:47:13,327] - logs.py[line:34] - fuc:__console- INFO: 录入患者姓名:任义群，身份证信息:11022819840701261X
+[2023-07-11 11:47:13,328] - logs.py[line:34] - fuc:__console- INFO: 病历中输入患者姓名,身份证信息
+[2023-07-11 11:47:14,745] - logs.py[line:34] - fuc:__console- INFO: 保存病历
+[2023-07-11 11:47:14,748] - logs.py[line:34] - fuc:__console- INFO: 点击保存按钮
+[2023-07-11 11:47:24,788] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入病历页面
+[2023-07-11 11:47:29,671] - logs.py[line:34] - fuc:__console- INFO: 进入新增模块
+[2023-07-11 11:47:29,674] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 11:47:33,585] - logs.py[line:34] - fuc:__console- INFO: 输入患者性别
+[2023-07-11 11:47:33,588] - logs.py[line:34] - fuc:__console- INFO: 病历中输入患者性别
+[2023-07-11 11:47:35,285] - logs.py[line:34] - fuc:__console- INFO: 保存病历
+[2023-07-11 11:47:35,287] - logs.py[line:34] - fuc:__console- INFO: 点击保存按钮
+[2023-07-11 11:47:35,457] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711114735_保存病历.png' width=600 /></div>
+[2023-07-11 11:47:35,459] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：保存病历
+[2023-07-11 11:47:35,664] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 11:47:41,500] - logs.py[line:34] - fuc:__console- INFO: 进入新增模块
+[2023-07-11 11:47:41,502] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 11:47:45,467] - logs.py[line:34] - fuc:__console- INFO: 录入患者姓名:任义群，身份证信息:11022819840701261X
+[2023-07-11 11:47:45,470] - logs.py[line:34] - fuc:__console- INFO: 病历中输入患者姓名,身份证信息
+[2023-07-11 11:47:47,016] - logs.py[line:34] - fuc:__console- INFO: 保存病历
+[2023-07-11 11:47:47,018] - logs.py[line:34] - fuc:__console- INFO: 点击保存按钮
+[2023-07-11 11:47:59,008] - logs.py[line:34] - fuc:__console- INFO: 点击搜索
+[2023-07-11 11:47:59,011] - logs.py[line:34] - fuc:__console- INFO: 点击搜索按钮
+[2023-07-11 11:47:59,790] - logs.py[line:34] - fuc:__console- INFO: 搜索病历号
+[2023-07-11 11:47:59,792] - logs.py[line:34] - fuc:__console- INFO: 输入病历号进行搜索
+[2023-07-11 11:48:00,023] - logs.py[line:34] - fuc:__console- INFO: 点击确定
+[2023-07-11 11:48:03,710] - logs.py[line:34] - fuc:__console- INFO: 获取查询结果，进行断言
+[2023-07-11 11:48:08,342] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 11:48:08,349] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入订单页面
+[2023-07-11 11:48:13,714] - logs.py[line:34] - fuc:__console- INFO: 调用新增方法
+[2023-07-11 11:48:13,716] - logs.py[line:34] - fuc:__console- INFO: 新增订单，录入订单号、患者姓名
+[2023-07-11 11:48:15,769] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711114815_新建订单.png' width=600 /></div>
+[2023-07-11 11:48:15,772] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：新建订单
+[2023-07-11 11:48:15,999] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 11:48:23,899] - logs.py[line:34] - fuc:__console- INFO: 搜索并进入订单编辑页面
+[2023-07-11 11:48:34,893] - logs.py[line:34] - fuc:__console- INFO: 编辑订单信息,病历关联
+[2023-07-11 11:48:34,899] - logs.py[line:34] - fuc:__console- INFO: 选择电子病历
+[2023-07-11 11:48:47,373] - logs.py[line:34] - fuc:__console- INFO: 录入临床诊断信息
+[2023-07-11 11:48:49,178] - logs.py[line:34] - fuc:__console- INFO: 新增联系人信息,录入姓名、联系方式、地址
+[2023-07-11 11:48:50,745] - logs.py[line:34] - fuc:__console- INFO: 新增医生信息
+[2023-07-11 11:49:00,814] - logs.py[line:34] - fuc:__console- INFO: 录入销售代表和款项信息
+[2023-07-11 11:49:05,710] - logs.py[line:34] - fuc:__console- INFO: 选择结算方式为科研
+[2023-07-11 11:49:06,203] - logs.py[line:34] - fuc:__console- INFO: 保存订单
+[2023-07-11 11:49:07,114] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711114907_保存订单.png' width=600 /></div>
+[2023-07-11 11:49:07,116] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：保存订单
+[2023-07-11 11:49:07,390] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 11:49:17,082] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 11:49:17,089] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入款项核对页面
+[2023-07-11 11:49:21,980] - logs.py[line:34] - fuc:__console- INFO: 批量修改订单确认状态...
+[2023-07-11 11:49:21,983] - logs.py[line:34] - fuc:__console- INFO: 点击搜索框，录入订单号...
+[2023-07-11 11:49:25,698] - logs.py[line:34] - fuc:__console- INFO: 录入订单号...81180097:
+[2023-07-11 11:49:29,170] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711114929_款项核对搜索订单.png' width=600 /></div>
+[2023-07-11 11:49:29,173] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：款项核对搜索订单
+[2023-07-11 11:49:29,398] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 11:49:29,398] - logs.py[line:34] - fuc:__console- INFO: 根据录入的订单号筛选订单
+[2023-07-11 11:49:32,593] - logs.py[line:34] - fuc:__console- INFO: 选中筛选结果，设置确认信息为：已确认
+[2023-07-11 11:49:37,222] - logs.py[line:34] - fuc:__console- INFO: 保存设置后的结果
+[2023-07-11 11:49:43,467] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 11:49:43,474] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入样本接收页面
+[2023-07-11 11:49:48,465] - logs.py[line:34] - fuc:__console- INFO: 搜索订单号
+[2023-07-11 11:49:48,468] - logs.py[line:34] - fuc:__console- INFO: 接样页面点击搜索按钮
+[2023-07-11 11:49:49,220] - logs.py[line:34] - fuc:__console- INFO: 搜索框录入订单号：81180096
+[2023-07-11 11:49:51,167] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711114951_样本接收，根据lims号搜素.png' width=600 /></div>
+[2023-07-11 11:49:51,170] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本接收，根据lims号搜素
+[2023-07-11 11:49:51,383] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 11:49:51,965] - logs.py[line:34] - fuc:__console- INFO: 选中搜索出的订单，进入样本接收详情页面
+[2023-07-11 11:50:01,217] - logs.py[line:34] - fuc:__console- INFO: 添加样本的项目信息类型
+[2023-07-11 11:50:01,277] - logs.py[line:34] - fuc:__console- INFO: 选择样本所属检测产品
+[2023-07-11 11:50:01,278] - logs.py[line:34] - fuc:__console- INFO: 录入订单备注
+[2023-07-11 11:50:02,006] - logs.py[line:34] - fuc:__console- INFO: 添加样本
+[2023-07-11 11:50:02,007] - logs.py[line:34] - fuc:__console- INFO: 添加2种报告类型的样本，
+[2023-07-11 11:50:48,629] - logs.py[line:34] - fuc:__console- INFO: 新增样本生成报告任务，
+[2023-07-11 11:50:52,503] - logs.py[line:34] - fuc:__console- INFO: 样本选择样本报告类型和样本类型
+[2023-07-11 11:50:52,959] - logs.py[line:34] - fuc:__console- INFO: 选中第1条样本
+[2023-07-11 11:50:54,798] - logs.py[line:34] - fuc:__console- INFO: 选中第2条样本
+[2023-07-11 11:50:56,614] - logs.py[line:34] - fuc:__console- INFO: 选中第3条样本
+[2023-07-11 11:50:58,517] - logs.py[line:34] - fuc:__console- INFO: 选中第4条样本
+[2023-07-11 11:50:59,860] - logs.py[line:34] - fuc:__console- INFO: 取消选中第1条样本
+[2023-07-11 11:51:00,207] - logs.py[line:34] - fuc:__console- INFO: 取消选中第2条样本
+[2023-07-11 11:51:00,462] - logs.py[line:34] - fuc:__console- INFO: 取消选中第3条样本
+[2023-07-11 11:51:00,730] - logs.py[line:34] - fuc:__console- INFO: 取消选中第4条样本
+[2023-07-11 11:51:01,486] - logs.py[line:34] - fuc:__console- INFO: 选中第5条样本
+[2023-07-11 11:51:03,361] - logs.py[line:34] - fuc:__console- INFO: 选中第6条样本
+[2023-07-11 11:51:05,271] - logs.py[line:34] - fuc:__console- INFO: 选中第7条样本
+[2023-07-11 11:51:06,644] - logs.py[line:34] - fuc:__console- INFO: 取消选中第5条样本
+[2023-07-11 11:51:06,910] - logs.py[line:34] - fuc:__console- INFO: 取消选中第6条样本
+[2023-07-11 11:51:07,194] - logs.py[line:34] - fuc:__console- INFO: 取消选中第7条样本
+[2023-07-11 11:51:07,966] - logs.py[line:34] - fuc:__console- INFO: 选中第8条样本
+[2023-07-11 11:51:09,776] - logs.py[line:34] - fuc:__console- INFO: 选中第9条样本
+[2023-07-11 11:51:11,639] - logs.py[line:34] - fuc:__console- INFO: 选中第10条样本
+[2023-07-11 11:51:13,016] - logs.py[line:34] - fuc:__console- INFO: 取消选中第8条样本
+[2023-07-11 11:51:13,331] - logs.py[line:34] - fuc:__console- INFO: 取消选中第9条样本
+[2023-07-11 11:51:13,614] - logs.py[line:34] - fuc:__console- INFO: 取消选中第10条样本
+[2023-07-11 11:51:14,923] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711115114_样本样本接收，保存新增样本.png' width=600 /></div>
+[2023-07-11 11:51:14,926] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本样本接收，保存新增样本
+[2023-07-11 11:51:15,167] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 11:51:15,168] - logs.py[line:34] - fuc:__console- INFO: 选择样本类型
+[2023-07-11 11:51:22,665] - logs.py[line:34] - fuc:__console- INFO: 为样本选择实验流程
+[2023-07-11 11:51:22,666] - logs.py[line:34] - fuc:__console- INFO: 选中样本生成实验流程
+[2023-07-11 11:51:22,706] - logs.py[line:34] - fuc:__console- INFO: 生成实验室号
+[2023-07-11 11:51:31,705] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711115131_样本接收，点击生成实验流程.png' width=600 /></div>
+[2023-07-11 11:51:31,708] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本接收，点击生成实验流程
+[2023-07-11 11:51:31,922] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 11:51:31,922] - logs.py[line:34] - fuc:__console- INFO: 生成DNA报告类型样本的实验流程
+[2023-07-11 11:51:35,829] - logs.py[line:34] - fuc:__console- INFO: 生成迪迅康-基础(8)报告类型样本的实验流程
+[2023-07-11 11:51:39,350] - logs.py[line:34] - fuc:__console- INFO: 生成DNA+耐药报告类型样本的实验流程
+[2023-07-11 11:51:52,579] - logs.py[line:34] - fuc:__console- INFO: 录入样本计量、选择质检结果、接样备注
+[2023-07-11 11:51:52,581] - logs.py[line:34] - fuc:__console- INFO: 录入样本包装量
+[2023-07-11 11:51:55,341] - logs.py[line:34] - fuc:__console- INFO: 录入样本计量
+[2023-07-11 11:51:56,918] - logs.py[line:34] - fuc:__console- INFO: 选择质检结果
+[2023-07-11 11:51:59,192] - logs.py[line:34] - fuc:__console- INFO: 录入样本备注
+[2023-07-11 11:51:59,230] - logs.py[line:34] - fuc:__console- INFO: 录入样本基本数据后，样本信息保存
+[2023-07-11 11:52:08,768] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 11:52:13,307] - logs.py[line:34] - fuc:__console- INFO: 把接样样本信息存入对应的Excel文件中
+[2023-07-11 11:52:52,396] - logs.py[line:34] - fuc:__console- INFO: 批量提交审核
+[2023-07-11 11:52:52,397] - logs.py[line:34] - fuc:__console- INFO: 选中样本，点击批量提交审核
+[2023-07-11 11:52:59,608] - logs.py[line:34] - fuc:__console- INFO: 页面退出登录按钮，切换登录用户
+[2023-07-11 11:52:59,609] - logs.py[line:34] - fuc:__console- INFO: 点击页面退出登录按钮，切换登录用户
+[2023-07-11 11:53:02,268] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 11:53:02,284] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 11:53:02,334] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guanzhong.zhou
+[2023-07-11 11:53:02,939] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ff123456!
+[2023-07-11 11:53:03,543] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 11:53:06,141] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 11:53:16,595] - logs.py[line:34] - fuc:__console- INFO: 接样页面点击搜索按钮
+[2023-07-11 11:53:17,257] - logs.py[line:34] - fuc:__console- INFO: 搜索框录入订单号：81180096
+[2023-07-11 11:53:19,185] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711115319_样本接收，根据lims号搜素.png' width=600 /></div>
+[2023-07-11 11:53:19,186] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本接收，根据lims号搜素
+[2023-07-11 11:53:19,385] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 11:53:19,955] - logs.py[line:34] - fuc:__console- INFO: 选中搜索出的订单，进入样本接收详情页面
+[2023-07-11 11:53:28,299] - logs.py[line:34] - fuc:__console- INFO: 登录后，切换到样本待审核页面
+[2023-07-11 11:53:33,177] - logs.py[line:34] - fuc:__console- INFO: 待审核页面选中待审核样本，并点击批量审核按钮
+[2023-07-11 11:53:35,048] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711115335_样本接收，审核页面.png' width=600 /></div>
+[2023-07-11 11:53:35,051] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本接收，审核页面
+[2023-07-11 11:53:35,306] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 11:53:48,434] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 11:53:53,313] - logs.py[line:34] - fuc:__console- INFO: 点击sop列表的搜索按钮
+[2023-07-11 11:53:57,060] - logs.py[line:34] - fuc:__console- INFO: 弹框中，选择提取任务类型的sop条件：这里指定提取的sop主数据
+[2023-07-11 11:54:02,716] - logs.py[line:34] - fuc:__console- INFO: sop主数据搜索提取类型数据成功，数据展示正确
+[2023-07-11 11:54:05,413] - logs.py[line:34] - fuc:__console- INFO: 勾选展示已失效的按钮，数据展示正确
+[2023-07-11 11:54:08,554] - logs.py[line:34] - fuc:__console- INFO: 点击sop列表的新建按钮
+[2023-07-11 11:54:13,988] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop名称
+[2023-07-11 11:54:15,461] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop版本号
+[2023-07-11 11:54:16,692] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写核对人信息
+[2023-07-11 11:54:23,696] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop编码
+[2023-07-11 11:54:25,009] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属模块
+[2023-07-11 11:54:29,335] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属模块对应的任务类型
+[2023-07-11 11:54:31,512] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属实验地点
+[2023-07-11 11:54:31,800] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop描述
+[2023-07-11 11:54:33,003] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击保存sop基础数据
+[2023-07-11 11:54:37,258] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮
+[2023-07-11 11:54:39,423] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮后，点击搜索原始样本类型弹框
+[2023-07-11 11:54:41,544] - logs.py[line:34] - fuc:__console- INFO: 详情页，默认选择首选项
+[2023-07-11 11:54:42,719] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击确定
+[2023-07-11 11:54:43,878] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮后，点击搜索产物样本类型弹框
+[2023-07-11 11:54:45,133] - logs.py[line:34] - fuc:__console- INFO: 详情页，默认选择首选项
+[2023-07-11 11:54:46,315] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击确定
+[2023-07-11 11:54:47,457] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击新增步骤按钮，输入步骤编号
+[2023-07-11 11:54:48,606] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击同步编号按钮
+[2023-07-11 11:54:49,782] - logs.py[line:34] - fuc:__console- INFO: 详情页，使用JS让页面滑动到最顶端，点击sop生效按钮
+[2023-07-11 11:54:52,025] - logs.py[line:34] - fuc:__console- INFO: 详情页，sop生效成功
+[2023-07-11 11:54:53,154] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击返回列表页，开始新的sop新建任务
+[2023-07-11 11:54:59,839] - logs.py[line:34] - fuc:__console- INFO: 点击sop列表的新建按钮
+[2023-07-11 11:55:04,927] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop名称
+[2023-07-11 11:55:06,372] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop版本号
+[2023-07-11 11:55:07,623] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写核对人信息
+[2023-07-11 11:55:14,497] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop编码
+[2023-07-11 11:55:15,768] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属模块
+[2023-07-11 11:55:20,085] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属模块对应的任务类型
+[2023-07-11 11:55:22,262] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属实验地点
+[2023-07-11 11:55:22,495] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop描述
+[2023-07-11 11:55:23,689] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击保存sop基础数据
+[2023-07-11 11:55:27,365] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮
+[2023-07-11 11:55:29,508] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮后，点击搜索原始样本类型弹框
+[2023-07-11 11:55:31,717] - logs.py[line:34] - fuc:__console- INFO: 详情页，默认选择首选项
+[2023-07-11 11:55:32,881] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击确定
+[2023-07-11 11:55:34,016] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮后，点击搜索产物样本类型弹框
+[2023-07-11 11:55:35,223] - logs.py[line:34] - fuc:__console- INFO: 详情页，默认选择首选项
+[2023-07-11 11:55:36,381] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击确定
+[2023-07-11 11:55:37,506] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击新增步骤按钮，输入步骤编号
+[2023-07-11 11:55:38,635] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击同步编号按钮
+[2023-07-11 11:55:39,745] - logs.py[line:34] - fuc:__console- INFO: 详情页，使用JS让页面滑动到最顶端，点击sop生效按钮
+[2023-07-11 11:55:41,945] - logs.py[line:34] - fuc:__console- INFO: 详情页，sop生效成功
+[2023-07-11 11:55:43,113] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击返回列表页，开始新的sop新建任务
+[2023-07-11 11:55:49,997] - logs.py[line:34] - fuc:__console- INFO: 点击sop列表的新建按钮
+[2023-07-11 11:55:55,022] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop名称
+[2023-07-11 11:55:56,432] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop版本号
+[2023-07-11 11:55:57,700] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写核对人信息
+[2023-07-11 11:56:04,673] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop编码
+[2023-07-11 11:56:05,895] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属模块
+[2023-07-11 11:56:10,407] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属模块对应的任务类型
+[2023-07-11 11:56:12,641] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属实验地点
+[2023-07-11 11:56:12,837] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop描述
+[2023-07-11 11:56:14,033] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击保存sop基础数据
+[2023-07-11 11:56:17,731] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮
+[2023-07-11 11:56:19,878] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮后，点击搜索原始样本类型弹框
+[2023-07-11 11:56:22,102] - logs.py[line:34] - fuc:__console- INFO: 详情页，默认选择首选项
+[2023-07-11 11:56:23,259] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击确定
+[2023-07-11 11:56:24,400] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮后，点击搜索产物样本类型弹框
+[2023-07-11 11:56:25,673] - logs.py[line:34] - fuc:__console- INFO: 详情页，默认选择首选项
+[2023-07-11 11:56:26,852] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击确定
+[2023-07-11 11:56:28,005] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击新增步骤按钮，输入步骤编号
+[2023-07-11 11:56:29,229] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击同步编号按钮
+[2023-07-11 11:56:30,340] - logs.py[line:34] - fuc:__console- INFO: 详情页，使用JS让页面滑动到最顶端，点击sop生效按钮
+[2023-07-11 11:56:32,527] - logs.py[line:34] - fuc:__console- INFO: 详情页，sop生效成功
+[2023-07-11 11:56:33,702] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击返回列表页，开始新的sop新建任务
+[2023-07-11 11:56:44,971] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 11:56:50,232] - logs.py[line:34] - fuc:__console- INFO: 点击样本盒列表的搜索按钮
+[2023-07-11 11:56:52,916] - logs.py[line:34] - fuc:__console- INFO: 搜索弹框中输入指定盒子信息
+[2023-07-11 11:56:53,090] - logs.py[line:34] - fuc:__console- INFO: 点击确定，搜索成功
+[2023-07-11 11:56:56,428] - logs.py[line:34] - fuc:__console- INFO: 点击选中指定盒位信息
+[2023-07-11 11:56:57,040] - logs.py[line:34] - fuc:__console- INFO: 校验盒位存在样本，不能删除功能
+[2023-07-11 11:56:57,041] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 11:56:59,212] - logs.py[line:34] - fuc:__console- INFO: 输入盒子名称
+[2023-07-11 11:57:01,130] - logs.py[line:34] - fuc:__console- INFO: 选择盒子的规格下拉框
+[2023-07-11 11:57:01,757] - logs.py[line:34] - fuc:__console- INFO: 选择规格
+[2023-07-11 11:57:02,899] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711115702_盒位管理，新增样本盒.png' width=600 /></div>
+[2023-07-11 11:57:02,902] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：盒位管理，新增样本盒
+[2023-07-11 11:57:03,132] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 11:57:06,871] - logs.py[line:34] - fuc:__console- INFO: 开始查询数据库，校验新建的盒子信息
+[2023-07-11 11:57:06,882] - logs.py[line:34] - fuc:__console- INFO: 校验信息成功
+[2023-07-11 11:57:10,586] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 11:57:10,593] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 11:57:17,730] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 11:57:18,884] - logs.py[line:34] - fuc:__console- INFO: 点击输入框，输入库位信息
+[2023-07-11 11:57:19,704] - logs.py[line:34] - fuc:__console- INFO: 点击下拉框，选择库位位置
+[2023-07-11 11:57:21,534] - logs.py[line:34] - fuc:__console- INFO: 输入库位位置描述信息
+[2023-07-11 11:57:22,315] - logs.py[line:34] - fuc:__console- INFO: 点击编辑按钮，弹框中输入使用人姓名
+[2023-07-11 11:57:23,560] - logs.py[line:34] - fuc:__console- INFO: 弹框中输入使用人姓名，系统联想成功
+[2023-07-11 11:57:25,874] - logs.py[line:34] - fuc:__console- INFO: 确认添加使用人
+[2023-07-11 11:57:26,982] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711115726_库位管理，新增临时库.png' width=600 /></div>
+[2023-07-11 11:57:26,984] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：库位管理，新增临时库
+[2023-07-11 11:57:27,179] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 11:57:27,180] - logs.py[line:34] - fuc:__console- INFO: 确认修改库位信息，完成修改
+[2023-07-11 11:57:31,454] - logs.py[line:34] - fuc:__console- INFO: 进入列表页，点击搜索按钮
+[2023-07-11 11:57:33,079] - logs.py[line:34] - fuc:__console- INFO: 输入指定的库位姓名
+[2023-07-11 11:57:33,774] - logs.py[line:34] - fuc:__console- INFO: 搜索指定库位名称成功
+[2023-07-11 11:57:40,743] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 11:57:40,750] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 11:57:49,437] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 11:57:49,455] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 11:57:50,083] - logs.py[line:34] - fuc:__console- INFO: 选择移样本盒
+[2023-07-11 11:57:51,312] - logs.py[line:34] - fuc:__console- INFO: 选择库外到临时库
+[2023-07-11 11:57:52,554] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711115752_新建样本移库任务.png' width=600 /></div>
+[2023-07-11 11:57:52,557] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：新建样本移库任务
+[2023-07-11 11:57:52,787] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 11:57:52,788] - logs.py[line:34] - fuc:__console- INFO: 点击确定
+[2023-07-11 11:57:58,497] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的盒子名称
+[2023-07-11 11:57:58,519] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的库位名称
+[2023-07-11 11:57:58,550] - logs.py[line:34] - fuc:__console- INFO: 点击搜索盒子按钮
+[2023-07-11 11:57:59,218] - logs.py[line:34] - fuc:__console- INFO: 点击输入框
+[2023-07-11 11:57:59,842] - logs.py[line:34] - fuc:__console- INFO: 右侧弹框弹出，点击输入盒子信息：盒子_2023-07-11-11:56:57
+[2023-07-11 11:58:00,606] - logs.py[line:34] - fuc:__console- INFO: 点击右侧弹框中的确认按钮，弹框收起
+[2023-07-11 11:58:01,227] - logs.py[line:34] - fuc:__console- INFO: 盒子信息输入完毕，点击正式搜索按钮
+[2023-07-11 11:58:04,507] - logs.py[line:34] - fuc:__console- INFO: 开始校验搜索出的结果是否正确
+[2023-07-11 11:58:04,550] - logs.py[line:34] - fuc:__console- INFO: 盒子校验通过，点击勾选复选框
+[2023-07-11 11:58:05,182] - logs.py[line:34] - fuc:__console- INFO: 点击加入明细表按钮
+[2023-07-11 11:58:08,947] - logs.py[line:34] - fuc:__console- INFO: 点击进入明细表按钮，并进入成功
+[2023-07-11 11:58:12,215] - logs.py[line:34] - fuc:__console- INFO: 先点击保存按钮，防止页面元素乱跳
+[2023-07-11 11:58:15,718] - logs.py[line:34] - fuc:__console- INFO: 勾选盒子，点击选择库位按钮
+[2023-07-11 11:58:19,616] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711115819_样本移库选择库位.png' width=600 /></div>
+[2023-07-11 11:58:19,619] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本移库选择库位
+[2023-07-11 11:58:19,817] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 11:58:19,818] - logs.py[line:34] - fuc:__console- INFO: 弹框中，输入指定的库位信息：测试专用-2023-07-11-11:57:17
+[2023-07-11 11:58:20,066] - logs.py[line:34] - fuc:__console- INFO: 点击搜素库位的按钮
+[2023-07-11 11:58:23,194] - logs.py[line:34] - fuc:__console- INFO: 选择搜索结果，点击确认按钮
+[2023-07-11 11:58:24,478] - logs.py[line:34] - fuc:__console- INFO: 提交明细表结果，任务单完成
+[2023-07-11 11:58:35,579] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的盒子名称
+[2023-07-11 11:58:35,599] - logs.py[line:34] - fuc:__console- INFO: 点击列表页，搜索样本盒按钮
+[2023-07-11 11:58:36,222] - logs.py[line:34] - fuc:__console- INFO: 弹框内输入指定盒子信息并点击搜索
+[2023-07-11 11:58:40,237] - logs.py[line:34] - fuc:__console- INFO: 校验搜索结果是否展示在列表页
+[2023-07-11 11:58:40,281] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 11:58:40,304] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 11:58:40,923] - logs.py[line:34] - fuc:__console- INFO: 选择移样本盒
+[2023-07-11 11:58:42,164] - logs.py[line:34] - fuc:__console- INFO: 选择库外到临时库
+[2023-07-11 11:58:43,412] - logs.py[line:34] - fuc:__console- INFO: 点击确定
+[2023-07-11 11:58:47,911] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的盒子名称
+[2023-07-11 11:58:47,933] - logs.py[line:34] - fuc:__console- INFO: 查询当前在临时库且样本包装量>0的样本
+[2023-07-11 11:58:48,053] - logs.py[line:34] - fuc:__console- INFO: 点击样本筛选按钮
+[2023-07-11 11:58:51,182] - logs.py[line:34] - fuc:__console- INFO: 输入完样本信息后，点击确定搜索按钮
+[2023-07-11 11:58:54,491] - logs.py[line:34] - fuc:__console- INFO: 勾选样本，点击加入明细表
+[2023-07-11 11:59:05,916] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的盒子名称
+[2023-07-11 11:59:05,938] - logs.py[line:34] - fuc:__console- INFO: 查询自己刚刚完成的样本移库单
+[2023-07-11 11:59:05,969] - logs.py[line:34] - fuc:__console- INFO: 点击列表页，点击搜索样本移库按钮
+[2023-07-11 11:59:06,656] - logs.py[line:34] - fuc:__console- INFO: 弹框内输入taskid
+[2023-07-11 11:59:06,895] - logs.py[line:34] - fuc:__console- INFO: 点击确定搜索
+[2023-07-11 11:59:10,119] - logs.py[line:34] - fuc:__console- INFO: 校验搜索结果是否展示在列表页
+[2023-07-11 11:59:14,266] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 11:59:14,268] - logs.py[line:34] - fuc:__console- INFO: 进入样本处理页面
+[2023-07-11 11:59:18,809] - logs.py[line:34] - fuc:__console- INFO: 样本处理首页，点击新建按钮，进入样本待选表，新增样本处理任务
+[2023-07-11 11:59:23,864] - logs.py[line:34] - fuc:__console- INFO: 选择样本类型
+[2023-07-11 11:59:28,892] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 11:59:32,825] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-07-11 11:59:38,916] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 11:59:39,649] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711115939_样本处理待选表保存样本.png' width=600 /></div>
+[2023-07-11 11:59:39,650] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本处理待选表保存样本
+[2023-07-11 11:59:39,892] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 11:59:49,182] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入样本处理明细表
+[2023-07-11 11:59:52,732] - logs.py[line:34] - fuc:__console- INFO: 全选样本，点击生成排序号
+[2023-07-11 11:59:58,935] - logs.py[line:34] - fuc:__console- INFO: 更新血浆样本评级
+[2023-07-11 12:00:03,854] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 12:00:14,100] - logs.py[line:34] - fuc:__console- INFO: 提交样本
+[2023-07-11 12:00:30,064] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:00:30,071] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入核酸提取页面
+[2023-07-11 12:00:30,073] - logs.py[line:34] - fuc:__console- INFO: 进入样本接收页面
+[2023-07-11 12:00:34,099] - logs.py[line:34] - fuc:__console- INFO: 核酸提取首页，点击新建按钮，进入样本待选表，新增核酸提取任务
+[2023-07-11 12:00:39,173] - logs.py[line:34] - fuc:__console- INFO: 选择任务类型
+[2023-07-11 12:00:43,230] - logs.py[line:34] - fuc:__console- INFO: 操作方式
+[2023-07-11 12:00:44,050] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 12:00:47,963] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-07-11 12:00:59,710] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 12:01:00,529] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711120100_核酸提取待选表.png' width=600 /></div>
+[2023-07-11 12:01:00,530] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取待选表
+[2023-07-11 12:01:00,735] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 12:01:05,974] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入核酸提取明细表
+[2023-07-11 12:01:11,729] - logs.py[line:34] - fuc:__console- INFO: 样本分管操作
+[2023-07-11 12:01:12,583] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711120112_核酸提取明细表分管.png' width=600 /></div>
+[2023-07-11 12:01:12,584] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取明细表分管
+[2023-07-11 12:01:12,790] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 12:01:18,992] - logs.py[line:34] - fuc:__console- INFO: 核酸提取结果表，修改样本产物类型
+[2023-07-11 12:01:25,194] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，点击提交
+[2023-07-11 12:01:32,818] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 12:01:47,404] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:01:47,411] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入核酸提取页面
+[2023-07-11 12:01:47,413] - logs.py[line:34] - fuc:__console- INFO: 进入样本接收页面
+[2023-07-11 12:01:50,241] - logs.py[line:34] - fuc:__console- INFO: 核酸提取首页，点击新建按钮，进入样本待选表，新增核酸提取任务
+[2023-07-11 12:01:54,196] - logs.py[line:34] - fuc:__console- INFO: 选择任务类型
+[2023-07-11 12:01:57,448] - logs.py[line:34] - fuc:__console- INFO: 操作方式
+[2023-07-11 12:01:58,333] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 12:02:02,199] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-07-11 12:02:13,735] - logs.py[line:34] - fuc:__console- INFO: 核酸提取结果表，修改样本产物类型
+[2023-07-11 12:02:19,944] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，点击提交
+[2023-07-11 12:02:23,866] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 12:02:47,379] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:02:47,386] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入mPCR页面
+[2023-07-11 12:02:52,976] - logs.py[line:34] - fuc:__console- INFO: MPCR首页，点击新建按钮，进入样本待选表，新增MPCR任务
+[2023-07-11 12:02:57,243] - logs.py[line:34] - fuc:__console- INFO: 选择任务类型:结核耐药mPCR
+[2023-07-11 12:03:00,959] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 12:03:04,753] - logs.py[line:34] - fuc:__console- INFO: 操作方式
+[2023-07-11 12:03:06,026] - logs.py[line:34] - fuc:__console- INFO: 核对lims，添加至任务单
+[2023-07-11 12:03:06,054] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-07-11 12:03:13,678] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 12:03:15,408] - logs.py[line:34] - fuc:__console- INFO: mPCR明细表自动计算
+[2023-07-11 12:03:21,645] - logs.py[line:34] - fuc:__console- INFO: mPCR明细表选，录入96孔版位置
+[2023-07-11 12:03:21,741] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，修改产物类型
+[2023-07-11 12:03:21,742] - logs.py[line:34] - fuc:__console- INFO: MPCR结果表，修改样本产物类型
+[2023-07-11 12:03:27,808] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，修改NTC对照
+[2023-07-11 12:03:33,976] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，批量数量录入
+[2023-07-11 12:03:33,978] - logs.py[line:34] - fuc:__console- INFO: MPCR结果表，录入批量数据
+[2023-07-11 12:03:40,169] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，批量导入产物浓度
+[2023-07-11 12:03:40,230] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，批量导入盒内位置
+[2023-07-11 12:03:40,269] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，自动计算
+[2023-07-11 12:03:46,467] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，提交
+[2023-07-11 12:03:46,469] - logs.py[line:34] - fuc:__console- INFO:  MPCR结果表,点击提交
+[2023-07-11 12:03:52,660] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，返回明细表完成提交入库操作
+[2023-07-11 12:03:58,881] - logs.py[line:34] - fuc:__console- INFO: MPCR明细表，点击提交
+[2023-07-11 12:04:05,107] - logs.py[line:34] - fuc:__console- INFO: MPCR明细表，样本入库操作
+[2023-07-11 12:04:18,668] - logs.py[line:38] - fuc:__console- WARNING: 无法进入实验中心
+[2023-07-11 12:04:22,596] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:04:22,603] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入文库构建页面
+[2023-07-11 12:04:26,721] - logs.py[line:34] - fuc:__console- INFO: 文库构建首页，点击新建按钮，进入样本待选表，新增文库构建任务
+[2023-07-11 12:04:30,767] - logs.py[line:34] - fuc:__console- INFO: 选择样本类型
+[2023-07-11 12:04:34,659] - logs.py[line:34] - fuc:__console- INFO: 选择操作类型
+[2023-07-11 12:04:36,434] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 12:04:40,278] - logs.py[line:34] - fuc:__console- INFO: 核对lims，添加至任务单
+[2023-07-11 12:04:40,310] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-07-11 12:04:47,011] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 12:04:48,572] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711120448_文库构建待选表核对lims号功能，并保存任务单号.png' width=600 /></div>
+[2023-07-11 12:04:48,573] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库构建待选表核对lims号功能，并保存任务单号
+[2023-07-11 12:04:48,800] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 12:04:51,340] - logs.py[line:34] - fuc:__console- INFO: 保存任务单，进入明细表
+[2023-07-11 12:04:51,468] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入文库构建明细表
+[2023-07-11 12:04:58,606] - logs.py[line:34] - fuc:__console- INFO:  文库构建明细表，选择入库信息、批量包装余量、录入96孔版位置
+[2023-07-11 12:04:58,609] - logs.py[line:34] - fuc:__console- INFO: 文库构建明细表选择入库类型：余样入库
+[2023-07-11 12:05:04,778] - logs.py[line:34] - fuc:__console- INFO: 文库构建结果表，修改产物类型、批量数据
+[2023-07-11 12:05:04,780] - logs.py[line:34] - fuc:__console- INFO: 文库构建结果表，修改产物类型
+[2023-07-11 12:05:10,964] - logs.py[line:34] - fuc:__console- INFO: 文库构建明细表样本提交
+[2023-07-11 12:05:21,077] - logs.py[line:34] - fuc:__console- INFO:  测试根据添加到的任务单中的lims样本号搜索对应的任务单
+[2023-07-11 12:05:30,221] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:05:30,228] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入文库富集页面
+[2023-07-11 12:05:34,341] - logs.py[line:34] - fuc:__console- INFO: 文库富集首页，点击新建按钮，进入样本待选表，新增文库富集任务
+[2023-07-11 12:05:41,006] - logs.py[line:34] - fuc:__console- INFO: 录入任务描述
+[2023-07-11 12:05:41,792] - logs.py[line:34] - fuc:__console- INFO: 选择操作方式
+[2023-07-11 12:05:42,094] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 12:05:45,945] - logs.py[line:34] - fuc:__console- INFO: 核对lims，添加至任务单
+[2023-07-11 12:05:45,976] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-07-11 12:05:51,535] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 12:05:52,902] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711120552_文库富集待选表.png' width=600 /></div>
+[2023-07-11 12:05:52,903] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集待选表
+[2023-07-11 12:05:53,132] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 12:05:55,652] - logs.py[line:34] - fuc:__console- INFO: 保存任务单，进入明细表
+[2023-07-11 12:05:56,731] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表批量粘贴导入实验数据
+[2023-07-11 12:05:56,734] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表批量粘贴导入实验数据
+[2023-07-11 12:06:58,532] - logs.py[line:34] - fuc:__console- INFO: 文库富集结果表，批量数据录入
+[2023-07-11 12:08:00,244] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表提交
+[2023-07-11 12:08:00,247] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表样本提交
+[2023-07-11 12:08:07,657] - logs.py[line:38] - fuc:__console- WARNING: 无法进入实验中心
+[2023-07-11 12:08:11,612] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:08:11,616] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入上机页面
+[2023-07-11 12:08:16,269] - logs.py[line:34] - fuc:__console- INFO: 新建任务单，录入定量类型、任务描述、sop
+[2023-07-11 12:08:16,272] - logs.py[line:34] - fuc:__console- INFO: 上机首页，点击新建按钮，进入样本待选表，新增上机任务
+[2023-07-11 12:08:21,014] - logs.py[line:34] - fuc:__console- INFO: 录入上机批次号
+[2023-07-11 12:08:22,118] - logs.py[line:34] - fuc:__console- INFO: 选择测序仪
+[2023-07-11 12:08:31,253] - logs.py[line:34] - fuc:__console- INFO: 运行模式
+[2023-07-11 12:08:32,486] - logs.py[line:34] - fuc:__console- INFO: 实际上机时间
+[2023-07-11 12:08:33,496] - logs.py[line:34] - fuc:__console- INFO: 任务描述
+[2023-07-11 12:08:34,299] - logs.py[line:34] - fuc:__console- INFO:  选择上机SOP
+[2023-07-11 12:08:38,222] - logs.py[line:34] - fuc:__console- INFO: 选择 上机实验员
+[2023-07-11 12:08:43,020] - logs.py[line:34] - fuc:__console- INFO: 核对样本lims号并选中加入任务单
+[2023-07-11 12:08:43,023] - logs.py[line:34] - fuc:__console- INFO: 调用选择样本方法-----
+[2023-07-11 12:08:43,025] - logs.py[line:34] - fuc:__console- INFO:  从上一步流转Excel中获取上机样本号,根据样本lims号文本进行点击选择
+[2023-07-11 12:08:46,251] - logs.py[line:34] - fuc:__console- INFO:  选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 12:08:46,349] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711120846_上机待选表选择样本加入并保存 .png' width=600 /></div>
+[2023-07-11 12:08:46,349] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：上机待选表选择样本加入并保存 
+[2023-07-11 12:08:46,591] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 12:08:52,270] - logs.py[line:34] - fuc:__console- INFO: 保存任务单，进入明细表
+[2023-07-11 12:08:52,438] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入上机浓度调整前明细表
+[2023-07-11 12:08:57,074] - logs.py[line:34] - fuc:__console- INFO: 上机浓度调整前明细表生成浓度调整前结果
+[2023-07-11 12:09:02,981] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711120902_浓度调整前明细表生成结果操作 .png' width=600 /></div>
+[2023-07-11 12:09:02,984] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整前明细表生成结果操作 
+[2023-07-11 12:09:03,178] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 12:09:03,683] - logs.py[line:34] - fuc:__console- INFO: 上机明细表提交
+[2023-07-11 12:09:03,685] - logs.py[line:34] - fuc:__console- INFO:  上机浓度调整前明细表样本提交
+[2023-07-11 12:09:04,970] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711120904_浓度调整前明细表提交操作 .png' width=600 /></div>
+[2023-07-11 12:09:04,973] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整前明细表提交操作 
+[2023-07-11 12:09:05,183] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 12:09:08,825] - logs.py[line:34] - fuc:__console- INFO: 上机明细表明细表入库
+[2023-07-11 12:09:08,827] - logs.py[line:34] - fuc:__console- INFO: 上机浓度调整前明细表，样本入库操作
+[2023-07-11 12:09:11,288] - logs.py[line:34] - fuc:__console- INFO: 上机明细表，样本入库选择入样本盒
+[2023-07-11 12:09:17,489] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表批量数据录入、自动计算
+[2023-07-11 12:09:21,491] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 12:09:24,065] - logs.py[line:34] - fuc:__console- INFO:  批量数据
+[2023-07-11 12:09:30,319] - logs.py[line:34] - fuc:__console- INFO: 上机结果表完成任务单
+[2023-07-11 12:09:30,322] - logs.py[line:34] - fuc:__console- INFO:  上机结果表,点击完成任务单
+[2023-07-11 12:09:40,860] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:09:46,580] - logs.py[line:34] - fuc:__console- INFO: 点击新建QPCR出库按钮
+[2023-07-11 12:09:46,808] - logs.py[line:34] - fuc:__console- INFO: 选择出库样本号，录入出库样本lims号
+[2023-07-11 12:09:46,809] - logs.py[line:34] - fuc:__console- INFO: 分别录入错误的和不录入样本号，进行检索
+[2023-07-11 12:09:50,105] - logs.py[line:34] - fuc:__console- INFO: 分别录入错误的和不录入样本号，进行检索
+[2023-07-11 12:09:54,742] - logs.py[line:34] - fuc:__console- INFO: 录入正确的出库样本号
+[2023-07-11 12:09:55,301] - logs.py[line:34] - fuc:__console- INFO: 点击新建QPCR出库按钮
+[2023-07-11 12:09:55,609] - logs.py[line:34] - fuc:__console- INFO: 选择出库样本号，录入出库样本lims号
+[2023-07-11 12:10:00,312] - logs.py[line:34] - fuc:__console- INFO: 选择QPCR菌种
+[2023-07-11 12:10:00,315] - logs.py[line:34] - fuc:__console- INFO: 为QPCR样本选择QPCR检测菌种
+[2023-07-11 12:10:07,308] - logs.py[line:34] - fuc:__console- INFO: 为QPCR样本出库填写出库理由
+[2023-07-11 12:10:13,026] - logs.py[line:34] - fuc:__console- INFO: 出库成功页面跳转到流转表样本出库节点
+[2023-07-11 12:10:13,048] - logs.py[line:34] - fuc:__console- INFO: 关闭页面
+[2023-07-11 12:10:26,084] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:10:26,087] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入报告发送页面
+[2023-07-11 12:10:31,759] - logs.py[line:34] - fuc:__console- INFO: 根据订单号查询
+[2023-07-11 12:10:31,765] - logs.py[line:34] - fuc:__console- INFO: 按订单号搜索:81180097
+[2023-07-11 12:10:45,273] - logs.py[line:34] - fuc:__console- INFO: 标记QPCR复检任务
+[2023-07-11 12:10:45,283] - logs.py[line:34] - fuc:__console- INFO: 从yaml文件读取接样模块存入的原始样本实验室号：BJ237A0007
+[2023-07-11 12:10:45,285] - logs.py[line:34] - fuc:__console- INFO: 标记qpcr复检样本
+[2023-07-11 12:10:51,423] - logs.py[line:34] - fuc:__console- INFO: 选择报告形式
+[2023-07-11 12:10:51,425] - logs.py[line:34] - fuc:__console- INFO: 选择报告形式
+[2023-07-11 12:10:56,733] - logs.py[line:34] - fuc:__console- INFO: 新建QPCR复检任务
+[2023-07-11 12:10:56,736] - logs.py[line:34] - fuc:__console- INFO: 新建QPCR复检任务
+[2023-07-11 12:11:07,831] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:11:07,838] - logs.py[line:34] - fuc:__console- INFO: QPCR复检任务模块，查询复检任务信息
+[2023-07-11 12:11:13,176] - logs.py[line:34] - fuc:__console- INFO: 根据上机号查询复检任务样本
+[2023-07-11 12:11:18,128] - logs.py[line:34] - fuc:__console- INFO: QPCR复检任务模块，样本出库
+[2023-07-11 12:11:18,130] - logs.py[line:34] - fuc:__console- INFO: 复检任务批量出库
+[2023-07-11 12:11:18,226] - logs.py[line:34] - fuc:__console- INFO: 取出上机号：GSD230104001D004
+[2023-07-11 12:11:20,926] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711121120_复检任务批量出库.png' width=600 /></div>
+[2023-07-11 12:11:20,929] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：复检任务批量出库
+[2023-07-11 12:11:21,139] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 12:11:24,898] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:11:24,905] - logs.py[line:34] - fuc:__console- INFO: 进入QPCR复检页面
+[2023-07-11 12:11:30,842] - logs.py[line:34] - fuc:__console- INFO: 新建qpcr迪讯康复检任务
+[2023-07-11 12:11:30,845] - logs.py[line:34] - fuc:__console- INFO: 新增qpcr任务
+[2023-07-11 12:11:35,159] - logs.py[line:34] - fuc:__console- INFO: 待选表选择迪讯康任务类型
+[2023-07-11 12:11:35,161] - logs.py[line:34] - fuc:__console- INFO: 获取qpcr任务lims号
+[2023-07-11 12:11:35,192] - logs.py[line:34] - fuc:__console- INFO: 选择任务类型：2
+[2023-07-11 12:11:35,909] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 12:11:37,151] - logs.py[line:34] - fuc:__console- INFO: 核对lims样本号
+[2023-07-11 12:11:39,605] - logs.py[line:34] - fuc:__console- INFO: 选中样本进入明细表
+[2023-07-11 12:11:40,813] - logs.py[line:34] - fuc:__console- INFO:  qpcr明细表自动计算
+[2023-07-11 12:11:40,816] - logs.py[line:34] - fuc:__console- INFO: 明细表选中样本，点击批量计算
+[2023-07-11 12:11:46,980] - logs.py[line:34] - fuc:__console- INFO: qpcr结果表添加NC/PC
+[2023-07-11 12:11:46,983] - logs.py[line:34] - fuc:__console- INFO: QPCR结果表，添加NC/PC
+[2023-07-11 12:11:53,230] - logs.py[line:34] - fuc:__console- INFO: qpcr返回明细表完成nc/pc 样本提交
+[2023-07-11 12:12:00,432] - logs.py[line:34] - fuc:__console- INFO: 进入QPCR复检页面
+[2023-07-11 12:12:01,596] - logs.py[line:38] - fuc:__console- WARNING: 无法进入QPCR复检
+[2023-07-11 12:12:01,603] - logs.py[line:34] - fuc:__console- INFO:  qpcr明细表自动计算
+[2023-07-11 12:12:01,606] - logs.py[line:34] - fuc:__console- INFO: 明细表选中样本，点击批量计算
+[2023-07-11 12:12:07,777] - logs.py[line:34] - fuc:__console- INFO: qpcr结果表添加NC/PC
+[2023-07-11 12:12:07,779] - logs.py[line:34] - fuc:__console- INFO: QPCR结果表，添加NC/PC
+[2023-07-11 12:12:13,934] - logs.py[line:34] - fuc:__console- INFO: qpcr返回明细表完成nc/pc 样本提交
+[2023-07-11 12:12:21,163] - logs.py[line:34] - fuc:__console- INFO: 进入QPCR复检页面
+[2023-07-11 12:12:22,331] - logs.py[line:38] - fuc:__console- WARNING: 无法进入QPCR复检
+[2023-07-11 12:12:22,338] - logs.py[line:34] - fuc:__console- INFO:  qpcr明细表自动计算
+[2023-07-11 12:12:22,340] - logs.py[line:34] - fuc:__console- INFO: 明细表选中样本，点击批量计算
+[2023-07-11 12:12:28,501] - logs.py[line:34] - fuc:__console- INFO: qpcr结果表添加NC/PC
+[2023-07-11 12:12:28,504] - logs.py[line:34] - fuc:__console- INFO: QPCR结果表，添加NC/PC
+[2023-07-11 12:12:34,737] - logs.py[line:34] - fuc:__console- INFO: qpcr返回明细表完成nc/pc 样本提交
+[2023-07-11 12:12:41,990] - logs.py[line:34] - fuc:__console- INFO: 进入QPCR复检页面
+[2023-07-11 12:12:43,150] - logs.py[line:38] - fuc:__console- WARNING: 无法进入QPCR复检
+[2023-07-11 12:12:46,854] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:12:46,861] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入报告编写任务分配页面
+[2023-07-11 12:12:53,239] - logs.py[line:34] - fuc:__console- INFO: 按项目号搜索
+[2023-07-11 12:12:53,242] - logs.py[line:34] - fuc:__console- INFO: 根据项目号搜索
+[2023-07-11 12:12:56,082] - logs.py[line:34] - fuc:__console- INFO: 按预计实验日期查询
+[2023-07-11 12:12:56,083] - logs.py[line:34] - fuc:__console- INFO: 按预计实验日期查询
+[2023-07-11 12:13:06,691] - logs.py[line:34] - fuc:__console- INFO: 按订单号搜索
+[2023-07-11 12:13:06,691] - logs.py[line:34] - fuc:__console- INFO: 按订单号搜索
+[2023-07-11 12:13:16,844] - logs.py[line:34] - fuc:__console- INFO: 按订单号搜索
+[2023-07-11 12:13:27,233] - logs.py[line:34] - fuc:__console- INFO: 选择编写人
+[2023-07-11 12:13:27,236] - logs.py[line:34] - fuc:__console- INFO: 批量选择编写人
+[2023-07-11 12:13:41,864] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:13:41,871] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入报告发送页面
+[2023-07-11 12:13:51,015] - logs.py[line:34] - fuc:__console- INFO: 根据报告完成日期查询
+[2023-07-11 12:13:51,018] - logs.py[line:34] - fuc:__console- INFO: 根据预计实验日期查询
+[2023-07-11 12:14:02,138] - logs.py[line:34] - fuc:__console- INFO: 按订单号搜索
+[2023-07-11 12:14:02,140] - logs.py[line:34] - fuc:__console- INFO: 按订单号搜索81180097
+[2023-07-11 12:14:12,811] - logs.py[line:34] - fuc:__console- INFO: 修改报告审核状态
+[2023-07-11 12:14:12,813] - logs.py[line:34] - fuc:__console- INFO: 修改报告审核状态
+[2023-07-11 12:14:12,819] - logs.py[line:34] - fuc:__console- INFO: 按订单号搜索81180097
+[2023-07-11 12:14:34,921] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:14:40,148] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:14:42,926] - logs.py[line:34] - fuc:__console- INFO: 关闭页面
+[2023-07-11 12:14:46,549] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表数据修改操作
+[2023-07-11 12:14:46,618] - logs.py[line:34] - fuc:__console- INFO: 点击数据修改按钮
+[2023-07-11 12:14:47,209] - logs.py[line:34] - fuc:__console- INFO: 选择要修改的样本数据，点击发起修改
+[2023-07-11 12:14:51,559] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711121451_选择数据进行审核弹框.png' width=600 /></div>
+[2023-07-11 12:14:51,562] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：选择数据进行审核弹框
+[2023-07-11 12:14:51,775] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 12:14:51,776] - logs.py[line:34] - fuc:__console- INFO: 发起修改弹框，指定审核人下拉框
+[2023-07-11 12:14:51,885] - logs.py[line:34] - fuc:__console- INFO: 发起修改弹框，选择审核人
+[2023-07-11 12:14:52,317] - logs.py[line:34] - fuc:__console- INFO: 发起修改弹框，录入修改原因
+[2023-07-11 12:14:52,443] - logs.py[line:34] - fuc:__console- INFO: 发起修改弹框，点击下一步按钮
+[2023-07-11 12:14:53,181] - logs.py[line:34] - fuc:__console- INFO: 数据修改弹框，点击全选按钮
+[2023-07-11 12:14:53,252] - logs.py[line:34] - fuc:__console- INFO: 数据修改弹框-修改质检结果
+[2023-07-11 12:14:54,496] - logs.py[line:34] - fuc:__console- INFO: 数据修改弹框-完成&提交申请
+[2023-07-11 12:14:58,252] - logs.py[line:34] - fuc:__console- INFO: 数据修改弹框-样本数量不一致提示确认（只修改任务单）
+[2023-07-11 12:14:59,844] - logs.py[line:34] - fuc:__console- INFO: 切换用户进行数据修改审批
+[2023-07-11 12:14:59,846] - logs.py[line:34] - fuc:__console- INFO: 点击页面退出登录按钮，切换登录用户
+[2023-07-11 12:15:02,538] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 12:15:02,564] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 12:15:02,646] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 12:15:03,239] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 12:15:03,888] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 12:15:06,779] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 12:15:11,897] - logs.py[line:34] - fuc:__console- INFO: 数据修改审核操作
+[2023-07-11 12:15:11,898] - logs.py[line:34] - fuc:__console- INFO: 通过待办任务页面，进入数据修改待办tab页
+[2023-07-11 12:15:11,989] - logs.py[line:34] - fuc:__console- INFO: 进入数据修改待办tab页,点击进入按钮
+[2023-07-11 12:15:12,608] - logs.py[line:34] - fuc:__console- INFO: 待办页面进入数据修改页面，弹出新页面，切换至新页面，并关闭旧页面
+[2023-07-11 12:15:12,763] - logs.py[line:34] - fuc:__console- INFO: 关闭页面
+[2023-07-11 12:15:16,429] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711121516_数据修改审核页面.png' width=600 /></div>
+[2023-07-11 12:15:16,433] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：数据修改审核页面
+[2023-07-11 12:15:16,639] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 12:15:16,640] - logs.py[line:34] - fuc:__console- INFO: 点击审核
+[2023-07-11 12:15:21,812] - logs.py[line:34] - fuc:__console- INFO: 获取审核后的申请单号和状态
+[2023-07-11 12:15:21,908] - logs.py[line:34] - fuc:__console- INFO: 将获取的申请单号写入临时文件
+[2023-07-11 12:15:26,292] - logs.py[line:34] - fuc:__console- INFO: 数据修改任务单查询操作
+[2023-07-11 12:15:26,297] - logs.py[line:34] - fuc:__console- INFO: 临时文件取出存入的提取任务单号:HSTQ2023070700002
+[2023-07-11 12:15:26,297] - logs.py[line:34] - fuc:__console- INFO: 点击查询按钮
+[2023-07-11 12:15:26,940] - logs.py[line:34] - fuc:__console- INFO: 搜索条件录入来源任务单号
+[2023-07-11 12:15:30,928] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711121530_搜索任务单号.png' width=600 /></div>
+[2023-07-11 12:15:30,930] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：搜索任务单号
+[2023-07-11 12:15:31,128] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 12:15:31,128] - logs.py[line:34] - fuc:__console- INFO: 获取查询结果，任务单号及任务单状态
+[2023-07-11 12:15:35,033] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:15:39,028] - logs.py[line:34] - fuc:__console- INFO: 样本项目信息修改新建任务单，按lims号检索样本信息，并导出样本-项目信息
+[2023-07-11 12:15:39,030] - logs.py[line:34] - fuc:__console- INFO: 样本项目信息修改首页，点击新建按钮，新增项目信息修改任务
+[2023-07-11 12:15:40,197] - logs.py[line:34] - fuc:__console- INFO: 录入修改理由
+[2023-07-11 12:15:41,531] - logs.py[line:34] - fuc:__console- INFO: 根据lims号检索，选择待修改样本
+[2023-07-11 12:15:41,663] - logs.py[line:34] - fuc:__console- INFO: 样本项目信息修改新建任务单，按实验室号检索样本信息，并导出样本-项目信息
+[2023-07-11 12:15:41,664] - logs.py[line:34] - fuc:__console- INFO: 样本项目信息修改首页，点击新建按钮，新增项目信息修改任务
+[2023-07-11 12:15:42,784] - logs.py[line:34] - fuc:__console- INFO: 数据库获取修改后样本项目信息,进行比对，验证样本信息是否修改成功
+[2023-07-11 12:15:42,785] - logs.py[line:34] - fuc:__console- INFO: 从数据库获取修改后样本项目信息
+[2023-07-11 12:15:46,344] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 12:15:52,429] - logs.py[line:38] - fuc:__console- WARNING: 无法进入样本库管理
+[2023-07-11 12:15:52,438] - logs.py[line:34] - fuc:__console- INFO: 切换用户进行数据修改审批
+[2023-07-11 12:15:52,440] - logs.py[line:34] - fuc:__console- INFO: 点击页面退出登录按钮，切换登录用户
+[2023-07-11 12:15:58,673] - logs.py[line:34] - fuc:__console- INFO: 切换用户进行数据修改审批
+[2023-07-11 12:15:58,674] - logs.py[line:34] - fuc:__console- INFO: 点击页面退出登录按钮，切换登录用户
+[2023-07-11 13:03:59,332] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:03:59,382] - logs.py[line:34] - fuc:__console- INFO: ------开始登录!------
+[2023-07-11 13:03:59,383] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器,窗口最大化
+[2023-07-11 13:03:59,510] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 13:03:59,633] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 13:04:04,108] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 13:04:04,138] - logs.py[line:34] - fuc:__console- INFO: 输入错误账号/密码登录：error/error
+[2023-07-11 13:04:05,387] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 13:04:05,936] - logs.py[line:34] - fuc:__console- INFO: 获取登录失败的提示语：请填写正确的用户名、密码
+[2023-07-11 13:04:05,937] - logs.py[line:34] - fuc:__console- INFO: ------登录用例结束！------
+[2023-07-11 13:04:05,938] - logs.py[line:34] - fuc:__console- INFO: ------开始登录!------
+[2023-07-11 13:04:05,938] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器,窗口最大化
+[2023-07-11 13:04:05,943] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 13:04:05,944] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 13:04:07,355] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 13:04:07,365] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 13:04:07,401] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guanzhong.zhou
+[2023-07-11 13:04:07,513] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ff123456!
+[2023-07-11 13:04:07,613] - logs.py[line:34] - fuc:__console- INFO: 点击登录
+[2023-07-11 13:04:10,716] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 13:04:16,800] - logs.py[line:34] - fuc:__console- INFO: 登录成功后校验当前地址正确
+[2023-07-11 13:04:16,808] - logs.py[line:34] - fuc:__console- INFO: ------登录用例结束！------
+[2023-07-11 13:04:16,809] - logs.py[line:34] - fuc:__console- INFO: ------开始登录!------
+[2023-07-11 13:04:16,810] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器,窗口最大化
+[2023-07-11 13:04:16,815] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 13:04:16,815] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 13:04:18,700] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 13:04:18,717] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 13:04:18,778] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 13:04:18,910] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 13:04:19,002] - logs.py[line:34] - fuc:__console- INFO: 点击登录
+[2023-07-11 13:04:21,580] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 13:04:26,684] - logs.py[line:34] - fuc:__console- INFO: 登录成功后校验当前地址正确
+[2023-07-11 13:04:26,704] - logs.py[line:34] - fuc:__console- INFO: ------登录用例结束！------
+[2023-07-11 13:04:30,823] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:04:35,799] - logs.py[line:34] - fuc:__console- INFO: 进入新增模块
+[2023-07-11 13:04:35,802] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 13:04:39,915] - logs.py[line:34] - fuc:__console- INFO: 读取新的身份证
+[2023-07-11 13:04:40,391] - logs.py[line:34] - fuc:__console- INFO: 录入患者姓名:白振静，身份证信息:132801197706302813
+[2023-07-11 13:04:40,392] - logs.py[line:34] - fuc:__console- INFO: 病历中输入患者姓名,身份证信息
+[2023-07-11 13:04:41,810] - logs.py[line:34] - fuc:__console- INFO: 保存病历
+[2023-07-11 13:04:41,813] - logs.py[line:34] - fuc:__console- INFO: 点击保存按钮
+[2023-07-11 13:04:51,359] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入病历页面
+[2023-07-11 13:04:56,323] - logs.py[line:34] - fuc:__console- INFO: 进入新增模块
+[2023-07-11 13:04:56,324] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 13:05:00,255] - logs.py[line:34] - fuc:__console- INFO: 输入患者性别
+[2023-07-11 13:05:00,255] - logs.py[line:34] - fuc:__console- INFO: 病历中输入患者性别
+[2023-07-11 13:05:01,892] - logs.py[line:34] - fuc:__console- INFO: 保存病历
+[2023-07-11 13:05:01,894] - logs.py[line:34] - fuc:__console- INFO: 点击保存按钮
+[2023-07-11 13:05:01,992] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711130501_保存病历.png' width=600 /></div>
+[2023-07-11 13:05:01,993] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：保存病历
+[2023-07-11 13:05:02,235] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:05:08,058] - logs.py[line:34] - fuc:__console- INFO: 进入新增模块
+[2023-07-11 13:05:08,061] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 13:05:11,945] - logs.py[line:34] - fuc:__console- INFO: 录入患者姓名:白振静，身份证信息:132801197706302813
+[2023-07-11 13:05:11,948] - logs.py[line:34] - fuc:__console- INFO: 病历中输入患者姓名,身份证信息
+[2023-07-11 13:05:13,509] - logs.py[line:34] - fuc:__console- INFO: 保存病历
+[2023-07-11 13:05:13,512] - logs.py[line:34] - fuc:__console- INFO: 点击保存按钮
+[2023-07-11 13:05:25,689] - logs.py[line:34] - fuc:__console- INFO: 点击搜索
+[2023-07-11 13:05:25,690] - logs.py[line:34] - fuc:__console- INFO: 点击搜索按钮
+[2023-07-11 13:05:26,350] - logs.py[line:34] - fuc:__console- INFO: 搜索病历号
+[2023-07-11 13:05:26,352] - logs.py[line:34] - fuc:__console- INFO: 输入病历号进行搜索
+[2023-07-11 13:05:26,587] - logs.py[line:34] - fuc:__console- INFO: 点击确定
+[2023-07-11 13:05:30,270] - logs.py[line:34] - fuc:__console- INFO: 获取查询结果，进行断言
+[2023-07-11 13:05:34,900] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:05:34,906] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入订单页面
+[2023-07-11 13:05:40,055] - logs.py[line:34] - fuc:__console- INFO: 调用新增方法
+[2023-07-11 13:05:40,057] - logs.py[line:34] - fuc:__console- INFO: 新增订单，录入订单号、患者姓名
+[2023-07-11 13:05:42,203] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711130542_新建订单.png' width=600 /></div>
+[2023-07-11 13:05:42,207] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：新建订单
+[2023-07-11 13:05:42,428] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:05:49,485] - logs.py[line:34] - fuc:__console- INFO: 搜索并进入订单编辑页面
+[2023-07-11 13:05:58,228] - logs.py[line:34] - fuc:__console- INFO: 编辑订单信息,病历关联
+[2023-07-11 13:05:58,234] - logs.py[line:34] - fuc:__console- INFO: 选择电子病历
+[2023-07-11 13:06:10,881] - logs.py[line:34] - fuc:__console- INFO: 录入临床诊断信息
+[2023-07-11 13:06:12,871] - logs.py[line:34] - fuc:__console- INFO: 新增联系人信息,录入姓名、联系方式、地址
+[2023-07-11 13:06:14,557] - logs.py[line:34] - fuc:__console- INFO: 新增医生信息
+[2023-07-11 13:06:23,943] - logs.py[line:34] - fuc:__console- INFO: 录入销售代表和款项信息
+[2023-07-11 13:06:28,620] - logs.py[line:34] - fuc:__console- INFO: 选择结算方式为科研
+[2023-07-11 13:06:29,177] - logs.py[line:34] - fuc:__console- INFO: 保存订单
+[2023-07-11 13:06:29,399] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711130629_保存订单.png' width=600 /></div>
+[2023-07-11 13:06:29,399] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：保存订单
+[2023-07-11 13:06:29,626] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:06:39,094] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:06:39,099] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入款项核对页面
+[2023-07-11 13:06:43,852] - logs.py[line:34] - fuc:__console- INFO: 批量修改订单确认状态...
+[2023-07-11 13:06:43,855] - logs.py[line:34] - fuc:__console- INFO: 点击搜索框，录入订单号...
+[2023-07-11 13:06:47,551] - logs.py[line:34] - fuc:__console- INFO: 录入订单号...81180098:
+[2023-07-11 13:06:50,974] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711130650_款项核对搜索订单.png' width=600 /></div>
+[2023-07-11 13:06:50,977] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：款项核对搜索订单
+[2023-07-11 13:06:51,211] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:06:51,211] - logs.py[line:34] - fuc:__console- INFO: 根据录入的订单号筛选订单
+[2023-07-11 13:06:54,458] - logs.py[line:34] - fuc:__console- INFO: 选中筛选结果，设置确认信息为：已确认
+[2023-07-11 13:06:59,070] - logs.py[line:34] - fuc:__console- INFO: 保存设置后的结果
+[2023-07-11 13:07:04,355] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:07:04,362] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入样本接收页面
+[2023-07-11 13:07:09,385] - logs.py[line:34] - fuc:__console- INFO: 搜索订单号
+[2023-07-11 13:07:09,386] - logs.py[line:34] - fuc:__console- INFO: 接样页面点击搜索按钮
+[2023-07-11 13:07:10,011] - logs.py[line:34] - fuc:__console- INFO: 搜索框录入订单号：81180097
+[2023-07-11 13:07:12,005] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711130712_样本接收，根据lims号搜素.png' width=600 /></div>
+[2023-07-11 13:07:12,008] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本接收，根据lims号搜素
+[2023-07-11 13:07:12,232] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:07:12,820] - logs.py[line:34] - fuc:__console- INFO: 选中搜索出的订单，进入样本接收详情页面
+[2023-07-11 13:07:20,032] - logs.py[line:34] - fuc:__console- INFO: 添加样本的项目信息类型
+[2023-07-11 13:07:20,076] - logs.py[line:34] - fuc:__console- INFO: 选择样本所属项目信息
+[2023-07-11 13:07:36,910] - logs.py[line:34] - fuc:__console- INFO: 选择样本所属检测产品
+[2023-07-11 13:07:41,378] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 13:07:41,381] - logs.py[line:34] - fuc:__console- INFO: 录入订单备注
+[2023-07-11 13:07:42,147] - logs.py[line:34] - fuc:__console- INFO: 添加样本
+[2023-07-11 13:07:42,149] - logs.py[line:34] - fuc:__console- INFO: 添加2种报告类型的样本，
+[2023-07-11 13:08:21,680] - logs.py[line:34] - fuc:__console- INFO: 新增样本生成报告任务，
+[2023-07-11 13:08:25,436] - logs.py[line:34] - fuc:__console- INFO: 样本选择样本报告类型和样本类型
+[2023-07-11 13:08:25,857] - logs.py[line:34] - fuc:__console- INFO: 选中第1条样本
+[2023-07-11 13:08:27,628] - logs.py[line:34] - fuc:__console- INFO: 选中第2条样本
+[2023-07-11 13:08:29,361] - logs.py[line:34] - fuc:__console- INFO: 选中第3条样本
+[2023-07-11 13:08:31,086] - logs.py[line:34] - fuc:__console- INFO: 选中第4条样本
+[2023-07-11 13:08:32,385] - logs.py[line:34] - fuc:__console- INFO: 取消选中第1条样本
+[2023-07-11 13:08:32,654] - logs.py[line:34] - fuc:__console- INFO: 取消选中第2条样本
+[2023-07-11 13:08:32,907] - logs.py[line:34] - fuc:__console- INFO: 取消选中第3条样本
+[2023-07-11 13:08:33,158] - logs.py[line:34] - fuc:__console- INFO: 取消选中第4条样本
+[2023-07-11 13:08:33,743] - logs.py[line:34] - fuc:__console- INFO: 选中第5条样本
+[2023-07-11 13:08:35,411] - logs.py[line:34] - fuc:__console- INFO: 选中第6条样本
+[2023-07-11 13:08:37,143] - logs.py[line:34] - fuc:__console- INFO: 选中第7条样本
+[2023-07-11 13:08:38,517] - logs.py[line:34] - fuc:__console- INFO: 取消选中第5条样本
+[2023-07-11 13:08:38,815] - logs.py[line:34] - fuc:__console- INFO: 取消选中第6条样本
+[2023-07-11 13:08:39,113] - logs.py[line:34] - fuc:__console- INFO: 取消选中第7条样本
+[2023-07-11 13:08:39,757] - logs.py[line:34] - fuc:__console- INFO: 选中第8条样本
+[2023-07-11 13:08:41,485] - logs.py[line:34] - fuc:__console- INFO: 选中第9条样本
+[2023-07-11 13:08:43,194] - logs.py[line:34] - fuc:__console- INFO: 选中第10条样本
+[2023-07-11 13:08:44,515] - logs.py[line:34] - fuc:__console- INFO: 取消选中第8条样本
+[2023-07-11 13:08:44,812] - logs.py[line:34] - fuc:__console- INFO: 取消选中第9条样本
+[2023-07-11 13:08:45,078] - logs.py[line:34] - fuc:__console- INFO: 取消选中第10条样本
+[2023-07-11 13:08:46,356] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711130846_样本样本接收，保存新增样本.png' width=600 /></div>
+[2023-07-11 13:08:46,359] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本样本接收，保存新增样本
+[2023-07-11 13:08:46,577] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:08:46,578] - logs.py[line:34] - fuc:__console- INFO: 选择样本类型
+[2023-07-11 13:08:53,486] - logs.py[line:34] - fuc:__console- INFO: 为样本选择实验流程
+[2023-07-11 13:08:53,488] - logs.py[line:34] - fuc:__console- INFO: 选中样本生成实验流程
+[2023-07-11 13:08:53,580] - logs.py[line:34] - fuc:__console- INFO: 生成实验室号
+[2023-07-11 13:09:01,646] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711130901_样本接收，点击生成实验流程.png' width=600 /></div>
+[2023-07-11 13:09:01,648] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本接收，点击生成实验流程
+[2023-07-11 13:09:01,924] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:09:01,925] - logs.py[line:34] - fuc:__console- INFO: 生成DNA报告类型样本的实验流程
+[2023-07-11 13:09:05,911] - logs.py[line:34] - fuc:__console- INFO: 生成迪迅康-基础(8)报告类型样本的实验流程
+[2023-07-11 13:09:09,537] - logs.py[line:34] - fuc:__console- INFO: 生成DNA+耐药报告类型样本的实验流程
+[2023-07-11 13:09:20,385] - logs.py[line:34] - fuc:__console- INFO: 录入样本计量、选择质检结果、接样备注
+[2023-07-11 13:09:20,387] - logs.py[line:34] - fuc:__console- INFO: 录入样本包装量
+[2023-07-11 13:09:22,976] - logs.py[line:34] - fuc:__console- INFO: 录入样本计量
+[2023-07-11 13:09:24,781] - logs.py[line:34] - fuc:__console- INFO: 选择质检结果
+[2023-07-11 13:09:26,796] - logs.py[line:34] - fuc:__console- INFO: 录入样本备注
+[2023-07-11 13:09:26,836] - logs.py[line:34] - fuc:__console- INFO: 录入样本基本数据后，样本信息保存
+[2023-07-11 13:09:35,610] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 13:09:40,203] - logs.py[line:34] - fuc:__console- INFO: 把接样样本信息存入对应的Excel文件中
+[2023-07-11 13:09:59,120] - logs.py[line:34] - fuc:__console- INFO: 把所有样本信息保存到Excel中
+[2023-07-11 13:09:59,151] - logs.py[line:34] - fuc:__console- INFO: 获取的存储信息[['GSD230711018', 'BJ237A0017-N002', 'DNA'], ['GSD230711019', 'BJ237A0018-N002', 'DNA'], ['GSD230711020', 'BJ237A0019-N002', 'DNA'], ['GSD230711021', 'BJ237A0020-N002', 'DNA'], ['GSD230711022', 'BJ237A0021-N002', '迪迅康-基础(8)'], ['GSD230711023', 'BJ237A0022-N002', '迪迅康-基础(8)'], ['GSD230711024', 'BJ237A0023-N002', '迪迅康-基础(8)'], ['GSD230711025', 'BJ237A0024-N002', 'DNA+耐药'], ['GSD230711026', 'BJ237A0025-N002', 'DNA+耐药'], ['GSD230711027', 'BJ237A0026-N002', 'DNA+耐药']]
+[2023-07-11 13:10:01,297] - logs.py[line:34] - fuc:__console- INFO: 批量提交审核
+[2023-07-11 13:10:01,298] - logs.py[line:34] - fuc:__console- INFO: 选中样本，点击批量提交审核
+[2023-07-11 13:10:07,811] - logs.py[line:34] - fuc:__console- INFO: 页面退出登录按钮，切换登录用户
+[2023-07-11 13:10:07,813] - logs.py[line:34] - fuc:__console- INFO: 点击页面退出登录按钮，切换登录用户
+[2023-07-11 13:10:10,476] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 13:10:10,503] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 13:10:10,581] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guanzhong.zhou
+[2023-07-11 13:10:11,218] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ff123456!
+[2023-07-11 13:10:11,882] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 13:10:14,500] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 13:10:24,378] - logs.py[line:34] - fuc:__console- INFO: 接样页面点击搜索按钮
+[2023-07-11 13:10:25,066] - logs.py[line:34] - fuc:__console- INFO: 搜索框录入订单号：81180097
+[2023-07-11 13:10:27,122] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711131027_样本接收，根据lims号搜素.png' width=600 /></div>
+[2023-07-11 13:10:27,125] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本接收，根据lims号搜素
+[2023-07-11 13:10:27,351] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:10:27,936] - logs.py[line:34] - fuc:__console- INFO: 选中搜索出的订单，进入样本接收详情页面
+[2023-07-11 13:10:35,069] - logs.py[line:34] - fuc:__console- INFO: 登录后，切换到样本待审核页面
+[2023-07-11 13:10:39,666] - logs.py[line:34] - fuc:__console- INFO: 待审核页面选中待审核样本，并点击批量审核按钮
+[2023-07-11 13:10:41,466] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711131041_样本接收，审核页面.png' width=600 /></div>
+[2023-07-11 13:10:41,467] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本接收，审核页面
+[2023-07-11 13:10:41,641] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:10:52,069] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:10:56,680] - logs.py[line:34] - fuc:__console- INFO: 点击sop列表的搜索按钮
+[2023-07-11 13:11:00,402] - logs.py[line:34] - fuc:__console- INFO: 弹框中，选择提取任务类型的sop条件：这里指定提取的sop主数据
+[2023-07-11 13:11:05,992] - logs.py[line:34] - fuc:__console- INFO: sop主数据搜索提取类型数据成功，数据展示正确
+[2023-07-11 13:11:08,778] - logs.py[line:34] - fuc:__console- INFO: 勾选展示已失效的按钮，数据展示正确
+[2023-07-11 13:11:11,975] - logs.py[line:34] - fuc:__console- INFO: 点击sop列表的新建按钮
+[2023-07-11 13:11:17,229] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop名称
+[2023-07-11 13:11:18,707] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop版本号
+[2023-07-11 13:11:19,952] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写核对人信息
+[2023-07-11 13:11:26,743] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop编码
+[2023-07-11 13:11:27,995] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属模块
+[2023-07-11 13:11:32,493] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属模块对应的任务类型
+[2023-07-11 13:11:34,690] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属实验地点
+[2023-07-11 13:11:34,941] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop描述
+[2023-07-11 13:11:36,163] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击保存sop基础数据
+[2023-07-11 13:11:39,857] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮
+[2023-07-11 13:11:42,040] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮后，点击搜索原始样本类型弹框
+[2023-07-11 13:11:44,230] - logs.py[line:34] - fuc:__console- INFO: 详情页，默认选择首选项
+[2023-07-11 13:11:45,354] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击确定
+[2023-07-11 13:11:46,559] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮后，点击搜索产物样本类型弹框
+[2023-07-11 13:11:47,734] - logs.py[line:34] - fuc:__console- INFO: 详情页，默认选择首选项
+[2023-07-11 13:11:48,921] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击确定
+[2023-07-11 13:11:50,028] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击新增步骤按钮，输入步骤编号
+[2023-07-11 13:11:51,153] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击同步编号按钮
+[2023-07-11 13:11:52,363] - logs.py[line:34] - fuc:__console- INFO: 详情页，使用JS让页面滑动到最顶端，点击sop生效按钮
+[2023-07-11 13:11:54,588] - logs.py[line:34] - fuc:__console- INFO: 详情页，sop生效成功
+[2023-07-11 13:11:55,747] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击返回列表页，开始新的sop新建任务
+[2023-07-11 13:12:02,330] - logs.py[line:34] - fuc:__console- INFO: 点击sop列表的新建按钮
+[2023-07-11 13:12:07,350] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop名称
+[2023-07-11 13:12:08,801] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop版本号
+[2023-07-11 13:12:10,057] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写核对人信息
+[2023-07-11 13:12:16,892] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop编码
+[2023-07-11 13:12:18,206] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属模块
+[2023-07-11 13:12:22,584] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属模块对应的任务类型
+[2023-07-11 13:12:24,837] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属实验地点
+[2023-07-11 13:12:25,038] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop描述
+[2023-07-11 13:12:26,247] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击保存sop基础数据
+[2023-07-11 13:12:29,948] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮
+[2023-07-11 13:12:32,087] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮后，点击搜索原始样本类型弹框
+[2023-07-11 13:12:34,287] - logs.py[line:34] - fuc:__console- INFO: 详情页，默认选择首选项
+[2023-07-11 13:12:35,426] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击确定
+[2023-07-11 13:12:36,533] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮后，点击搜索产物样本类型弹框
+[2023-07-11 13:12:37,740] - logs.py[line:34] - fuc:__console- INFO: 详情页，默认选择首选项
+[2023-07-11 13:12:38,893] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击确定
+[2023-07-11 13:12:40,035] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击新增步骤按钮，输入步骤编号
+[2023-07-11 13:12:41,208] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击同步编号按钮
+[2023-07-11 13:12:42,347] - logs.py[line:34] - fuc:__console- INFO: 详情页，使用JS让页面滑动到最顶端，点击sop生效按钮
+[2023-07-11 13:12:44,556] - logs.py[line:34] - fuc:__console- INFO: 详情页，sop生效成功
+[2023-07-11 13:12:45,713] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击返回列表页，开始新的sop新建任务
+[2023-07-11 13:12:52,546] - logs.py[line:34] - fuc:__console- INFO: 点击sop列表的新建按钮
+[2023-07-11 13:12:57,592] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop名称
+[2023-07-11 13:12:59,036] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop版本号
+[2023-07-11 13:13:00,292] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写核对人信息
+[2023-07-11 13:13:07,110] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop编码
+[2023-07-11 13:13:08,337] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属模块
+[2023-07-11 13:13:12,663] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属模块对应的任务类型
+[2023-07-11 13:13:14,864] - logs.py[line:34] - fuc:__console- INFO: 详情页，选择sop所属实验地点
+[2023-07-11 13:13:15,106] - logs.py[line:34] - fuc:__console- INFO: 详情页，填写sop描述
+[2023-07-11 13:13:16,325] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击保存sop基础数据
+[2023-07-11 13:13:20,090] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮
+[2023-07-11 13:13:22,206] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮后，点击搜索原始样本类型弹框
+[2023-07-11 13:13:24,429] - logs.py[line:34] - fuc:__console- INFO: 详情页，默认选择首选项
+[2023-07-11 13:13:25,535] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击确定
+[2023-07-11 13:13:26,759] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击【新增产物类型】按钮后，点击搜索产物样本类型弹框
+[2023-07-11 13:13:27,994] - logs.py[line:34] - fuc:__console- INFO: 详情页，默认选择首选项
+[2023-07-11 13:13:29,149] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击确定
+[2023-07-11 13:13:30,307] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击新增步骤按钮，输入步骤编号
+[2023-07-11 13:13:31,496] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击同步编号按钮
+[2023-07-11 13:13:32,669] - logs.py[line:34] - fuc:__console- INFO: 详情页，使用JS让页面滑动到最顶端，点击sop生效按钮
+[2023-07-11 13:13:34,830] - logs.py[line:34] - fuc:__console- INFO: 详情页，sop生效成功
+[2023-07-11 13:13:35,991] - logs.py[line:34] - fuc:__console- INFO: 详情页，点击返回列表页，开始新的sop新建任务
+[2023-07-11 13:13:47,114] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:13:52,214] - logs.py[line:34] - fuc:__console- INFO: 点击样本盒列表的搜索按钮
+[2023-07-11 13:13:54,911] - logs.py[line:34] - fuc:__console- INFO: 搜索弹框中输入指定盒子信息
+[2023-07-11 13:13:55,077] - logs.py[line:34] - fuc:__console- INFO: 点击确定，搜索成功
+[2023-07-11 13:13:58,343] - logs.py[line:34] - fuc:__console- INFO: 点击选中指定盒位信息
+[2023-07-11 13:13:58,939] - logs.py[line:34] - fuc:__console- INFO: 校验盒位存在样本，不能删除功能
+[2023-07-11 13:13:58,940] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 13:14:01,094] - logs.py[line:34] - fuc:__console- INFO: 输入盒子名称
+[2023-07-11 13:14:02,910] - logs.py[line:34] - fuc:__console- INFO: 选择盒子的规格下拉框
+[2023-07-11 13:14:03,536] - logs.py[line:34] - fuc:__console- INFO: 选择规格
+[2023-07-11 13:14:04,713] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711131404_盒位管理，新增样本盒.png' width=600 /></div>
+[2023-07-11 13:14:04,714] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：盒位管理，新增样本盒
+[2023-07-11 13:14:04,915] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:14:08,084] - logs.py[line:34] - fuc:__console- INFO: 开始查询数据库，校验新建的盒子信息
+[2023-07-11 13:14:08,104] - logs.py[line:34] - fuc:__console- INFO: 校验信息成功
+[2023-07-11 13:14:11,709] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:14:11,716] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 13:14:18,933] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 13:14:20,078] - logs.py[line:34] - fuc:__console- INFO: 点击输入框，输入库位信息
+[2023-07-11 13:14:20,910] - logs.py[line:34] - fuc:__console- INFO: 点击下拉框，选择库位位置
+[2023-07-11 13:14:22,687] - logs.py[line:34] - fuc:__console- INFO: 输入库位位置描述信息
+[2023-07-11 13:14:23,458] - logs.py[line:34] - fuc:__console- INFO: 点击编辑按钮，弹框中输入使用人姓名
+[2023-07-11 13:14:24,770] - logs.py[line:34] - fuc:__console- INFO: 弹框中输入使用人姓名，系统联想成功
+[2023-07-11 13:14:26,996] - logs.py[line:34] - fuc:__console- INFO: 确认添加使用人
+[2023-07-11 13:14:28,122] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711131428_库位管理，新增临时库.png' width=600 /></div>
+[2023-07-11 13:14:28,123] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：库位管理，新增临时库
+[2023-07-11 13:14:28,319] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:14:28,319] - logs.py[line:34] - fuc:__console- INFO: 确认修改库位信息，完成修改
+[2023-07-11 13:14:31,984] - logs.py[line:34] - fuc:__console- INFO: 进入列表页，点击搜索按钮
+[2023-07-11 13:14:33,608] - logs.py[line:34] - fuc:__console- INFO: 输入指定的库位姓名
+[2023-07-11 13:14:34,297] - logs.py[line:34] - fuc:__console- INFO: 搜索指定库位名称成功
+[2023-07-11 13:14:41,282] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:14:41,289] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 13:14:50,006] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 13:14:50,025] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 13:14:50,696] - logs.py[line:34] - fuc:__console- INFO: 选择移样本盒
+[2023-07-11 13:14:51,948] - logs.py[line:34] - fuc:__console- INFO: 选择库外到临时库
+[2023-07-11 13:14:53,314] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711131453_新建样本移库任务.png' width=600 /></div>
+[2023-07-11 13:14:53,317] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：新建样本移库任务
+[2023-07-11 13:14:53,553] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:14:53,554] - logs.py[line:34] - fuc:__console- INFO: 点击确定
+[2023-07-11 13:14:57,961] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的盒子名称
+[2023-07-11 13:14:57,983] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的库位名称
+[2023-07-11 13:14:58,013] - logs.py[line:34] - fuc:__console- INFO: 点击搜索盒子按钮
+[2023-07-11 13:14:58,644] - logs.py[line:34] - fuc:__console- INFO: 点击输入框
+[2023-07-11 13:14:59,301] - logs.py[line:34] - fuc:__console- INFO: 右侧弹框弹出，点击输入盒子信息：盒子_2023-07-11-13:13:58
+[2023-07-11 13:15:00,069] - logs.py[line:34] - fuc:__console- INFO: 点击右侧弹框中的确认按钮，弹框收起
+[2023-07-11 13:15:00,641] - logs.py[line:34] - fuc:__console- INFO: 盒子信息输入完毕，点击正式搜索按钮
+[2023-07-11 13:15:03,820] - logs.py[line:34] - fuc:__console- INFO: 开始校验搜索出的结果是否正确
+[2023-07-11 13:15:03,873] - logs.py[line:34] - fuc:__console- INFO: 盒子校验通过，点击勾选复选框
+[2023-07-11 13:15:04,493] - logs.py[line:34] - fuc:__console- INFO: 点击加入明细表按钮
+[2023-07-11 13:15:07,735] - logs.py[line:34] - fuc:__console- INFO: 点击进入明细表按钮，并进入成功
+[2023-07-11 13:15:10,951] - logs.py[line:34] - fuc:__console- INFO: 先点击保存按钮，防止页面元素乱跳
+[2023-07-11 13:15:14,385] - logs.py[line:34] - fuc:__console- INFO: 勾选盒子，点击选择库位按钮
+[2023-07-11 13:15:18,169] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711131518_样本移库选择库位.png' width=600 /></div>
+[2023-07-11 13:15:18,172] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本移库选择库位
+[2023-07-11 13:15:18,378] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:15:18,379] - logs.py[line:34] - fuc:__console- INFO: 弹框中，输入指定的库位信息：测试专用-2023-07-11-13:14:18
+[2023-07-11 13:15:18,653] - logs.py[line:34] - fuc:__console- INFO: 点击搜素库位的按钮
+[2023-07-11 13:15:21,822] - logs.py[line:34] - fuc:__console- INFO: 选择搜索结果，点击确认按钮
+[2023-07-11 13:15:23,069] - logs.py[line:34] - fuc:__console- INFO: 提交明细表结果，任务单完成
+[2023-07-11 13:15:34,209] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的盒子名称
+[2023-07-11 13:15:34,230] - logs.py[line:34] - fuc:__console- INFO: 点击列表页，搜索样本盒按钮
+[2023-07-11 13:15:34,991] - logs.py[line:34] - fuc:__console- INFO: 弹框内输入指定盒子信息并点击搜索
+[2023-07-11 13:15:38,476] - logs.py[line:34] - fuc:__console- INFO: 校验搜索结果是否展示在列表页
+[2023-07-11 13:15:38,515] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 13:15:38,543] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 13:15:39,193] - logs.py[line:34] - fuc:__console- INFO: 选择移样本盒
+[2023-07-11 13:15:40,507] - logs.py[line:34] - fuc:__console- INFO: 选择库外到临时库
+[2023-07-11 13:15:41,778] - logs.py[line:34] - fuc:__console- INFO: 点击确定
+[2023-07-11 13:15:46,255] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的盒子名称
+[2023-07-11 13:15:46,279] - logs.py[line:34] - fuc:__console- INFO: 查询当前在临时库且样本包装量>0的样本
+[2023-07-11 13:15:46,398] - logs.py[line:34] - fuc:__console- INFO: 点击样本筛选按钮
+[2023-07-11 13:15:49,616] - logs.py[line:34] - fuc:__console- INFO: 输入完样本信息后，点击确定搜索按钮
+[2023-07-11 13:15:52,881] - logs.py[line:34] - fuc:__console- INFO: 勾选样本，点击加入明细表
+[2023-07-11 13:16:04,306] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的盒子名称
+[2023-07-11 13:16:04,327] - logs.py[line:34] - fuc:__console- INFO: 查询自己刚刚完成的样本移库单
+[2023-07-11 13:16:04,360] - logs.py[line:34] - fuc:__console- INFO: 点击列表页，点击搜索样本移库按钮
+[2023-07-11 13:16:05,151] - logs.py[line:34] - fuc:__console- INFO: 弹框内输入taskid
+[2023-07-11 13:16:05,427] - logs.py[line:34] - fuc:__console- INFO: 点击确定搜索
+[2023-07-11 13:16:08,675] - logs.py[line:34] - fuc:__console- INFO: 校验搜索结果是否展示在列表页
+[2023-07-11 13:16:12,688] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:16:12,695] - logs.py[line:34] - fuc:__console- INFO: 进入样本处理页面
+[2023-07-11 13:16:16,716] - logs.py[line:34] - fuc:__console- INFO: 样本处理首页，点击新建按钮，进入样本待选表，新增样本处理任务
+[2023-07-11 13:16:21,781] - logs.py[line:34] - fuc:__console- INFO: 选择样本类型
+[2023-07-11 13:16:26,753] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 13:16:30,712] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-07-11 13:16:37,215] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 13:16:37,967] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711131637_样本处理待选表保存样本.png' width=600 /></div>
+[2023-07-11 13:16:37,967] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本处理待选表保存样本
+[2023-07-11 13:16:38,176] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:16:45,649] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入样本处理明细表
+[2023-07-11 13:16:51,264] - logs.py[line:34] - fuc:__console- INFO: 全选样本，点击生成排序号
+[2023-07-11 13:16:52,457] - logs.py[line:34] - fuc:__console- INFO: 选择批量入库类型：样本入库
+[2023-07-11 13:16:53,520] - logs.py[line:34] - fuc:__console- INFO: 录入批量实测数据
+[2023-07-11 13:16:56,116] - logs.py[line:34] - fuc:__console- INFO: 录入批量余样数据
+[2023-07-11 13:16:58,812] - logs.py[line:34] - fuc:__console- INFO: 选择库位类型：临时库
+[2023-07-11 13:16:59,958] - logs.py[line:34] - fuc:__console- INFO: 选择样本盒
+[2023-07-11 13:17:08,815] - logs.py[line:34] - fuc:__console- INFO: 明细表保存
+[2023-07-11 13:17:12,454] - logs.py[line:34] - fuc:__console- INFO: 明细表插入盒内位置
+[2023-07-11 13:17:16,475] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 13:17:19,681] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入结果表
+[2023-07-11 13:17:25,089] - logs.py[line:34] - fuc:__console- INFO: 更新血浆样本评级
+[2023-07-11 13:17:28,958] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 13:17:34,197] - logs.py[line:34] - fuc:__console- INFO: 选中样本，录入批量数据
+[2023-07-11 13:17:40,737] - logs.py[line:34] - fuc:__console- INFO: 录入数据后，点击提交样本
+[2023-07-11 13:17:46,802] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711131746_样本处理结果表提交.png' width=600 /></div>
+[2023-07-11 13:17:46,803] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本处理结果表提交
+[2023-07-11 13:17:46,985] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:17:53,035] - logs.py[line:34] - fuc:__console- INFO: 返回样本处理明细表
+[2023-07-11 13:17:58,066] - logs.py[line:34] - fuc:__console- INFO: 提交样本
+[2023-07-11 13:18:00,384] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711131800_样本处理明细表提交.png' width=600 /></div>
+[2023-07-11 13:18:00,385] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本处理明细表提交
+[2023-07-11 13:18:00,546] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:18:05,785] - logs.py[line:34] - fuc:__console- INFO: 选中样本进行入库操作
+[2023-07-11 13:18:07,149] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711131807_样本处理明细表入库.png' width=600 /></div>
+[2023-07-11 13:18:07,152] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本处理明细表入库
+[2023-07-11 13:18:07,359] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:18:11,779] - logs.py[line:34] - fuc:__console- INFO: 点击完成任务单
+[2023-07-11 13:18:17,301] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711131817_样本处理完成任务单.png' width=600 /></div>
+[2023-07-11 13:18:17,303] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本处理完成任务单
+[2023-07-11 13:18:17,561] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:18:17,562] - logs.py[line:34] - fuc:__console- INFO: 获取任务单完成状态
+[2023-07-11 13:18:18,096] - logs.py[line:34] - fuc:__console- INFO: 样本处理任务单号写入临时数据
+[2023-07-11 13:18:31,625] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:18:31,632] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入核酸提取页面
+[2023-07-11 13:18:31,634] - logs.py[line:34] - fuc:__console- INFO: 进入样本接收页面
+[2023-07-11 13:18:35,739] - logs.py[line:34] - fuc:__console- INFO: 核酸提取首页，点击新建按钮，进入样本待选表，新增核酸提取任务
+[2023-07-11 13:18:39,755] - logs.py[line:34] - fuc:__console- INFO: 选择任务类型
+[2023-07-11 13:18:43,118] - logs.py[line:34] - fuc:__console- INFO: 操作方式
+[2023-07-11 13:18:43,869] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 13:18:47,782] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-07-11 13:19:01,432] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 13:19:02,142] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711131902_核酸提取待选表.png' width=600 /></div>
+[2023-07-11 13:19:02,143] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取待选表
+[2023-07-11 13:19:02,353] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:19:05,950] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入核酸提取明细表
+[2023-07-11 13:19:10,521] - logs.py[line:34] - fuc:__console- INFO: 样本分管操作
+[2023-07-11 13:19:11,327] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711131911_核酸提取明细表分管.png' width=600 /></div>
+[2023-07-11 13:19:11,328] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取明细表分管
+[2023-07-11 13:19:11,593] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:19:13,123] - logs.py[line:34] - fuc:__console- INFO: 样本分管批量录入操作
+[2023-07-11 13:19:13,894] - logs.py[line:34] - fuc:__console- INFO: 分管批量录入操作,“是否做mPCR”选择否
+[2023-07-11 13:19:15,635] - logs.py[line:34] - fuc:__console- INFO: 样本分管批量录入操作,“最后步骤”选择上机
+[2023-07-11 13:19:17,359] - logs.py[line:34] - fuc:__console- INFO: 样本分管批量录入操作,“建库类型”选择DNA建库
+[2023-07-11 13:19:31,983] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表点击生成排序号
+[2023-07-11 13:19:33,286] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，选择样本入库类型为余样入库
+[2023-07-11 13:19:35,219] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，进行批量数据录入
+[2023-07-11 13:19:49,172] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 13:19:52,466] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，自动计算
+[2023-07-11 13:19:53,845] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入核酸提取结果表
+[2023-07-11 13:19:57,789] - logs.py[line:34] - fuc:__console- INFO: 核酸提取结果表，修改样本产物类型
+[2023-07-11 13:20:09,319] - logs.py[line:34] - fuc:__console- INFO: 核酸提取结果表，录入批量数据
+[2023-07-11 13:20:18,136] - logs.py[line:34] - fuc:__console- INFO:  核酸提取结果表，表单数据录入,并点击自动计算
+[2023-07-11 13:20:22,162] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 13:20:24,728] - logs.py[line:34] - fuc:__console- INFO:  核酸提取结果表,点击自动计算
+[2023-07-11 13:20:33,205] - logs.py[line:34] - fuc:__console- INFO:  核酸提取结果表,批量生成盒内位置
+[2023-07-11 13:20:34,630] - logs.py[line:34] - fuc:__console- INFO:  核酸提取结果表,点击提交
+[2023-07-11 13:20:34,749] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132034_核酸提取结果表提交.png' width=600 /></div>
+[2023-07-11 13:20:34,750] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取结果表提交
+[2023-07-11 13:20:34,994] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:20:49,235] - logs.py[line:34] - fuc:__console- INFO: 返回样本处理明细表,进行明细表提交操作
+[2023-07-11 13:20:54,383] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，点击提交
+[2023-07-11 13:20:58,958] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 13:21:02,879] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132102_核酸提取明细表提交.png' width=600 /></div>
+[2023-07-11 13:21:02,880] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取明细表提交
+[2023-07-11 13:21:03,189] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:21:06,292] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，样本入库操作
+[2023-07-11 13:21:07,664] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，样本入库选择入样本盒
+[2023-07-11 13:21:16,213] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，样本入库批量粘贴盒内位置
+[2023-07-11 13:21:18,167] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132118_核酸提取明细表入库.png' width=600 /></div>
+[2023-07-11 13:21:18,170] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取明细表入库
+[2023-07-11 13:21:18,396] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:21:23,376] - logs.py[line:34] - fuc:__console- INFO: 核酸提取结果表,点击完成任务单
+[2023-07-11 13:21:31,205] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132131_核酸提取结果表完成任务单.png' width=600 /></div>
+[2023-07-11 13:21:31,208] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取结果表完成任务单
+[2023-07-11 13:21:31,405] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:21:46,386] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:21:46,390] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入核酸提取页面
+[2023-07-11 13:21:46,391] - logs.py[line:34] - fuc:__console- INFO: 进入样本接收页面
+[2023-07-11 13:21:49,133] - logs.py[line:34] - fuc:__console- INFO: 核酸提取首页，点击新建按钮，进入样本待选表，新增核酸提取任务
+[2023-07-11 13:21:53,121] - logs.py[line:34] - fuc:__console- INFO: 选择任务类型
+[2023-07-11 13:21:56,990] - logs.py[line:34] - fuc:__console- INFO: 操作方式
+[2023-07-11 13:21:57,755] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 13:22:01,649] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-07-11 13:22:13,775] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 13:22:14,519] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132214_核酸提取待选表.png' width=600 /></div>
+[2023-07-11 13:22:14,520] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取待选表
+[2023-07-11 13:22:14,744] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:22:17,815] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入核酸提取明细表
+[2023-07-11 13:22:31,314] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表点击生成排序号
+[2023-07-11 13:22:32,584] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，选择样本入库类型为余样入库
+[2023-07-11 13:22:34,512] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，进行批量数据录入
+[2023-07-11 13:22:48,193] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 13:22:51,383] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，自动计算
+[2023-07-11 13:22:52,713] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入核酸提取结果表
+[2023-07-11 13:22:56,551] - logs.py[line:34] - fuc:__console- INFO: 核酸提取结果表，修改样本产物类型
+[2023-07-11 13:23:08,016] - logs.py[line:34] - fuc:__console- INFO: 核酸提取结果表，录入批量数据
+[2023-07-11 13:23:16,007] - logs.py[line:34] - fuc:__console- INFO:  核酸提取结果表，表单数据录入,并点击自动计算
+[2023-07-11 13:23:19,983] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 13:23:22,529] - logs.py[line:34] - fuc:__console- INFO:  核酸提取结果表,点击自动计算
+[2023-07-11 13:23:31,000] - logs.py[line:34] - fuc:__console- INFO:  核酸提取结果表,批量生成盒内位置
+[2023-07-11 13:23:32,375] - logs.py[line:34] - fuc:__console- INFO:  核酸提取结果表,点击提交
+[2023-07-11 13:23:32,551] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132332_核酸提取结果表提交.png' width=600 /></div>
+[2023-07-11 13:23:32,552] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取结果表提交
+[2023-07-11 13:23:32,759] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:23:47,026] - logs.py[line:34] - fuc:__console- INFO: 返回样本处理明细表,进行明细表提交操作
+[2023-07-11 13:23:52,201] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，点击提交
+[2023-07-11 13:23:56,628] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 13:24:00,534] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132400_核酸提取明细表提交.png' width=600 /></div>
+[2023-07-11 13:24:00,535] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取明细表提交
+[2023-07-11 13:24:00,774] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:24:03,880] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，样本入库操作
+[2023-07-11 13:24:05,196] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，样本入库选择入样本盒
+[2023-07-11 13:24:13,760] - logs.py[line:34] - fuc:__console- INFO: 核酸提取明细表，样本入库批量粘贴盒内位置
+[2023-07-11 13:24:15,711] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132415_核酸提取明细表入库.png' width=600 /></div>
+[2023-07-11 13:24:15,711] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取明细表入库
+[2023-07-11 13:24:15,919] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:24:20,776] - logs.py[line:34] - fuc:__console- INFO: 核酸提取结果表,点击完成任务单
+[2023-07-11 13:24:28,522] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132428_核酸提取结果表完成任务单.png' width=600 /></div>
+[2023-07-11 13:24:28,525] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：核酸提取结果表完成任务单
+[2023-07-11 13:24:28,739] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:24:43,630] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:24:43,637] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入mPCR页面
+[2023-07-11 13:24:48,797] - logs.py[line:34] - fuc:__console- INFO: MPCR首页，点击新建按钮，进入样本待选表，新增MPCR任务
+[2023-07-11 13:24:53,048] - logs.py[line:34] - fuc:__console- INFO: 选择任务类型:结核耐药mPCR
+[2023-07-11 13:24:56,686] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 13:25:00,645] - logs.py[line:34] - fuc:__console- INFO: 操作方式
+[2023-07-11 13:25:01,852] - logs.py[line:34] - fuc:__console- INFO: 核对lims，添加至任务单
+[2023-07-11 13:25:01,874] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-07-11 13:25:07,743] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 13:25:08,508] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132508_MPCR待选表.png' width=600 /></div>
+[2023-07-11 13:25:08,509] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：MPCR待选表
+[2023-07-11 13:25:08,737] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:25:14,103] - logs.py[line:34] - fuc:__console- INFO: 保存任务单，mPCR明细表
+[2023-07-11 13:25:18,162] - logs.py[line:34] - fuc:__console- INFO: mPCR明细表自动计算
+[2023-07-11 13:25:22,065] - logs.py[line:34] - fuc:__console- INFO: mPCR明细表选，录入96孔版位置
+[2023-07-11 13:25:26,187] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 13:25:29,372] - logs.py[line:34] - fuc:__console- INFO: 进入mPCR结果表
+[2023-07-11 13:25:33,410] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，修改产物类型
+[2023-07-11 13:25:33,413] - logs.py[line:34] - fuc:__console- INFO: MPCR结果表，修改样本产物类型
+[2023-07-11 13:25:41,303] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，修改NTC对照
+[2023-07-11 13:25:48,452] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，批量数量录入
+[2023-07-11 13:25:48,455] - logs.py[line:34] - fuc:__console- INFO: MPCR结果表，录入批量数据
+[2023-07-11 13:25:54,632] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，批量导入产物浓度
+[2023-07-11 13:25:54,826] - logs.py[line:34] - fuc:__console- INFO: mpcr结果表批量粘贴导入产物浓度
+[2023-07-11 13:25:56,815] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，批量导入盒内位置
+[2023-07-11 13:25:56,970] - logs.py[line:34] - fuc:__console- INFO: mpcr结果表批量粘贴导入产物浓度
+[2023-07-11 13:25:58,914] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，自动计算
+[2023-07-11 13:26:02,159] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，提交
+[2023-07-11 13:26:02,160] - logs.py[line:34] - fuc:__console- INFO:  MPCR结果表,点击提交
+[2023-07-11 13:26:05,304] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132605_MPCR结果表提交.png' width=600 /></div>
+[2023-07-11 13:26:05,306] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：MPCR结果表提交
+[2023-07-11 13:26:05,535] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:26:08,716] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，结果表下一步数据写入对应Excel
+[2023-07-11 13:26:08,841] - logs.py[line:34] - fuc:__console- INFO: mPCR结果表，返回明细表完成提交入库操作
+[2023-07-11 13:26:13,281] - logs.py[line:34] - fuc:__console- INFO: MPCR明细表，点击提交
+[2023-07-11 13:26:14,485] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132614_MPCR明细表提交.png' width=600 /></div>
+[2023-07-11 13:26:14,488] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：MPCR明细表提交
+[2023-07-11 13:26:14,691] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:26:17,844] - logs.py[line:34] - fuc:__console- INFO: MPCR明细表，样本入库操作
+[2023-07-11 13:26:19,098] - logs.py[line:34] - fuc:__console- INFO: MPCR明细表，样本入库选择入样本盒
+[2023-07-11 13:26:26,953] - logs.py[line:34] - fuc:__console- INFO: MPCR明细表，样本入库批量粘贴盒内位置
+[2023-07-11 13:26:28,854] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132628_MPCR明细表入库.png' width=600 /></div>
+[2023-07-11 13:26:28,856] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：MPCR明细表入库
+[2023-07-11 13:26:29,055] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:26:36,625] - logs.py[line:34] - fuc:__console- INFO: MPCR结果表,点击完成任务单
+[2023-07-11 13:26:39,795] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132639_MPCR结果表完成任务单.png' width=600 /></div>
+[2023-07-11 13:26:39,798] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：MPCR结果表完成任务单
+[2023-07-11 13:26:40,007] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:26:44,972] - logs.py[line:34] - fuc:__console- INFO:  测试根据添加到的任务单中的lims样本号搜索对应的任务单
+[2023-07-11 13:26:57,362] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:26:57,370] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入文库构建页面
+[2023-07-11 13:27:01,626] - logs.py[line:34] - fuc:__console- INFO: 文库构建首页，点击新建按钮，进入样本待选表，新增文库构建任务
+[2023-07-11 13:27:05,643] - logs.py[line:34] - fuc:__console- INFO: 选择样本类型
+[2023-07-11 13:27:09,462] - logs.py[line:34] - fuc:__console- INFO: 选择操作类型
+[2023-07-11 13:27:11,139] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 13:27:15,172] - logs.py[line:34] - fuc:__console- INFO: 核对lims，添加至任务单
+[2023-07-11 13:27:15,204] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-07-11 13:27:29,784] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 13:27:31,924] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132731_文库构建待选表核对lims号功能，并保存任务单号.png' width=600 /></div>
+[2023-07-11 13:27:31,924] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库构建待选表核对lims号功能，并保存任务单号
+[2023-07-11 13:27:32,157] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:27:34,706] - logs.py[line:34] - fuc:__console- INFO: 保存任务单，进入明细表
+[2023-07-11 13:27:34,826] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入文库构建明细表
+[2023-07-11 13:27:44,283] - logs.py[line:34] - fuc:__console- INFO:  文库构建明细表，选择入库信息、批量包装余量、录入96孔版位置
+[2023-07-11 13:27:44,285] - logs.py[line:34] - fuc:__console- INFO: 文库构建明细表选择入库类型：余样入库
+[2023-07-11 13:27:47,411] - logs.py[line:34] - fuc:__console- INFO: 文库构建明细表录入批量包装余量
+[2023-07-11 13:27:48,718] - logs.py[line:34] - fuc:__console- INFO: 文库构建明细表录入96孔版位置
+[2023-07-11 13:27:53,859] - logs.py[line:34] - fuc:__console- INFO: 文库构建明细表选，进行自动计算
+[2023-07-11 13:27:53,862] - logs.py[line:34] - fuc:__console- INFO: 点击自动计算
+[2023-07-11 13:27:58,618] - logs.py[line:34] - fuc:__console- INFO: 进入文库构建结果表
+[2023-07-11 13:27:58,711] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入文库构建结果表
+[2023-07-11 13:28:08,171] - logs.py[line:34] - fuc:__console- INFO: 文库构建结果表，修改产物类型、批量数据
+[2023-07-11 13:28:08,172] - logs.py[line:34] - fuc:__console- INFO: 文库构建结果表，修改产物类型
+[2023-07-11 13:28:14,670] - logs.py[line:34] - fuc:__console- INFO: 文库构建结果表，批量数据
+[2023-07-11 13:28:28,820] - logs.py[line:34] - fuc:__console- INFO: 文库构建结果表，修改预计富集时间
+[2023-07-11 13:28:43,497] - logs.py[line:34] - fuc:__console- INFO: 文库构建结果表，结果表表单录入,生成盒内位置
+[2023-07-11 13:28:48,133] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 13:28:50,833] - logs.py[line:34] - fuc:__console- INFO:  文库构建结果表,点击批量计算
+[2023-07-11 13:29:01,799] - logs.py[line:34] - fuc:__console- INFO:  文库构建结果表,生成盒内位置
+[2023-07-11 13:29:04,394] - logs.py[line:34] - fuc:__console- INFO: 文库构建结果表，结果表提交
+[2023-07-11 13:29:04,395] - logs.py[line:34] - fuc:__console- INFO:  文库构建结果表,点击提交
+[2023-07-11 13:29:08,177] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132908_文库构建结果表提交.png' width=600 /></div>
+[2023-07-11 13:29:08,180] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库构建结果表提交
+[2023-07-11 13:29:08,397] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:29:12,682] - logs.py[line:34] - fuc:__console- INFO: 文库构建结果表，结果表下一步数据写入对应Excel
+[2023-07-11 13:29:12,921] - logs.py[line:34] - fuc:__console- INFO: 文库构建结果表，返回明细表完成提交入库操作
+[2023-07-11 13:29:12,922] - logs.py[line:34] - fuc:__console- INFO: 点击按钮返回明细表
+[2023-07-11 13:29:18,115] - logs.py[line:34] - fuc:__console- INFO: 文库构建明细表样本提交
+[2023-07-11 13:29:19,458] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132919_文库构建明细表提交.png' width=600 /></div>
+[2023-07-11 13:29:19,459] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库构建明细表提交
+[2023-07-11 13:29:19,648] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:29:24,310] - logs.py[line:34] - fuc:__console- INFO: 文库构建明细表，样本入库操作
+[2023-07-11 13:29:25,623] - logs.py[line:34] - fuc:__console- INFO: 文库构建明细表，样本入库选择入样本盒
+[2023-07-11 13:29:34,544] - logs.py[line:34] - fuc:__console- INFO: 文库构建明细表，样本入库批量粘贴盒内位置
+[2023-07-11 13:29:36,562] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132936_文库构建明细表入库.png' width=600 /></div>
+[2023-07-11 13:29:36,564] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库构建明细表入库
+[2023-07-11 13:29:36,783] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:29:41,737] - logs.py[line:34] - fuc:__console- INFO:  文库构建结果表,点击完成任务单
+[2023-07-11 13:29:56,818] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711132956_文库构建完成任务单.png' width=600 /></div>
+[2023-07-11 13:29:56,821] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库构建完成任务单
+[2023-07-11 13:29:57,048] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:30:01,041] - logs.py[line:34] - fuc:__console- INFO:  测试根据添加到的任务单中的lims样本号搜索对应的任务单
+[2023-07-11 13:30:10,159] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:30:10,166] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入文库富集页面
+[2023-07-11 13:30:14,200] - logs.py[line:34] - fuc:__console- INFO: 文库富集首页，点击新建按钮，进入样本待选表，新增文库富集任务
+[2023-07-11 13:30:20,708] - logs.py[line:34] - fuc:__console- INFO: 录入任务描述
+[2023-07-11 13:30:21,496] - logs.py[line:34] - fuc:__console- INFO: 选择操作方式
+[2023-07-11 13:30:21,745] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 13:30:25,532] - logs.py[line:34] - fuc:__console- INFO: 核对lims，添加至任务单
+[2023-07-11 13:30:25,565] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-07-11 13:30:33,057] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 13:30:34,695] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711133034_文库富集待选表.png' width=600 /></div>
+[2023-07-11 13:30:34,696] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集待选表
+[2023-07-11 13:30:34,898] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:30:37,429] - logs.py[line:34] - fuc:__console- INFO: 保存任务单，进入明细表
+[2023-07-11 13:30:37,566] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入文库富集明细表
+[2023-07-11 13:30:42,016] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表批量粘贴导入实验数据
+[2023-07-11 13:30:42,017] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表批量粘贴导入实验数据
+[2023-07-11 13:30:52,458] - logs.py[line:34] - fuc:__console- INFO: 文库富集结果表，批量数据录入
+[2023-07-11 13:32:22,798] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:32:22,874] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 13:32:24,943] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 13:32:25,102] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 13:32:25,103] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 13:32:27,248] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 13:32:27,262] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 13:32:27,306] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 13:32:27,960] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 13:32:28,571] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 13:32:31,181] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 13:32:43,557] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 13:32:43,578] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 13:32:44,269] - logs.py[line:34] - fuc:__console- INFO: 选择移样本盒
+[2023-07-11 13:32:45,442] - logs.py[line:34] - fuc:__console- INFO: 选择库外到临时库
+[2023-07-11 13:32:46,612] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711133246_新建样本移库任务.png' width=600 /></div>
+[2023-07-11 13:32:46,613] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：新建样本移库任务
+[2023-07-11 13:32:46,797] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:32:46,798] - logs.py[line:34] - fuc:__console- INFO: 点击确定
+[2023-07-11 13:32:51,336] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的盒子名称
+[2023-07-11 13:32:51,376] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的库位名称
+[2023-07-11 13:32:51,404] - logs.py[line:34] - fuc:__console- INFO: 点击搜索盒子按钮
+[2023-07-11 13:32:52,009] - logs.py[line:34] - fuc:__console- INFO: 点击输入框
+[2023-07-11 13:32:52,668] - logs.py[line:34] - fuc:__console- INFO: 右侧弹框弹出，点击输入盒子信息：盒子_2023-07-11-13:13:58
+[2023-07-11 13:32:53,398] - logs.py[line:34] - fuc:__console- INFO: 点击右侧弹框中的确认按钮，弹框收起
+[2023-07-11 13:32:53,990] - logs.py[line:34] - fuc:__console- INFO: 盒子信息输入完毕，点击正式搜索按钮
+[2023-07-11 13:32:57,191] - logs.py[line:34] - fuc:__console- INFO: 开始校验搜索出的结果是否正确
+[2023-07-11 13:33:06,980] - logs.py[line:38] - fuc:__console- WARNING: 无法进入样本/盒移位列表
+[2023-07-11 13:33:06,988] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 13:33:07,011] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 13:33:14,379] - logs.py[line:38] - fuc:__console- WARNING: 无法进入样本/盒移位列表
+[2023-07-11 13:33:22,430] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:33:22,450] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 13:33:24,549] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 13:33:24,744] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 13:33:24,745] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 13:33:27,050] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 13:33:27,067] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 13:33:27,105] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 13:33:27,725] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 13:33:28,317] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 13:33:30,928] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 13:33:43,072] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 13:33:43,090] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 13:33:43,859] - logs.py[line:34] - fuc:__console- INFO: 选择移样本盒
+[2023-07-11 13:33:45,121] - logs.py[line:34] - fuc:__console- INFO: 选择库外到临时库
+[2023-07-11 13:33:46,474] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711133346_新建样本移库任务.png' width=600 /></div>
+[2023-07-11 13:33:46,477] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：新建样本移库任务
+[2023-07-11 13:33:46,654] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:33:46,655] - logs.py[line:34] - fuc:__console- INFO: 点击确定
+[2023-07-11 13:33:51,163] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的盒子名称
+[2023-07-11 13:33:51,185] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的库位名称
+[2023-07-11 13:33:51,215] - logs.py[line:34] - fuc:__console- INFO: 点击搜索盒子按钮
+[2023-07-11 13:33:51,865] - logs.py[line:34] - fuc:__console- INFO: 点击输入框
+[2023-07-11 13:33:52,588] - logs.py[line:34] - fuc:__console- INFO: 右侧弹框弹出，点击输入盒子信息：盒子_2023-07-11-13:13:58
+[2023-07-11 13:33:53,309] - logs.py[line:34] - fuc:__console- INFO: 点击右侧弹框中的确认按钮，弹框收起
+[2023-07-11 13:33:53,939] - logs.py[line:34] - fuc:__console- INFO: 盒子信息输入完毕，点击正式搜索按钮
+[2023-07-11 13:33:57,081] - logs.py[line:34] - fuc:__console- INFO: 开始校验搜索出的结果是否正确
+[2023-07-11 13:34:06,863] - logs.py[line:38] - fuc:__console- WARNING: 无法进入样本/盒移位列表
+[2023-07-11 13:34:06,890] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 13:34:06,912] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 13:34:14,114] - logs.py[line:38] - fuc:__console- WARNING: 无法进入样本/盒移位列表
+[2023-07-11 13:35:59,512] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:35:59,516] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 13:36:01,523] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 13:36:01,654] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 13:36:01,655] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 13:36:03,934] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 13:36:03,949] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 13:36:03,993] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 13:36:04,647] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 13:36:05,261] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 13:36:07,891] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 13:36:19,876] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 13:36:19,911] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 13:36:20,583] - logs.py[line:34] - fuc:__console- INFO: 选择移样本盒
+[2023-07-11 13:36:21,963] - logs.py[line:34] - fuc:__console- INFO: 选择库外到临时库
+[2023-07-11 13:36:23,231] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711133623_新建样本移库任务.png' width=600 /></div>
+[2023-07-11 13:36:23,234] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：新建样本移库任务
+[2023-07-11 13:36:23,452] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:36:23,453] - logs.py[line:34] - fuc:__console- INFO: 点击确定
+[2023-07-11 13:36:28,035] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的盒子名称
+[2023-07-11 13:36:28,057] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的库位名称
+[2023-07-11 13:36:28,088] - logs.py[line:34] - fuc:__console- INFO: 点击搜索盒子按钮
+[2023-07-11 13:36:28,670] - logs.py[line:34] - fuc:__console- INFO: 点击输入框
+[2023-07-11 13:36:29,269] - logs.py[line:34] - fuc:__console- INFO: 右侧弹框弹出，点击输入盒子信息：盒子_2023-07-11-13:19
+[2023-07-11 13:36:30,034] - logs.py[line:34] - fuc:__console- INFO: 点击右侧弹框中的确认按钮，弹框收起
+[2023-07-11 13:36:30,657] - logs.py[line:34] - fuc:__console- INFO: 盒子信息输入完毕，点击正式搜索按钮
+[2023-07-11 13:36:33,919] - logs.py[line:34] - fuc:__console- INFO: 开始校验搜索出的结果是否正确
+[2023-07-11 13:36:33,961] - logs.py[line:34] - fuc:__console- INFO: 盒子校验通过，点击勾选复选框
+[2023-07-11 13:36:34,558] - logs.py[line:34] - fuc:__console- INFO: 点击加入明细表按钮
+[2023-07-11 13:36:37,684] - logs.py[line:34] - fuc:__console- INFO: 点击进入明细表按钮，并进入成功
+[2023-07-11 13:36:40,875] - logs.py[line:34] - fuc:__console- INFO: 先点击保存按钮，防止页面元素乱跳
+[2023-07-11 13:36:44,257] - logs.py[line:34] - fuc:__console- INFO: 勾选盒子，点击选择库位按钮
+[2023-07-11 13:36:48,131] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711133648_样本移库选择库位.png' width=600 /></div>
+[2023-07-11 13:36:48,135] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：样本移库选择库位
+[2023-07-11 13:36:48,352] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:36:48,353] - logs.py[line:34] - fuc:__console- INFO: 弹框中，输入指定的库位信息：测试专用-2023-07-11-13:14:18
+[2023-07-11 13:36:48,631] - logs.py[line:34] - fuc:__console- INFO: 点击搜素库位的按钮
+[2023-07-11 13:36:51,789] - logs.py[line:34] - fuc:__console- INFO: 选择搜索结果，点击确认按钮
+[2023-07-11 13:36:53,085] - logs.py[line:34] - fuc:__console- INFO: 提交明细表结果，任务单完成
+[2023-07-11 13:37:04,184] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的盒子名称
+[2023-07-11 13:37:04,191] - logs.py[line:34] - fuc:__console- INFO: 点击列表页，搜索样本盒按钮
+[2023-07-11 13:37:04,862] - logs.py[line:34] - fuc:__console- INFO: 弹框内输入指定盒子信息并点击搜索
+[2023-07-11 13:37:08,328] - logs.py[line:34] - fuc:__console- INFO: 校验搜索结果是否展示在列表页
+[2023-07-11 13:37:08,378] - logs.py[line:34] - fuc:__console- INFO: 修改用户角色，修改为临时库权限
+[2023-07-11 13:37:08,413] - logs.py[line:34] - fuc:__console- INFO: 点击新增按钮
+[2023-07-11 13:37:09,016] - logs.py[line:34] - fuc:__console- INFO: 选择移样本盒
+[2023-07-11 13:37:10,235] - logs.py[line:34] - fuc:__console- INFO: 选择库外到临时库
+[2023-07-11 13:37:11,593] - logs.py[line:34] - fuc:__console- INFO: 点击确定
+[2023-07-11 13:37:16,052] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的盒子名称
+[2023-07-11 13:37:16,074] - logs.py[line:34] - fuc:__console- INFO: 查询当前在临时库且样本包装量>0的样本
+[2023-07-11 13:37:16,195] - logs.py[line:34] - fuc:__console- INFO: 点击样本筛选按钮
+[2023-07-11 13:37:19,425] - logs.py[line:34] - fuc:__console- INFO: 输入完样本信息后，点击确定搜索按钮
+[2023-07-11 13:37:22,581] - logs.py[line:34] - fuc:__console- INFO: 勾选样本，点击加入明细表
+[2023-07-11 13:37:26,498] - logs.py[line:34] - fuc:__console- INFO: 进入明细表后，点击保存按钮
+[2023-07-11 13:37:29,625] - logs.py[line:34] - fuc:__console- INFO: 先选择样本复选框，点击搜索盒子信息按钮
+[2023-07-11 13:37:35,511] - logs.py[line:34] - fuc:__console- INFO: 弹框中，输入盒子信息，点击确定
+[2023-07-11 13:37:41,203] - logs.py[line:34] - fuc:__console- INFO: 选择搜索结果，点击确认
+[2023-07-11 13:37:45,038] - logs.py[line:34] - fuc:__console- INFO: 拖动滑条，帮样本选择位置信息
+[2023-07-11 13:37:47,247] - logs.py[line:34] - fuc:__console- INFO: 点击完成任务单
+[2023-07-11 13:37:58,230] - logs.py[line:34] - fuc:__console- INFO: 查询上个脚本，刚刚新建的盒子名称
+[2023-07-11 13:37:58,268] - logs.py[line:34] - fuc:__console- INFO: 查询自己刚刚完成的样本移库单
+[2023-07-11 13:37:58,299] - logs.py[line:34] - fuc:__console- INFO: 点击列表页，点击搜索样本移库按钮
+[2023-07-11 13:37:58,996] - logs.py[line:34] - fuc:__console- INFO: 弹框内输入taskid
+[2023-07-11 13:37:59,226] - logs.py[line:34] - fuc:__console- INFO: 点击确定搜索
+[2023-07-11 13:38:02,452] - logs.py[line:34] - fuc:__console- INFO: 校验搜索结果是否展示在列表页
+[2023-07-11 13:46:46,943] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:46:46,949] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入文库富集页面
+[2023-07-11 13:46:46,987] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 13:46:47,111] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 13:46:47,114] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 13:46:50,831] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 13:46:50,867] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 13:46:50,951] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 13:46:51,628] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 13:46:52,242] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 13:46:54,872] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 13:47:04,580] - logs.py[line:34] - fuc:__console- INFO: 文库富集首页，点击新建按钮，进入样本待选表，新增文库富集任务
+[2023-07-11 13:47:11,712] - logs.py[line:34] - fuc:__console- INFO: 录入任务描述
+[2023-07-11 13:47:12,476] - logs.py[line:34] - fuc:__console- INFO: 选择操作方式
+[2023-07-11 13:47:12,714] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 13:47:16,537] - logs.py[line:34] - fuc:__console- INFO: 核对lims，添加至任务单
+[2023-07-11 13:47:16,584] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-07-11 13:47:22,002] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 13:47:23,101] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711134723_文库富集待选表.png' width=600 /></div>
+[2023-07-11 13:47:23,102] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集待选表
+[2023-07-11 13:47:23,288] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:48:02,236] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 13:48:02,241] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入文库富集页面
+[2023-07-11 13:48:02,242] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 13:48:02,376] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 13:48:02,377] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 13:48:05,612] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 13:48:05,632] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 13:48:05,672] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 13:48:06,331] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 13:48:06,939] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 13:48:09,580] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 13:48:19,083] - logs.py[line:34] - fuc:__console- INFO: 文库富集首页，点击新建按钮，进入样本待选表，新增文库富集任务
+[2023-07-11 13:48:25,633] - logs.py[line:34] - fuc:__console- INFO: 录入任务描述
+[2023-07-11 13:48:26,372] - logs.py[line:34] - fuc:__console- INFO: 选择操作方式
+[2023-07-11 13:48:26,597] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 13:48:30,370] - logs.py[line:34] - fuc:__console- INFO: 核对lims，添加至任务单
+[2023-07-11 13:48:30,416] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-07-11 13:48:35,860] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 13:48:37,112] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711134837_文库富集待选表.png' width=600 /></div>
+[2023-07-11 13:48:37,114] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集待选表
+[2023-07-11 13:48:37,324] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:48:39,862] - logs.py[line:34] - fuc:__console- INFO: 保存任务单，进入明细表
+[2023-07-11 13:48:39,969] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入文库富集明细表
+[2023-07-11 13:48:44,229] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表批量粘贴导入实验数据
+[2023-07-11 13:48:44,232] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表批量粘贴导入实验数据
+[2023-07-11 13:48:49,078] - logs.py[line:34] - fuc:__console- INFO: 富集明细表保存页面数据操作
+[2023-07-11 13:48:53,217] - logs.py[line:34] - fuc:__console- INFO: 批量数据后生成结果
+[2023-07-11 13:48:53,220] - logs.py[line:34] - fuc:__console- INFO: 批量数据后生成结果
+[2023-07-11 13:48:57,518] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711134857_文库富集明细表生成结果.png' width=600 /></div>
+[2023-07-11 13:48:57,522] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集明细表生成结果
+[2023-07-11 13:48:57,722] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:48:58,782] - logs.py[line:34] - fuc:__console- INFO: 进入文库富集结果表
+[2023-07-11 13:48:58,846] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入文库富集结果表
+[2023-07-11 13:49:02,784] - logs.py[line:34] - fuc:__console- INFO: 文库富集结果表，批量数据录入
+[2023-07-11 13:49:04,744] - logs.py[line:34] - fuc:__console- INFO:  文库富集结果表提交操作
+[2023-07-11 13:49:04,747] - logs.py[line:34] - fuc:__console- INFO:  文库富集结果表提交操作
+[2023-07-11 13:49:08,562] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711134908_文库富集结果表提交.png' width=600 /></div>
+[2023-07-11 13:49:08,563] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集结果表提交
+[2023-07-11 13:49:08,737] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:49:12,447] - logs.py[line:34] - fuc:__console- INFO:  文库富集结果表样本下一步流程写入Excel
+[2023-07-11 13:49:12,536] - logs.py[line:34] - fuc:__console- INFO: 返回富集明细表，提交并入库
+[2023-07-11 13:49:12,539] - logs.py[line:34] - fuc:__console- INFO: 点击按钮返回明细表
+[2023-07-11 13:49:16,566] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表提交
+[2023-07-11 13:49:16,569] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表样本提交
+[2023-07-11 13:49:17,802] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711134917_文库富集提交.png' width=600 /></div>
+[2023-07-11 13:49:17,806] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集提交
+[2023-07-11 13:49:18,023] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 13:49:23,429] - logs.py[line:34] - fuc:__console- INFO:  测试根据添加到的任务单中的lims样本号搜索对应的任务单
+[2023-07-11 14:02:51,806] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:02:56,877] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表提交
+[2023-07-11 14:02:56,878] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表样本提交
+[2023-07-11 14:03:52,661] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:03:52,667] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 14:03:52,794] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 14:03:52,799] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 14:03:56,145] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 14:03:56,181] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 14:03:56,245] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 14:03:56,929] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 14:03:57,538] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 14:04:00,158] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 14:04:07,888] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表提交
+[2023-07-11 14:04:07,891] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表样本提交
+[2023-07-11 14:04:09,266] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711140409_文库富集提交.png' width=600 /></div>
+[2023-07-11 14:04:09,270] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集提交
+[2023-07-11 14:04:09,480] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 14:04:12,601] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表入库
+[2023-07-11 14:04:12,605] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表，样本入库操作
+[2023-07-11 14:04:14,554] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表，样本入库选择入样本盒
+[2023-07-11 14:04:23,166] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表，样本入库录入盒内位置
+[2023-07-11 14:04:25,232] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711140425_文库富集待选表入库.png' width=600 /></div>
+[2023-07-11 14:04:25,235] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集待选表入库
+[2023-07-11 14:04:25,465] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 14:04:28,859] - logs.py[line:34] - fuc:__console- INFO: 返回富集结果表，完成任务单
+[2023-07-11 14:04:28,863] - logs.py[line:34] - fuc:__console- INFO:  文库富集结果表,点击完成任务单
+[2023-07-11 14:04:36,490] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711140436_文库富集结果表完成任务单.png' width=600 /></div>
+[2023-07-11 14:04:36,494] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集结果表完成任务单
+[2023-07-11 14:04:36,718] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 14:04:40,769] - logs.py[line:34] - fuc:__console- INFO:  测试根据添加到的任务单中的lims样本号搜索对应的任务单
+[2023-07-11 14:19:32,421] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:19:32,429] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入文库富集页面
+[2023-07-11 14:19:32,430] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 14:19:32,575] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 14:19:32,576] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 14:19:38,205] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 14:19:38,245] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 14:19:38,337] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 14:19:38,958] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 14:19:39,549] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 14:19:42,137] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 14:19:51,784] - logs.py[line:34] - fuc:__console- INFO: 文库富集首页，点击新建按钮，进入样本待选表，新增文库富集任务
+[2023-07-11 14:19:58,361] - logs.py[line:34] - fuc:__console- INFO: 录入任务描述
+[2023-07-11 14:19:59,142] - logs.py[line:34] - fuc:__console- INFO: 选择操作方式
+[2023-07-11 14:19:59,461] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 14:20:03,256] - logs.py[line:34] - fuc:__console- INFO: 核对lims，添加至任务单
+[2023-07-11 14:20:03,292] - logs.py[line:34] - fuc:__console- INFO: 获取接样流程中的lims样本号,核对lims号是否存在
+[2023-07-11 14:20:09,615] - logs.py[line:34] - fuc:__console- INFO: 选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 14:20:10,884] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711142010_文库富集待选表.png' width=600 /></div>
+[2023-07-11 14:20:10,885] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集待选表
+[2023-07-11 14:20:11,087] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 14:20:13,643] - logs.py[line:34] - fuc:__console- INFO: 保存任务单，进入明细表
+[2023-07-11 14:20:13,772] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入文库富集明细表
+[2023-07-11 14:20:17,822] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表批量粘贴导入实验数据
+[2023-07-11 14:20:17,960] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表批量粘贴导入实验数据
+[2023-07-11 14:20:25,956] - logs.py[line:34] - fuc:__console- INFO: 富集明细表保存页面数据操作
+[2023-07-11 14:20:30,479] - logs.py[line:34] - fuc:__console- INFO: 批量数据后生成结果
+[2023-07-11 14:20:30,483] - logs.py[line:34] - fuc:__console- INFO: 批量数据后生成结果
+[2023-07-11 14:20:34,837] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711142034_文库富集明细表生成结果.png' width=600 /></div>
+[2023-07-11 14:20:34,841] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集明细表生成结果
+[2023-07-11 14:20:35,093] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 14:20:36,144] - logs.py[line:34] - fuc:__console- INFO: 进入文库富集结果表
+[2023-07-11 14:20:36,211] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入文库富集结果表
+[2023-07-11 14:20:40,632] - logs.py[line:34] - fuc:__console- INFO: 文库富集结果表，批量数据录入
+[2023-07-11 14:20:42,542] - logs.py[line:34] - fuc:__console- INFO:  文库富集结果表提交操作
+[2023-07-11 14:20:42,545] - logs.py[line:34] - fuc:__console- INFO:  文库富集结果表提交操作
+[2023-07-11 14:20:46,439] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711142046_文库富集结果表提交.png' width=600 /></div>
+[2023-07-11 14:20:46,440] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集结果表提交
+[2023-07-11 14:20:46,637] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 14:20:50,352] - logs.py[line:34] - fuc:__console- INFO:  文库富集结果表样本下一步流程写入Excel
+[2023-07-11 14:20:50,524] - logs.py[line:34] - fuc:__console- INFO: 返回富集明细表，提交并入库
+[2023-07-11 14:20:50,526] - logs.py[line:34] - fuc:__console- INFO: 点击按钮返回明细表
+[2023-07-11 14:20:54,720] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表提交
+[2023-07-11 14:20:54,723] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表样本提交
+[2023-07-11 14:20:56,106] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711142056_文库富集提交.png' width=600 /></div>
+[2023-07-11 14:20:56,110] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集提交
+[2023-07-11 14:20:56,308] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 14:20:59,492] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表入库
+[2023-07-11 14:20:59,494] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表，样本入库操作
+[2023-07-11 14:21:01,483] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表，样本入库选择入样本盒
+[2023-07-11 14:21:09,993] - logs.py[line:34] - fuc:__console- INFO: 文库富集明细表，样本入库录入盒内位置
+[2023-07-11 14:21:12,014] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711142112_文库富集待选表入库.png' width=600 /></div>
+[2023-07-11 14:21:12,017] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集待选表入库
+[2023-07-11 14:21:12,223] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 14:21:15,744] - logs.py[line:34] - fuc:__console- INFO: 返回富集结果表，完成任务单
+[2023-07-11 14:21:15,746] - logs.py[line:34] - fuc:__console- INFO:  文库富集结果表,点击完成任务单
+[2023-07-11 14:21:22,863] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711142122_文库富集结果表完成任务单.png' width=600 /></div>
+[2023-07-11 14:21:22,865] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：文库富集结果表完成任务单
+[2023-07-11 14:21:23,082] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 14:21:26,892] - logs.py[line:34] - fuc:__console- INFO:  测试根据添加到的任务单中的lims样本号搜索对应的任务单
+[2023-07-11 14:25:53,481] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:25:53,486] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入上机页面
+[2023-07-11 14:25:53,487] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 14:25:53,617] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 14:25:53,618] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 14:25:57,149] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 14:25:57,177] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 14:25:57,226] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 14:25:57,895] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 14:25:58,504] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 14:26:01,084] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 14:26:10,821] - logs.py[line:34] - fuc:__console- INFO: 新建任务单，录入定量类型、任务描述、sop
+[2023-07-11 14:26:10,825] - logs.py[line:34] - fuc:__console- INFO: 上机首页，点击新建按钮，进入样本待选表，新增上机任务
+[2023-07-11 14:26:15,000] - logs.py[line:34] - fuc:__console- INFO: 录入上机批次号
+[2023-07-11 14:26:16,135] - logs.py[line:34] - fuc:__console- INFO: 选择测序仪
+[2023-07-11 14:26:24,577] - logs.py[line:34] - fuc:__console- INFO: 运行模式
+[2023-07-11 14:26:25,844] - logs.py[line:34] - fuc:__console- INFO: 实际上机时间
+[2023-07-11 14:26:26,976] - logs.py[line:34] - fuc:__console- INFO: 任务描述
+[2023-07-11 14:26:27,823] - logs.py[line:34] - fuc:__console- INFO:  选择上机SOP
+[2023-07-11 14:26:31,830] - logs.py[line:34] - fuc:__console- INFO: 选择 上机实验员
+[2023-07-11 14:26:36,628] - logs.py[line:34] - fuc:__console- INFO: 核对样本lims号并选中加入任务单
+[2023-07-11 14:26:36,630] - logs.py[line:34] - fuc:__console- INFO: 调用选择样本方法-----
+[2023-07-11 14:26:36,631] - logs.py[line:34] - fuc:__console- INFO:  从上一步流转Excel中获取上机样本号,根据样本lims号文本进行点击选择
+[2023-07-11 14:26:40,066] - logs.py[line:34] - fuc:__console- INFO:  选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 14:26:40,155] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711142640_上机待选表选择样本加入并保存 .png' width=600 /></div>
+[2023-07-11 14:26:40,156] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：上机待选表选择样本加入并保存 
+[2023-07-11 14:26:40,532] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 14:26:43,850] - logs.py[line:34] - fuc:__console- INFO: 保存任务单，进入明细表
+[2023-07-11 14:26:44,005] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入上机浓度调整前明细表
+[2023-07-11 14:26:48,051] - logs.py[line:34] - fuc:__console- INFO: 上机浓度调整前明细表生成浓度调整前结果
+[2023-07-11 14:26:51,824] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711142651_浓度调整前明细表生成结果操作 .png' width=600 /></div>
+[2023-07-11 14:26:51,825] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整前明细表生成结果操作 
+[2023-07-11 14:26:51,991] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 14:26:52,499] - logs.py[line:34] - fuc:__console- INFO: 上机明细表提交
+[2023-07-11 14:26:52,502] - logs.py[line:34] - fuc:__console- INFO:  上机浓度调整前明细表样本提交
+[2023-07-11 14:26:53,862] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711142653_浓度调整前明细表提交操作 .png' width=600 /></div>
+[2023-07-11 14:26:53,864] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整前明细表提交操作 
+[2023-07-11 14:26:54,386] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 14:26:58,062] - logs.py[line:34] - fuc:__console- INFO: 上机明细表明细表入库
+[2023-07-11 14:26:58,063] - logs.py[line:34] - fuc:__console- INFO: 上机浓度调整前明细表，样本入库操作
+[2023-07-11 14:27:00,363] - logs.py[line:34] - fuc:__console- INFO: 上机明细表，样本入库选择入样本盒
+[2023-07-11 14:27:06,568] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表批量数据录入、自动计算
+[2023-07-11 14:27:10,934] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 14:27:13,515] - logs.py[line:34] - fuc:__console- INFO:  批量数据
+[2023-07-11 14:27:19,748] - logs.py[line:34] - fuc:__console- INFO: 上机结果表完成任务单
+[2023-07-11 14:27:19,752] - logs.py[line:34] - fuc:__console- INFO:  上机结果表,点击完成任务单
+[2023-07-11 14:28:18,042] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:28:18,043] - logs.py[line:34] - fuc:__console- INFO: ------开始登录!------
+[2023-07-11 14:28:18,044] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器,窗口最大化
+[2023-07-11 14:28:18,177] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 14:28:18,178] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 14:28:22,297] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 14:28:22,342] - logs.py[line:34] - fuc:__console- INFO: 输入错误账号/密码登录：error/error
+[2023-07-11 14:28:23,622] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 14:28:24,168] - logs.py[line:34] - fuc:__console- INFO: 获取登录失败的提示语：请填写正确的用户名、密码
+[2023-07-11 14:28:24,168] - logs.py[line:34] - fuc:__console- INFO: ------登录用例结束！------
+[2023-07-11 14:28:24,169] - logs.py[line:34] - fuc:__console- INFO: ------开始登录!------
+[2023-07-11 14:28:24,170] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器,窗口最大化
+[2023-07-11 14:28:24,174] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 14:28:24,175] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 14:28:25,809] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 14:28:25,819] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 14:28:25,855] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guanzhong.zhou
+[2023-07-11 14:28:25,968] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ff123456!
+[2023-07-11 14:28:26,088] - logs.py[line:34] - fuc:__console- INFO: 点击登录
+[2023-07-11 14:28:28,707] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 14:28:34,020] - logs.py[line:34] - fuc:__console- INFO: 登录成功后校验当前地址正确
+[2023-07-11 14:28:34,043] - logs.py[line:34] - fuc:__console- INFO: ------登录用例结束！------
+[2023-07-11 14:28:34,046] - logs.py[line:34] - fuc:__console- INFO: ------开始登录!------
+[2023-07-11 14:28:34,048] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器,窗口最大化
+[2023-07-11 14:28:34,061] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 14:28:34,064] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 14:28:35,793] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 14:28:35,804] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 14:28:35,844] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 14:28:35,956] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 14:28:36,059] - logs.py[line:34] - fuc:__console- INFO: 点击登录
+[2023-07-11 14:28:38,638] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 14:28:43,663] - logs.py[line:34] - fuc:__console- INFO: 登录成功后校验当前地址正确
+[2023-07-11 14:28:43,684] - logs.py[line:34] - fuc:__console- INFO: ------登录用例结束！------
+[2023-07-11 14:28:50,211] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:28:58,381] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:29:06,537] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:29:14,726] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:29:22,907] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:29:31,092] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:29:39,258] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:29:47,435] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:29:55,630] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:30:03,768] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:30:11,964] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:30:20,126] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:30:28,299] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:30:36,452] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:30:44,618] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:30:52,783] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:31:00,983] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:31:09,170] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:31:17,364] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:31:25,544] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:31:33,747] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:31:41,934] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:31:50,126] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:31:58,313] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 14:32:06,466] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 16:29:33,913] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 16:29:33,919] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 16:29:34,058] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 16:29:34,059] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 16:29:38,879] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 16:29:38,918] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 16:29:38,987] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 16:29:39,622] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 16:29:40,221] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 16:29:42,796] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 16:29:50,247] - logs.py[line:34] - fuc:__console- INFO: 上机浓度调整前明细表生成浓度调整前结果
+[2023-07-11 16:29:56,408] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表批量数据录入、自动计算
+[2023-07-11 16:30:00,614] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 16:30:03,203] - logs.py[line:34] - fuc:__console- INFO:  批量数据
+[2023-07-11 16:30:05,349] - logs.py[line:34] - fuc:__console- INFO:  自动计算
+[2023-07-11 16:30:07,082] - logs.py[line:34] - fuc:__console- INFO:  保存
+[2023-07-11 16:30:10,773] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表确认上机
+[2023-07-11 16:30:10,776] - logs.py[line:34] - fuc:__console- INFO:  全选并点击确认上机
+[2023-07-11 16:30:14,137] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711163014_浓度调整后明细表确认上机 .png' width=600 /></div>
+[2023-07-11 16:30:14,140] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整后明细表确认上机 
+[2023-07-11 16:30:14,348] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 16:30:44,991] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表 生成samplesheet
+[2023-07-11 16:30:44,995] - logs.py[line:34] - fuc:__console- INFO:  全选并点击生成samplesheet
+[2023-07-11 16:30:46,624] - logs.py[line:34] - fuc:__console- INFO: 上机结果表完成任务单
+[2023-07-11 16:30:46,625] - logs.py[line:34] - fuc:__console- INFO:  上机结果表,点击完成任务单
+[2023-07-11 16:33:20,141] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 16:33:20,146] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 16:33:20,276] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 16:33:20,299] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 16:33:23,908] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 16:33:23,946] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 16:33:24,032] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 16:33:24,705] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 16:33:25,312] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 16:33:27,906] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 16:33:35,506] - logs.py[line:34] - fuc:__console- INFO: 上机浓度调整前明细表生成浓度调整前结果
+[2023-07-11 16:33:41,654] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表批量数据录入、自动计算
+[2023-07-11 16:33:45,886] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 16:33:48,402] - logs.py[line:34] - fuc:__console- INFO:  批量数据
+[2023-07-11 16:33:50,564] - logs.py[line:34] - fuc:__console- INFO:  自动计算
+[2023-07-11 16:33:52,208] - logs.py[line:34] - fuc:__console- INFO:  保存
+[2023-07-11 16:34:16,489] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 16:34:16,495] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 16:34:16,626] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 16:34:16,627] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 16:34:20,172] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 16:34:20,203] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 16:34:20,256] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 16:34:20,920] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 16:34:21,537] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 16:34:24,168] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 16:34:31,800] - logs.py[line:34] - fuc:__console- INFO: 上机浓度调整前明细表生成浓度调整前结果
+[2023-07-11 16:34:34,593] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711163434_浓度调整前明细表生成结果操作 .png' width=600 /></div>
+[2023-07-11 16:34:34,594] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整前明细表生成结果操作 
+[2023-07-11 16:34:34,756] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 16:34:35,267] - logs.py[line:34] - fuc:__console- INFO: 上机明细表提交
+[2023-07-11 16:34:35,270] - logs.py[line:34] - fuc:__console- INFO:  上机浓度调整前明细表样本提交
+[2023-07-11 16:34:36,853] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表批量数据录入、自动计算
+[2023-07-11 16:34:41,274] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 16:34:43,826] - logs.py[line:34] - fuc:__console- INFO:  批量数据
+[2023-07-11 16:34:50,094] - logs.py[line:34] - fuc:__console- INFO: 上机结果表完成任务单
+[2023-07-11 16:34:50,095] - logs.py[line:34] - fuc:__console- INFO:  上机结果表,点击完成任务单
+[2023-07-11 16:35:22,631] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 16:35:22,638] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 16:35:22,778] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 16:35:22,790] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 16:35:26,484] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 16:35:26,510] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 16:35:26,556] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 16:35:27,169] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 16:35:27,764] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 16:35:30,352] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 16:35:37,907] - logs.py[line:34] - fuc:__console- INFO: 上机明细表明细表入库
+[2023-07-11 16:35:37,910] - logs.py[line:34] - fuc:__console- INFO: 上机浓度调整前明细表，样本入库操作
+[2023-07-11 16:35:40,238] - logs.py[line:34] - fuc:__console- INFO: 上机明细表，样本入库选择入样本盒
+[2023-07-11 16:35:46,474] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表批量数据录入、自动计算
+[2023-07-11 16:43:26,878] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 16:43:26,887] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 16:43:27,015] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 16:43:27,016] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 16:43:30,764] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 16:43:30,801] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 16:43:30,847] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 16:43:31,512] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 16:43:32,123] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 16:43:34,732] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 16:43:42,256] - logs.py[line:34] - fuc:__console- INFO: 上机明细表明细表入库
+[2023-07-11 16:43:42,260] - logs.py[line:34] - fuc:__console- INFO: 上机浓度调整前明细表，样本入库操作
+[2023-07-11 16:43:44,748] - logs.py[line:34] - fuc:__console- INFO: 上机明细表，样本入库选择入样本盒
+[2023-07-11 16:43:53,271] - logs.py[line:34] - fuc:__console- INFO: 上机明细表，样本入库录入盒内位置
+[2023-07-11 16:43:55,856] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711164355_浓度调整前明细表入库操作 .png' width=600 /></div>
+[2023-07-11 16:43:55,858] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整前明细表入库操作 
+[2023-07-11 16:43:56,060] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 16:44:00,446] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入浓度调整后样本明细
+[2023-07-11 16:44:04,963] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表批量数据录入、自动计算
+[2023-07-11 16:44:08,993] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 16:44:11,579] - logs.py[line:34] - fuc:__console- INFO:  批量数据
+[2023-07-11 16:44:13,621] - logs.py[line:34] - fuc:__console- INFO:  自动计算
+[2023-07-11 16:44:15,330] - logs.py[line:34] - fuc:__console- INFO:  保存
+[2023-07-11 16:44:18,663] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表确认上机
+[2023-07-11 16:44:18,666] - logs.py[line:34] - fuc:__console- INFO:  全选并点击确认上机
+[2023-07-11 16:44:22,010] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711164422_浓度调整后明细表确认上机 .png' width=600 /></div>
+[2023-07-11 16:44:22,014] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整后明细表确认上机 
+[2023-07-11 16:44:22,260] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 16:44:46,104] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表 生成samplesheet
+[2023-07-11 16:44:46,107] - logs.py[line:34] - fuc:__console- INFO:  全选并点击生成samplesheet
+[2023-07-11 16:44:47,736] - logs.py[line:34] - fuc:__console- INFO: 上机结果表完成任务单
+[2023-07-11 16:44:47,739] - logs.py[line:34] - fuc:__console- INFO:  上机结果表,点击完成任务单
+[2023-07-11 16:58:01,331] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 16:58:01,341] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 16:58:01,467] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 16:58:01,472] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 16:58:05,345] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 16:58:05,375] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 16:58:05,426] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 16:58:06,097] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 16:58:06,710] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 16:58:09,303] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 16:58:16,822] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表批量数据录入、自动计算
+[2023-07-11 16:58:21,846] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 16:58:24,380] - logs.py[line:34] - fuc:__console- INFO:  批量数据
+[2023-07-11 16:58:26,352] - logs.py[line:34] - fuc:__console- INFO:  自动计算
+[2023-07-11 16:58:28,072] - logs.py[line:34] - fuc:__console- INFO:  保存
+[2023-07-11 16:58:31,768] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表确认上机
+[2023-07-11 16:58:31,772] - logs.py[line:34] - fuc:__console- INFO:  全选并点击确认上机
+[2023-07-11 16:58:35,334] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711165835_浓度调整后明细表确认上机 .png' width=600 /></div>
+[2023-07-11 16:58:35,336] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整后明细表确认上机 
+[2023-07-11 16:58:35,518] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 17:02:32,349] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 17:02:32,367] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 17:02:32,513] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 17:02:32,522] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 17:02:36,131] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 17:02:36,172] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 17:02:36,219] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 17:02:36,896] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 17:02:37,509] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 17:02:40,134] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 17:02:47,740] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表批量数据录入、自动计算
+[2023-07-11 17:02:52,250] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 17:02:54,781] - logs.py[line:34] - fuc:__console- INFO:  批量数据
+[2023-07-11 17:02:56,837] - logs.py[line:34] - fuc:__console- INFO:  自动计算
+[2023-07-11 17:02:58,561] - logs.py[line:34] - fuc:__console- INFO:  保存
+[2023-07-11 17:03:02,385] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表确认上机
+[2023-07-11 17:03:02,388] - logs.py[line:34] - fuc:__console- INFO:  全选并点击确认上机
+[2023-07-11 17:03:07,225] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711170307_浓度调整后明细表确认上机 .png' width=600 /></div>
+[2023-07-11 17:03:07,228] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整后明细表确认上机 
+[2023-07-11 17:03:07,447] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 17:03:27,692] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表 生成samplesheet
+[2023-07-11 17:03:27,695] - logs.py[line:34] - fuc:__console- INFO:  全选并点击生成samplesheet
+[2023-07-11 17:03:35,596] - logs.py[line:34] - fuc:__console- INFO: 上机结果表完成任务单
+[2023-07-11 17:03:35,599] - logs.py[line:34] - fuc:__console- INFO:  上机结果表,点击完成任务单
+[2023-07-11 17:12:21,495] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 17:12:21,526] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 17:12:21,660] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 17:12:21,662] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 17:12:24,864] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 17:12:24,904] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 17:12:24,969] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 17:12:25,641] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 17:12:26,254] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 17:12:29,603] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 17:12:37,101] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表批量数据录入、自动计算
+[2023-07-11 17:12:37,105] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表 生成samplesheet
+[2023-07-11 17:12:37,108] - logs.py[line:34] - fuc:__console- INFO:  全选并点击生成samplesheet
+[2023-07-11 17:12:43,602] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表 提交
+[2023-07-11 17:12:47,792] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 17:12:51,092] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711171251_浓度调整后明细表 提交 .png' width=600 /></div>
+[2023-07-11 17:12:51,096] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整后明细表 提交 
+[2023-07-11 17:12:51,319] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 17:12:55,029] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表 入库
+[2023-07-11 17:12:56,965] - logs.py[line:34] - fuc:__console- INFO:  浓度调整后明细表，样本入库选择入样本盒
+[2023-07-11 17:13:05,222] - logs.py[line:34] - fuc:__console- INFO: 上机明细表，样本入库录入盒内位置
+[2023-07-11 17:13:07,221] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711171307_浓度调整后明细表入库 .png' width=600 /></div>
+[2023-07-11 17:13:07,225] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整后明细表入库 
+[2023-07-11 17:13:07,432] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 17:13:12,388] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入浓度调整后样本明细
+[2023-07-11 17:13:17,227] - logs.py[line:34] - fuc:__console- INFO: 上机结果表完成任务单
+[2023-07-11 17:13:17,230] - logs.py[line:34] - fuc:__console- INFO:  上机结果表,点击完成任务单
+[2023-07-11 17:13:20,916] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711171320_上机结果表完成任务单 .png' width=600 /></div>
+[2023-07-11 17:13:20,917] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：上机结果表完成任务单 
+[2023-07-11 17:13:21,090] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 17:18:08,496] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 17:18:08,564] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入上机页面
+[2023-07-11 17:18:08,565] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 17:18:08,703] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 17:18:08,704] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 17:18:12,763] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 17:18:12,799] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 17:18:12,856] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 17:18:13,547] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 17:18:14,156] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 17:18:16,779] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 17:18:26,508] - logs.py[line:34] - fuc:__console- INFO: 新建任务单，录入定量类型、任务描述、sop
+[2023-07-11 17:18:26,511] - logs.py[line:34] - fuc:__console- INFO: 上机首页，点击新建按钮，进入样本待选表，新增上机任务
+[2023-07-11 17:18:30,710] - logs.py[line:34] - fuc:__console- INFO: 录入上机批次号
+[2023-07-11 17:18:31,811] - logs.py[line:34] - fuc:__console- INFO: 选择测序仪
+[2023-07-11 17:18:40,322] - logs.py[line:34] - fuc:__console- INFO: 运行模式
+[2023-07-11 17:18:41,585] - logs.py[line:34] - fuc:__console- INFO: 实际上机时间
+[2023-07-11 17:18:42,682] - logs.py[line:34] - fuc:__console- INFO: 任务描述
+[2023-07-11 17:18:43,539] - logs.py[line:34] - fuc:__console- INFO:  选择上机SOP
+[2023-07-11 17:18:47,491] - logs.py[line:34] - fuc:__console- INFO: 选择 上机实验员
+[2023-07-11 17:18:52,435] - logs.py[line:34] - fuc:__console- INFO: 核对样本lims号并选中加入任务单
+[2023-07-11 17:18:52,438] - logs.py[line:34] - fuc:__console- INFO: 调用选择样本方法-----
+[2023-07-11 17:18:52,441] - logs.py[line:34] - fuc:__console- INFO:  从上一步流转Excel中获取上机样本号,根据样本lims号文本进行点击选择
+[2023-07-11 17:18:58,958] - logs.py[line:34] - fuc:__console- INFO:  选中核对后的样本，点击【加入选中样本&保存】
+[2023-07-11 17:18:59,053] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711171859_上机待选表选择样本加入并保存 .png' width=600 /></div>
+[2023-07-11 17:18:59,054] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：上机待选表选择样本加入并保存 
+[2023-07-11 17:18:59,422] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 17:19:02,864] - logs.py[line:34] - fuc:__console- INFO: 保存任务单，进入明细表
+[2023-07-11 17:19:03,008] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入上机浓度调整前明细表
+[2023-07-11 17:19:06,959] - logs.py[line:34] - fuc:__console- INFO: 上机浓度调整前明细表生成浓度调整前结果
+[2023-07-11 17:19:10,741] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711171910_浓度调整前明细表生成结果操作 .png' width=600 /></div>
+[2023-07-11 17:19:10,743] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整前明细表生成结果操作 
+[2023-07-11 17:19:10,938] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 17:19:11,444] - logs.py[line:34] - fuc:__console- INFO: 上机明细表提交
+[2023-07-11 17:19:11,448] - logs.py[line:34] - fuc:__console- INFO:  上机浓度调整前明细表样本提交
+[2023-07-11 17:19:12,785] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711171912_浓度调整前明细表提交操作 .png' width=600 /></div>
+[2023-07-11 17:19:12,787] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整前明细表提交操作 
+[2023-07-11 17:19:12,952] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 17:19:16,595] - logs.py[line:34] - fuc:__console- INFO: 上机明细表明细表入库
+[2023-07-11 17:19:16,598] - logs.py[line:34] - fuc:__console- INFO: 上机浓度调整前明细表，样本入库操作
+[2023-07-11 17:19:19,090] - logs.py[line:34] - fuc:__console- INFO: 上机明细表，样本入库选择入样本盒
+[2023-07-11 17:19:27,491] - logs.py[line:34] - fuc:__console- INFO: 上机明细表，样本入库录入盒内位置
+[2023-07-11 17:19:30,097] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711171930_浓度调整前明细表入库操作 .png' width=600 /></div>
+[2023-07-11 17:19:30,100] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整前明细表入库操作 
+[2023-07-11 17:19:30,303] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 17:19:34,797] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入浓度调整后样本明细
+[2023-07-11 17:19:38,757] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表批量数据录入、自动计算
+[2023-07-11 17:19:43,103] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 17:19:45,663] - logs.py[line:34] - fuc:__console- INFO:  批量数据
+[2023-07-11 17:19:47,836] - logs.py[line:34] - fuc:__console- INFO:  自动计算
+[2023-07-11 17:19:49,491] - logs.py[line:34] - fuc:__console- INFO:  保存
+[2023-07-11 17:19:53,212] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表确认上机
+[2023-07-11 17:19:53,216] - logs.py[line:34] - fuc:__console- INFO:  全选并点击确认上机
+[2023-07-11 17:19:57,895] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711171957_浓度调整后明细表确认上机 .png' width=600 /></div>
+[2023-07-11 17:19:57,900] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整后明细表确认上机 
+[2023-07-11 17:19:58,123] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 17:20:17,552] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表 生成samplesheet
+[2023-07-11 17:20:17,556] - logs.py[line:34] - fuc:__console- INFO:  全选并点击生成samplesheet
+[2023-07-11 17:20:24,197] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表 提交
+[2023-07-11 17:20:28,474] - logs.py[line:34] - fuc:__console- INFO: 页面刷新
+[2023-07-11 17:20:31,806] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711172031_浓度调整后明细表 提交 .png' width=600 /></div>
+[2023-07-11 17:20:31,810] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整后明细表 提交 
+[2023-07-11 17:20:31,992] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 17:20:35,661] - logs.py[line:34] - fuc:__console- INFO: 浓度调整后明细表 入库
+[2023-07-11 17:20:37,609] - logs.py[line:34] - fuc:__console- INFO:  浓度调整后明细表，样本入库选择入样本盒
+[2023-07-11 17:20:46,225] - logs.py[line:34] - fuc:__console- INFO: 上机明细表，样本入库录入盒内位置
+[2023-07-11 17:20:48,228] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711172048_浓度调整后明细表入库 .png' width=600 /></div>
+[2023-07-11 17:20:48,232] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：浓度调整后明细表入库 
+[2023-07-11 17:20:48,463] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 17:20:52,354] - logs.py[line:34] - fuc:__console- INFO: 点击按钮进入浓度调整后样本明细
+[2023-07-11 17:20:56,188] - logs.py[line:34] - fuc:__console- INFO: 上机结果表完成任务单
+[2023-07-11 17:20:56,190] - logs.py[line:34] - fuc:__console- INFO:  上机结果表,点击完成任务单
+[2023-07-11 17:20:59,900] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711172059_上机结果表完成任务单 .png' width=600 /></div>
+[2023-07-11 17:20:59,904] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：上机结果表完成任务单 
+[2023-07-11 17:21:00,083] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 19:16:26,152] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 19:16:26,178] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 19:16:26,316] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 19:16:26,399] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 19:16:29,668] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 19:16:29,682] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 19:16:29,728] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 19:16:30,415] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 19:16:31,039] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 19:16:33,634] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 19:16:44,590] - logs.py[line:34] - fuc:__console- INFO: 点击新建QPCR出库按钮
+[2023-07-11 19:16:44,747] - logs.py[line:34] - fuc:__console- INFO: 选择出库样本号，录入出库样本lims号
+[2023-07-11 19:16:44,749] - logs.py[line:34] - fuc:__console- INFO: 分别录入错误的和不录入样本号，进行检索
+[2023-07-11 19:16:48,032] - logs.py[line:34] - fuc:__console- INFO: 分别录入错误的和不录入样本号，进行检索
+[2023-07-11 19:16:52,689] - logs.py[line:34] - fuc:__console- INFO: 录入正确的出库样本号
+[2023-07-11 19:16:53,272] - logs.py[line:34] - fuc:__console- INFO: 点击新建QPCR出库按钮
+[2023-07-11 19:16:53,716] - logs.py[line:34] - fuc:__console- INFO: 选择出库样本号，录入出库样本lims号
+[2023-07-11 19:16:59,538] - logs.py[line:34] - fuc:__console- INFO: 选择QPCR菌种
+[2023-07-11 19:16:59,540] - logs.py[line:34] - fuc:__console- INFO: 为QPCR样本选择QPCR检测菌种
+[2023-07-11 19:17:06,545] - logs.py[line:34] - fuc:__console- INFO: 为QPCR样本出库填写出库理由
+[2023-07-11 19:17:12,123] - logs.py[line:34] - fuc:__console- INFO: 出库成功页面跳转到流转表样本出库节点
+[2023-07-11 19:17:12,147] - logs.py[line:34] - fuc:__console- INFO: 关闭页面
+[2023-07-11 19:18:24,461] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 19:18:24,466] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入报告发送页面
+[2023-07-11 19:18:24,467] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 19:18:24,612] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 19:18:24,613] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 19:18:28,134] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 19:18:28,150] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 19:18:28,202] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 19:18:28,897] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 19:18:29,519] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 19:18:32,123] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 19:18:43,450] - logs.py[line:34] - fuc:__console- INFO: 根据订单号查询
+[2023-07-11 19:18:43,455] - logs.py[line:34] - fuc:__console- INFO: 按订单号搜索:81180098
+[2023-07-11 19:18:53,015] - logs.py[line:34] - fuc:__console- INFO: 标记QPCR复检任务
+[2023-07-11 19:18:53,025] - logs.py[line:34] - fuc:__console- INFO: 从yaml文件读取接样模块存入的原始样本实验室号：BJ237A0017
+[2023-07-11 19:18:53,028] - logs.py[line:34] - fuc:__console- INFO: 标记qpcr复检样本
+[2023-07-11 19:18:59,115] - logs.py[line:34] - fuc:__console- INFO: 选择报告形式
+[2023-07-11 19:18:59,116] - logs.py[line:34] - fuc:__console- INFO: 选择报告形式
+[2023-07-11 19:21:59,923] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 19:21:59,929] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 19:22:00,106] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 19:22:00,107] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 19:22:03,915] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 19:22:03,932] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 19:22:03,971] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 19:22:04,579] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 19:22:05,170] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 19:22:07,785] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 19:22:13,600] - logs.py[line:34] - fuc:__console- INFO: 进入QPCR复检页面
+[2023-07-11 19:22:18,858] - logs.py[line:34] - fuc:__console- INFO: 新建qpcr迪讯康复检任务
+[2023-07-11 19:22:18,859] - logs.py[line:34] - fuc:__console- INFO: 新增qpcr任务
+[2023-07-11 19:22:23,294] - logs.py[line:34] - fuc:__console- INFO: 待选表选择迪讯康任务类型
+[2023-07-11 19:22:23,296] - logs.py[line:34] - fuc:__console- INFO: 获取qpcr任务lims号
+[2023-07-11 19:22:23,339] - logs.py[line:34] - fuc:__console- INFO: 选择任务类型：2
+[2023-07-11 19:22:24,054] - logs.py[line:34] - fuc:__console- INFO: 选择sop
+[2023-07-11 19:22:25,502] - logs.py[line:34] - fuc:__console- INFO: 核对lims样本号
+[2023-07-11 19:24:36,521] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 19:24:36,526] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入报告编写任务分配页面
+[2023-07-11 19:24:36,527] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 19:24:36,657] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 19:24:36,687] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 19:24:40,822] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 19:24:40,847] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 19:24:40,888] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 19:24:41,568] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 19:24:42,203] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 19:24:44,841] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 19:24:56,281] - logs.py[line:34] - fuc:__console- INFO: 按项目号搜索
+[2023-07-11 19:24:56,283] - logs.py[line:34] - fuc:__console- INFO: 根据项目号搜索
+[2023-07-11 19:24:59,101] - logs.py[line:34] - fuc:__console- INFO: 按预计实验日期查询
+[2023-07-11 19:24:59,103] - logs.py[line:34] - fuc:__console- INFO: 按预计实验日期查询
+[2023-07-11 19:25:04,022] - logs.py[line:34] - fuc:__console- INFO: 按订单号搜索
+[2023-07-11 19:25:04,023] - logs.py[line:34] - fuc:__console- INFO: 按订单号搜索
+[2023-07-11 19:25:14,357] - logs.py[line:34] - fuc:__console- INFO: 按订单号搜索
+[2023-07-11 19:43:35,822] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 19:43:35,828] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入报告编写任务分配页面
+[2023-07-11 19:43:35,829] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 19:43:35,970] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 19:43:36,081] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 19:43:40,443] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 19:43:40,465] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 19:43:40,521] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 19:43:41,224] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 19:43:41,851] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 19:43:44,469] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 19:43:56,245] - logs.py[line:34] - fuc:__console- INFO: 按项目号搜索
+[2023-07-11 19:43:56,247] - logs.py[line:34] - fuc:__console- INFO: 根据项目号搜索
+[2023-07-11 19:43:59,048] - logs.py[line:34] - fuc:__console- INFO: 按预计实验日期查询
+[2023-07-11 19:43:59,049] - logs.py[line:34] - fuc:__console- INFO: 按预计实验日期查询
+[2023-07-11 19:44:03,905] - logs.py[line:34] - fuc:__console- INFO: 按订单号搜索
+[2023-07-11 19:44:03,907] - logs.py[line:34] - fuc:__console- INFO: 按订单号搜索
+[2023-07-11 19:44:08,623] - logs.py[line:34] - fuc:__console- INFO: 按订单号搜索
+[2023-07-11 19:44:13,269] - logs.py[line:34] - fuc:__console- INFO: 选择编写人
+[2023-07-11 19:44:13,270] - logs.py[line:34] - fuc:__console- INFO: 批量选择编写人
+[2023-07-11 19:44:17,214] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711194417_报告编写任务分配,批量选择编写人.png' width=600 /></div>
+[2023-07-11 19:44:17,215] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：报告编写任务分配,批量选择编写人
+[2023-07-11 19:44:17,503] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 19:44:20,590] - logs.py[line:34] - fuc:__console- INFO: 选择审核人
+[2023-07-11 19:44:20,593] - logs.py[line:34] - fuc:__console- INFO: 批量选择初审人
+[2023-07-11 19:44:24,001] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711194424_报告编写任务分配,批量选择初审人.png' width=600 /></div>
+[2023-07-11 19:44:24,002] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：报告编写任务分配,批量选择初审人
+[2023-07-11 19:44:24,214] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 19:44:47,206] - logs.py[line:34] - fuc:__console- INFO: ------TestCase Start!------
+[2023-07-11 19:44:47,216] - logs.py[line:34] - fuc:__console- INFO: 登录系统，进入报告发送页面
+[2023-07-11 19:44:47,217] - logs.py[line:34] - fuc:__console- INFO: 打开浏览器
+[2023-07-11 19:44:47,358] - logs.py[line:34] - fuc:__console- INFO: 最大化浏览器
+[2023-07-11 19:44:47,359] - logs.py[line:34] - fuc:__console- INFO: 访问地址
+[2023-07-11 19:44:51,499] - logs.py[line:34] - fuc:__console- INFO: 切换登录方式为账号密码登录
+[2023-07-11 19:44:51,515] - logs.py[line:34] - fuc:__console- INFO: 清空输入框信息
+[2023-07-11 19:44:51,564] - logs.py[line:34] - fuc:__console- INFO: 输入账号：guoqi.dong
+[2023-07-11 19:44:52,278] - logs.py[line:34] - fuc:__console- INFO: 输入密码：Ddgq123
+[2023-07-11 19:44:52,909] - logs.py[line:34] - fuc:__console- INFO: 点击登录按钮
+[2023-07-11 19:44:55,549] - logs.py[line:34] - fuc:__console- INFO: 登录后选择城市
+[2023-07-11 19:45:07,151] - logs.py[line:34] - fuc:__console- INFO: 根据订单号查询
+[2023-07-11 19:45:07,155] - logs.py[line:34] - fuc:__console- INFO: 按订单号搜索:81180097
+[2023-07-11 19:45:11,282] - logs.py[line:34] - fuc:__console- INFO: 标记QPCR复检任务
+[2023-07-11 19:45:11,287] - logs.py[line:34] - fuc:__console- INFO: 从yaml文件读取接样模块存入的原始样本实验室号：BJ237A0017
+[2023-07-11 19:45:11,288] - logs.py[line:34] - fuc:__console- INFO: 标记qpcr复检样本
+[2023-07-11 19:45:19,756] - logs.py[line:34] - fuc:__console- INFO: 选择报告形式
+[2023-07-11 19:45:19,757] - logs.py[line:34] - fuc:__console- INFO: 选择报告形式
+[2023-07-11 19:45:24,645] - logs.py[line:34] - fuc:__console- INFO: 上传报告文件
+[2023-07-11 19:45:24,647] - logs.py[line:34] - fuc:__console- INFO: 上传报告文件
+[2023-07-11 19:45:28,860] - logs.py[line:34] - fuc:__console- INFO: 获取页面提示信息
+[2023-07-11 19:45:29,714] - logs.py[line:34] - fuc:__console- INFO: 上传报告文件上传成功
+[2023-07-11 19:45:30,730] - logs.py[line:34] - fuc:__console- INFO: 上传解读文件
+[2023-07-11 19:45:30,836] - logs.py[line:34] - fuc:__console- INFO: 获取页面提示信息
+[2023-07-11 19:45:30,939] - logs.py[line:34] - fuc:__console- INFO: 上传解读文件上传成功
+[2023-07-11 19:45:30,940] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711194530_报告上传，上传解读文件.png' width=600 /></div>
+[2023-07-11 19:45:30,941] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：报告上传，上传解读文件
+[2023-07-11 19:45:31,252] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 19:45:32,259] - logs.py[line:34] - fuc:__console- INFO: 上传其他文件
+[2023-07-11 19:45:32,343] - logs.py[line:34] - fuc:__console- INFO: 获取页面提示信息
+[2023-07-11 19:45:38,524] - logs.py[line:34] - fuc:__console- INFO: <div><img src='C:\Users\admin\Desktop\工作文件夹\自动化文档\正式脚本\迪飞LIMS脚本\DFei_LIMS\output\img\20230711194538_报告上传，上传其他文件.png' width=600 /></div>
+[2023-07-11 19:45:38,526] - logs.py[line:34] - fuc:__console- INFO: 此步骤的描述信息为：报告上传，上传其他文件
+[2023-07-11 19:45:38,708] - logs.py[line:34] - fuc:__console- INFO: 截图保存成功
+[2023-07-11 19:45:40,843] - logs.py[line:34] - fuc:__console- INFO: 新建QPCR复检任务
+[2023-07-11 19:45:40,844] - logs.py[line:34] - fuc:__console- INFO: 新建QPCR复检任务
+[2023-07-11 19:45:43,983] - logs.py[line:34] - fuc:__console- INFO: 新建QPCR复检任务,选择当日批次
