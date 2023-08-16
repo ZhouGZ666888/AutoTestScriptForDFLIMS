@@ -162,7 +162,7 @@ class SampleReceivePage(BasePage):
 
         lists = self.findelements('css', all_samples)
         print("统计新增样本总数：",len(lists))
-        if lists:
+        try:
             tips = 0  # 计数器
             for sampleType, num in specimen_list.items():  # 从字典取值，样本类型以及对应的要添加的数量
                 if sampleType == 'DNA':  # 跟据取值依次判断
@@ -172,6 +172,8 @@ class SampleReceivePage(BasePage):
                 elif sampleType == 'DNA+耐药':
                     choice_reportType(sampleType)
                 tips += num  # 每次循环取不同样本，所以各样本数量相加，取其排序下标，在页面中根据对应下标进行定位
+        except Exception as a :
+            log.error('设置样本类型错误%s'%a)
         self.sleep(1)
 
         # 这里调用自定义截图方法
