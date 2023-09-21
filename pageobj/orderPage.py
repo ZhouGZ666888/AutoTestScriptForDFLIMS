@@ -159,6 +159,7 @@ class OrderPage(BasePage):
         self.clicks('css', pay_style)
         self.clicks('xpath', pay_style_choice)
 
+
     def save_add_order(self):
         """保存订单"""
         log.info('保存订单')
