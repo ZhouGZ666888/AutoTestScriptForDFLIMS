@@ -77,7 +77,7 @@ class ReportUploadPage(BasePage):
 
     def reportStyle(self):
         """选择报告形式"""
-        log.info("选择报告形式")
+        print("选择报告形式")
         print(ReportUploadPage.tips)
         print(report_style_form.format(ReportUploadPage.tips))
 
@@ -103,7 +103,7 @@ class ReportUploadPage(BasePage):
         wb.save(excel_doc_file_path + '/' + '{}.xlsx'.format(file_name))  # 保存文件
         report_file_path = os.path.abspath(excel_doc_file_path + '/' + '{}.xlsx'.format(file_name))
 
-        log.info("上传报告文件")
+        print("上传报告文件")
         self.click_by_js('css', report_file_edit.format(ReportUploadPage.tips))  # 点击报告文件编辑按钮
         self.wait_loading()
         # 上传报告文件

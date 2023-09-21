@@ -79,7 +79,7 @@ sample_style_choice='//*[@class="el-select-dropdown el-popper"]/descendant::li[c
 qpcr_task_type='.qpcrReCheckDialog-form-taskType input'
 
 #复检任务类型选择
-qpcr_task_type_choice1='//span[contains(text(),"原始26菌种")]'
+qpcr_task_type_choice1='//span[contains(text(),"单物种")]'
 qpcr_task_type_choice2='//span[contains(text(),"甲乙流")]'
 qpcr_task_type_choice3='//span[contains(text(),"新冠")]'
 qpcr_task_type_choice4='//span[contains(text(),"呼六")]'
