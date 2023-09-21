@@ -66,6 +66,10 @@ runningMode_choice = (
 seqStartTime = (
     '.sequencingDetail-form-seqStartTime input')
 
+
+#samplesheet名称
+samplesheetname='.sequencingDetail-form-sampleSheetName input'
+
 # 任务描述
 task_des = (
     '.sequencingDetail-form-taskDesc input')
@@ -108,6 +112,9 @@ lims_number1 = (
 # 加入选中&保存按钮，元素定位
 addSelect_or_save_btn = (
     '.commonTaskDetail-commonTaskDetailBtn-submit')
+
+# 任务单号
+task_id='.el-card__header span:nth-child(1)'
 
 # 进入明细表按钮，元素定位
 enter_detail_list_btn = (
@@ -293,11 +300,14 @@ after_concentration_adjustment_input_samplesheet_name_confirm='//*[@aria-label="
 
 # 浓度调整后明细表生成Samplesheet弹框选择模板（默认【Hiseq4000 | Hiseq X | Novaseq XP模式双标签】）
 after_concentration_adjustment_create_samplesheet_choice = (
-    '//div[contains(text(),"XP模式双标签")]')
+    '//div[contains(text(),"Standard模式双标签")]')
 
 # 浓度调整后明细表生成Samplesheet弹框确认按钮
 after_concentration_adjustment_create_samplesheet_comfirm = (
     '.dialog-sheetTpl .el-dialog__footer .baseClass-btn-confirm')
+
+# 生成samplesheet后提示弹框
+tips='.dialog-visible1 .el-dialog__footer .baseClass-btn-confirm'
 
 # 浓度调整后明细表保存
 after_concentration_adjustment_save = (
@@ -317,7 +327,7 @@ after_concentration_adjustment_deposit_into_Storage = (
 
 # 提交状态表单定位
 after_concentration_sumbit_status = (
-    '.vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td:nth-child(14)')
+    '.vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td:nth-child(15)')
 
 # 浓度调整后明细表进入结果表按钮
 after_concentration_adjustment_submit_enter_the_result_list = (
@@ -338,7 +348,7 @@ after_concentration_adjustment_submit_enter_the_result_list = (
 result_submit_result_btn = (
     '.createTask .qcResult-btn-importResult')
 
-# 结果表上传结果弹框上传标签
+# 结果表[上传结果]弹框上传标签
 result_samples_number = (
     '.dialog-upload .el-dialog__body .upload-demo input')
 

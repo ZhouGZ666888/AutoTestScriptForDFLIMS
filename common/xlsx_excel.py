@@ -39,7 +39,7 @@ def get_lims_for_excel_by_col(path):
     """
     sample_nub = read_excel_col(path, 'lims号')
     lims_id_str = "\n".join(sample_nub)
-    # print(lims_id_str)
+    print(lims_id_str)
     return lims_id_str
 
 

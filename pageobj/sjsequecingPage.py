@@ -11,7 +11,7 @@ from common.DataBaseConnection import executeSql
 from common.xlsx_excel import read_excel_col, pandas_write_excel
 from PageElements.sj_sequecing_ele import *
 from conf.all_path import sj_file_path, functionpageURL_path, position_in_box_path, qpcr_task_refresh_sql, \
-    sj_fc_quality_control_result
+    sj_fc_quality_control_result, sampledata_path
 from conf.execute_sql_action import *
 from uitestframework.basepageTools import BasePage
 from uitestframework.exceptionsTools import NotFoundError, MyBaseFailure
@@ -81,6 +81,10 @@ class SjSequecingPage(BasePage):
 
         log.info("实际上机时间")
         self.input('css', seqStartTime, str_time)
+        self.sleep(0.5)
+
+        log.info("samplesheet名称")
+        self.input('css', samplesheetname, time.strftime("%m_%d")+'_samplesheet')
         self.sleep(0.5)
 
         log.info("任务描述")
@@ -173,6 +177,11 @@ class SjSequecingPage(BasePage):
 
         pageinfo = self.get_pageinfo()
         self.wait_loading()
+        # 获取上机任务单号，在samplesheet模块查询使用
+        taskid = self.get_text('css', task_id)
+        sampledata = editYaml.read_yaml(sampledata_path)
+        sampledata['sj_taskid'] = taskid[5:].strip()
+        editYaml.save_yaml(sampledata_path, sampledata)
         return pageinfo
 
     # 进入明细表或结果表
@@ -355,13 +364,16 @@ class SjSequecingPage(BasePage):
         self.clicks('css', after_concentration_adjustment_all_choice)  # 全选样本
         self.sleep(0.5)
         self.clicks('css', after_concentration_adjustment_create_samplesheet)  # 点击生成samplesheet按钮
-        self.input('css', after_concentration_adjustment_input_samplesheet_name, 'AutoTestByIT')  # 录入samplesheet名称
-        self.clicks('xpath', after_concentration_adjustment_input_samplesheet_name_confirm)  #
         self.sleep(1)
         self.clicks('xpath', after_concentration_adjustment_create_samplesheet_choice)  # 选择samplesheet模板
         self.sleep(1)
         self.clicks('css', after_concentration_adjustment_create_samplesheet_comfirm)
         self.wait_loading()
+        try:
+            if self.isDisplayed('css', tips):
+                self.clicks('css', tips)
+        except:
+            self.refresh()
 
     # 浓度调整后明细表 提交
     def detail_after_concentration_adjustment_submit(self):

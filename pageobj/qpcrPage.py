@@ -149,7 +149,7 @@ class QpcrPage(BasePage):
             log.info('QPCR明细表，样本入库批量粘贴盒内位置')
             taskstatus = self.get_text('css', detail_task_id)  # 获取任务单号
             lims_id = executeSql.test_select_limsdb(
-                qpcr_sql.format(taskstatus.strip()[-18:]) ) # 从数据库获取当前任务单号下样本lims号
+                qpcr_sql.format(taskstatus.strip()[-18:]))  # 从数据库获取当前任务单号下样本lims号
 
             lims_list = [item[key] for item in lims_id for key in item]  # 把获取的lims号转换为一维列表
             nub_list = [str(i) for i in range(1, len(lims_list) + 1)]  # 根据lims样本数量，生成数字列表，作为盒内位置编号用
@@ -207,7 +207,7 @@ class QpcrPage(BasePage):
         # 获取总打开Excel文件总行数
         table1 = wb.worksheets[0]
         nrows = table1.max_row
-        print(nrows)
+        print('复孔信息文件行数', nrows)
         # 把Cq值、Melt Peck值（实测）写入复孔文件
         for i in range(1, nrows):
             k = i + 1

@@ -161,6 +161,17 @@ class EnterTab(BasePage):
             raise ElementNotFound(e)
 
     @retry(stop_max_attempt_number=2)
+    def enter_samplesheet(self):
+        """点击在线samplesheet封装"""
+        try:
+            self.clicks('xpath', "//span[contains(text(),'在线samplesheet')]")
+            self.wait_loading()
+        except Exception as e:
+            log.warning("无法进入在线samplesheet")
+            raise ElementNotFound(e)
+
+
+    @retry(stop_max_attempt_number=2)
     def enter_storage_center(self):
         """点击样本库位管理tab封装"""
         try:

@@ -144,6 +144,9 @@ submit_comfirm = (
 #明细表自动计算
 automatic='//span[text()="自动计算"]'
 
+#自动计算规则不完整提示
+tips='.el-message-box__wrapper .el-message-box__btns button'
+
 # 生成结果状态表单展示
 result_status='.createTask_content .vxe-editable .vxe-table--main-wrapper .vxe-table--body-wrapper table tbody ' \
               'tr:nth-child(1) td:nth-child(42)'

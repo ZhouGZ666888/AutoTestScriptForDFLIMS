@@ -163,7 +163,7 @@ t.sample_status IS NULL AND workflow_status ='02'"""
 lzb_get_sql5 = """SELECT t.sample_id_lims FROM sample_info_t t WHERE t.sample_id_lims LIKE 'FJ%' AND t.sample_status ='01' AND workflow_status ='01'"""
 lzb_get_sql6 = """SELECT t.sample_id_lims FROM sample_info_t t WHERE t.sample_id_lims LIKE 'ZC%' AND t.sample_status ='01' AND workflow_status ='01'"""
 lzb_get_sql7="SELECT original_sample_id_lims as sampleidlims from  sample_info_t WHERE current_step = '{}' AND " \
-             "workflow_status = '04'AND sample_status IS NULL;"
+             "workflow_status = '04'AND sample_status IS NULL order by creation_date desc;"
 # 通过系统检索出，库内的样本
 ybck_get_sql5 = """SELECT t.sample_id_lims FROM sample_info_t t WHERE t.sample_id_lims LIKE 'GS%' AND t.sample_status ='01' AND workflow_status ='01'"""
 

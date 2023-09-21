@@ -206,11 +206,12 @@ class LibraryenrichmentPage(BasePage):
         self.sleep(0.5)
         log.info("富集明细表自动计算")
         self.clicks('xpath', automatic)  # 自动计算
-        log.info("富集明细表保存页面数据操作")
         self.sleep(0.5)
+        if self.isDisplayed('css','el-message-box__wrapper'):
+            self.clicks('css',tips)
+        log.info("富集明细表保存页面数据操作")
         self.clicks('css', detail_save_result)
         self.wait_loading()
-        self.sleep(1)
 
     # 明细表生成结果，保存数据
     def detail_create_result(self):

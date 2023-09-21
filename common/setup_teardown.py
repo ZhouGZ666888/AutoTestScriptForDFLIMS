@@ -50,5 +50,5 @@ class MyTest(unittest.TestCase):
         cls.basepage.wait_loading()
 
         # 调试用
-        # cls.driver.close()
-        # cls.driver.quit()
+        cls.driver.close()
+        cls.driver.quit()

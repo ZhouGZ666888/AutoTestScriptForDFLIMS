@@ -233,7 +233,6 @@ class BasePage:
         :param element_loc:
         :return:True or False
         """
-
         try:
             if self.isElementExists(ele_type, element_loc):
                 element = self.findelement(ele_type, element_loc)
