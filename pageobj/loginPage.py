@@ -107,7 +107,6 @@ class LoginPage(BasePage):
         :param name: 登录用户名
         """
         self.explorer_console()
-        log.info('登录用户%s'%name)
         self.login_single(name)
 
     def witchUsers(self, name):
@@ -115,7 +114,6 @@ class LoginPage(BasePage):
         登录功能
         :param name: 登录用户名
         """
-        log.info('登录用户%s' % name)
         self.login_single(name)
 
 

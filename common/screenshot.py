@@ -17,7 +17,7 @@ class Screenshot:
 
         screen_name = os.path.join(os.path.join(img_path),
                                    time.strftime('%Y%m%d%H%M%S', time.localtime(time.time())) + '_' + str(
-                                       desc) + '.png')  # #每个图片的路径
+                                       desc+'预期结果见下图：') + '.png')  # #每个图片的路径
         log.info("<div><img src='" + screen_name + "' width=600 /></div>")  # 这行代码必须加，如果不加，截图正常，但是无法正常加到报告中，
         # 所以这里我们加上新增页签，beautifulreport方法就是无脑读print日志的,<div>是换行作用
         log.info("此步骤的描述信息为：" + str(desc))
