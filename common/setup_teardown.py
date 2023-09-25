@@ -46,8 +46,8 @@ class MyTest(unittest.TestCase):
     @classmethod
     def tearDownClass(cls, driver=dr):
         cls.driver = driver
-        cls.driver.refresh()
-        cls.basepage.wait_loading()
+        cls.basepage = BasePage(cls.driver)
+        cls.basepage.refresh()
 
         # 调试用
         # cls.driver.close()
