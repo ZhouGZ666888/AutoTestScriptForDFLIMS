@@ -21,7 +21,7 @@ class MyTest(unittest.TestCase):
     options = webdriver.ChromeOptions()
 
     prefs = {"profile.default_content_settings.popups": 0,
-        "download.default_directory": excel_doc_file_path}# 0禁止弹出下载窗口， download.default_directory设置下载路径
+             "download.default_directory": excel_doc_file_path}  # 0禁止弹出下载窗口， download.default_directory设置下载路径
     options.add_experimental_option("prefs", prefs)
     dr = webdriver.Chrome(chrome_options=options)
 
@@ -47,7 +47,10 @@ class MyTest(unittest.TestCase):
     def tearDownClass(cls, driver=dr):
         cls.driver = driver
         cls.basepage = BasePage(cls.driver)
-        cls.basepage.refresh()
+        try:
+            cls.basepage.refresh()
+        except Exception as a:
+            log.info("TESTING END!")
 
         # 调试用
         # cls.driver.close()

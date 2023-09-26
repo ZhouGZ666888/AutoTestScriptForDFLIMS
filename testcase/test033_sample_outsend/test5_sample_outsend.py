@@ -24,7 +24,6 @@ class SampleOutSend(MyTest):
         self.sos.add_sample_to_task()
         log.info('样本外送明细表处理、提交审核')
         task_statue = self.sos.outsend_detail_edit()
-
         self.assertEqual(task_statue, '待部门审核', "提交审核失败")
 
     def test02_task_for_review(self):
@@ -32,7 +31,6 @@ class SampleOutSend(MyTest):
         log.info('切换用户进行数据修改审批')
         self.sos.batch_submit_for_review()
         self.login_action('guanzhong.zhou')
-        # EnterTab.enter_unresolve_job(self.basepage)
 
         log.info(' 部门审核人角色审核任务单')
         task_statue1, task_statue2 = self.sos.task_for_review()
