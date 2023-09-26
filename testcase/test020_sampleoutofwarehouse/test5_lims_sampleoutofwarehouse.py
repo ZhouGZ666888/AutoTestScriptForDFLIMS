@@ -7,7 +7,7 @@ import re
 import unittest
 import ddt
 from common.xlsx_excel import get_lims_for_excel_by_rows
-from conf.all_path import wkgj_file_path
+from conf.all_path import  wkfj_file_path
 from pageobj.sampleOutOfWarehouse import GetSampleCK
 from conf.enter_tab import EnterTab
 from common.logs import log
@@ -53,8 +53,7 @@ class SampleCK(MyTest):
         测试录入正确的QPCR样本号并正常出库流程
         """
         log.info('录入正确的出库样本号')
-        # sample_lims = get_lims_for_excel_by_rows(wkgj_file_path, 0, -5, 'lims号')
-        otherNub = get_lims_for_excel_by_rows(wkgj_file_path, 0, -5, 'lims号')  # 其他类型样本号
+        otherNub = get_lims_for_excel_by_rows(wkfj_file_path, 0, 1, 'lims号')  # 其他类型样本号
         self.ybck.process_error_sample()
         self.ybck.add_qpcrSample_ck()
         self.ybck.search_sample(otherNub)
