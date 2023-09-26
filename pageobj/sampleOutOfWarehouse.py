@@ -48,7 +48,9 @@ class GetSampleCK(BasePage):
         log.info("为QPCR样本选择QPCR检测菌种")
         self.sleep(1)
         self.clicks('css', get_table)
+        self.sleep(0.5)
         self.clicks('css', qpcr_all_chioce)
+        self.sleep(0.5)
         self.clicks('css', qpcr_check_bacteria_btn)  # QPCR检测菌种选择按钮
         # 选择两个菌种
         for i in range(1, 3):

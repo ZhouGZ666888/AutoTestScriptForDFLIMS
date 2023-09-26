@@ -153,7 +153,8 @@ before_concentration_adjustment_next = (
 
 # 提交状态表单定位
 before_concentration_sumbit_status = (
-    '.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td:nth-child(11)')
+    '.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td:nth-child('
+    '10)')
 
 # /************************入库******************************************************************************
 
