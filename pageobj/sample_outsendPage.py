@@ -6,7 +6,7 @@ from common.editYaml import read_yaml, save_yaml
 from common.screenshot import Screenshot
 from common.xlsx_excel import read_excel_col
 from PageElements.sample_outsend_ele import *
-from conf.all_path import wkfj_file_path, functionpageURL_path, sampleOutDataFile
+from conf.all_path import wkfj_file_path, functionpageURL_path, sampleOutDataFile, hstq_file_path_mNGS
 from uitestframework.basepageTools import BasePage
 from common.logs import log
 
@@ -88,7 +88,7 @@ class SampleOutSendPage(BasePage):
         样本外送审核操作
         """
         log.info('从实验模块-取核酸提取结果表样本数据当做外送样本')
-        lims_nub = read_excel_col(wkfj_file_path, 'lims号')
+        lims_nub = read_excel_col(hstq_file_path_mNGS, 'lims号')
 
         lims_id_str = "\n".join(lims_nub[:2])  # 取出Excel表中前两个样本，拼接成字符串录入到检索文本中
         print(lims_id_str)
@@ -159,9 +159,8 @@ class SampleOutSendPage(BasePage):
         """
         # 进入代办页面
 
-        if self.isElementExists('css', outsendsample_tab):
-            self.clicks('css', outsendsample_tab)
-
+        self.clicks('css', outsendsample_tab)
+        self.sleep(0.5)
         log.info("进入样本外送待办tab页,点击进入按钮")
         self.clicks('css', outsend_review_btn)
         self.sleep(0.5)
@@ -174,7 +173,6 @@ class SampleOutSendPage(BasePage):
                 # 切换到新窗口句柄，即新打开的页面
                 self.close()
                 self.switch_to_window(handle)
-                self.wait_loading()
         self.sleep(0.5)
 
         # 这里调用自定义截图方法
@@ -183,14 +181,12 @@ class SampleOutSendPage(BasePage):
         log.info('点击完成审核')
         self.clicks('css', finishAudit_btn)
         self.wait_loading()
-        self.sleep(0.5)
         Screenshot(self.driver).get_img("样本外送审核")
 
-        log.info('获取审核后的申请单号和状态')
+
         application_num = self.get_text('css', detail_task_id)
         application_status1 = self.get_text('css', detail_task_status)  # 取样中
-        print(application_status1)
-        print(application_num)
+        log.info('获取审核后的申请单号%s和状态%s',application_status1,application_num)
 
         log.info('点击完成取样确认')
         self.clicks('css', check_btn)

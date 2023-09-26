@@ -32,7 +32,7 @@ class SampleOutSend(MyTest):
         log.info('切换用户进行数据修改审批')
         self.sos.batch_submit_for_review()
         self.login_action('guanzhong.zhou')
-        EnterTab.enter_unresolve_job(self.basepage)
+        # EnterTab.enter_unresolve_job(self.basepage)
 
         log.info(' 部门审核人角色审核任务单')
         task_statue1, task_statue2 = self.sos.task_for_review()
