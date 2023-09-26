@@ -21,7 +21,7 @@ class MyTest(unittest.TestCase):
     options = webdriver.ChromeOptions()
 
     prefs = {"profile.default_content_settings.popups": 0,
-        "download.default_directory": excel_doc_file_path}# 0禁止弹出下载窗口， download.default_directory设置下载路径
+             "download.default_directory": excel_doc_file_path}  # 0禁止弹出下载窗口， download.default_directory设置下载路径
     options.add_experimental_option("prefs", prefs)
     dr = webdriver.Chrome(chrome_options=options)
 
@@ -36,7 +36,7 @@ class MyTest(unittest.TestCase):
     # 登录功能封装，调试用
     def initialize(self):
         # self.lg.login_console('guoqi.dong')
-        self.lg.login_console('guanzhong.zhou')
+        # self.lg.login_console('guanzhong.zhou')
         pass
 
     # 单个登录功能,接样审批切换用户时调用
@@ -46,9 +46,12 @@ class MyTest(unittest.TestCase):
     @classmethod
     def tearDownClass(cls, driver=dr):
         cls.driver = driver
-        cls.driver.refresh()
-        cls.basepage.wait_loading()
+        cls.basepage = BasePage(cls.driver)
+        try:
+            cls.basepage.refresh()
+        except Exception as a:
+            log.info("TESTING END!")
 
         # 调试用
-        cls.driver.close()
-        cls.driver.quit()
+        # cls.driver.close()
+        # cls.driver.quit()

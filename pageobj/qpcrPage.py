@@ -11,7 +11,7 @@ from common.xlsx_excel import pandas_write_excel, read_excel_col, get_lims_for_e
 from common.screenshot import Screenshot
 from PageElements.qpcr_ele import *
 from conf.all_path import qpcr_dxk_file_path, wkgj_file_path, functionpageURL_path, \
-    position_in_box_path, excel_doc_file_path, mNGTaskSampleId
+    position_in_box_path, excel_doc_file_path, mNGTaskSampleId, wkfj_file_path
 from conf.execute_sql_action import qpcr_sql
 from uitestframework.basepageTools import BasePage
 from common.logs import log
@@ -55,7 +55,7 @@ class QpcrPage(BasePage):
                 print(limsnub)
                 self.input('css', check_lims_sample_number_textarea, limsnub)
             elif taskType == '其他':
-                otherNub = get_lims_for_excel_by_rows(wkgj_file_path, 0, -5, 'lims号')  # 其他类型样本号
+                otherNub = get_lims_for_excel_by_rows(wkfj_file_path, 0, 1, 'lims号')  # 其他类型样本号
                 print(otherNub)
                 self.input('css', check_lims_sample_number_textarea, otherNub)
             self.clicks('xpath', check_lims_sample_number_confirm)

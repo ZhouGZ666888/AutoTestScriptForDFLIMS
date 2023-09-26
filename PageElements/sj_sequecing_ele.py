@@ -153,7 +153,8 @@ before_concentration_adjustment_next = (
 
 # 提交状态表单定位
 before_concentration_sumbit_status = (
-    '.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td:nth-child(11)')
+    '.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td:nth-child('
+    '10)')
 
 # /************************入库******************************************************************************
 
@@ -327,7 +328,7 @@ after_concentration_adjustment_deposit_into_Storage = (
 
 # 提交状态表单定位
 after_concentration_sumbit_status = (
-    '.vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td:nth-child(14)')
+    '.vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) .sequencingResults-tableCol-submitStatus')
 
 # 浓度调整后明细表进入结果表按钮
 after_concentration_adjustment_submit_enter_the_result_list = (

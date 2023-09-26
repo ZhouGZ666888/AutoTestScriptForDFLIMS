@@ -179,7 +179,7 @@ class ReportUploadPage(BasePage):
         self.sleep(0.5)
         self.clicks('xpath', sample_style_choice)
 
-        log.info("新建QPCR复检任务,选择复检任务类型")
+        log.info("新建QPCR复检任务,选择复检任务类型：单物种")
         self.clicks('css', qpcr_task_type)
         self.sleep(0.5)
         self.clicks('xpath', qpcr_task_type_choice1)

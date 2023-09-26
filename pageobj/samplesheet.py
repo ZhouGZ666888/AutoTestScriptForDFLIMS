@@ -63,9 +63,9 @@ class SampleSheetPage(BasePage):
         """保存&生成新版本"""
         log.info("samplesheet生成新版本")
         self.clicks('css', save_generate_new_version)
-        self.sleep(1)
+        self.sleep(2)  # 等待上个页面提示信息消失
         self.input('css', reason_for_modification, 'new_version')
-        self.sleep(1)
+        self.sleep(0.5)
         Screenshot(self.driver).get_img("预期结果：打开samplesheet生成新版本弹框，实际结果如下图：")
         self.clicks('css', reason_for_modification_confirn)
         info = self.get_save_info()

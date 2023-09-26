@@ -20,13 +20,13 @@ qpcr_sample_input = '.dialog-text-input .textInputDialog-form-packet textarea'
 qpcr_sample_input_confirm = '.dialog-text-input .el-dialog__footer .baseClass-btn-confirm'
 
 # 切换到核酸提取table页
-get_table = '.dialog-qpcr-sample-out #tab-extraction'
+get_table = '.dialog-qpcr-sample-out #tab-libconstruction'
 
 # QPCR出库页面样本全选按钮
-qpcr_all_chioce = '.dialog-qpcr-sample-out .el-tabs__content #pane-extraction .vxe-table--main-wrapper .vxe-table--header-wrapper .vxe-checkbox--icon.vxe-checkbox--unchecked-icon'
+qpcr_all_chioce = '.dialog-qpcr-sample-out .el-tabs__content #pane-libconstruction .vxe-table--main-wrapper .vxe-table--header-wrapper .vxe-checkbox--icon.vxe-checkbox--unchecked-icon'
 
 # QPCR检测菌种选择按钮
-qpcr_check_bacteria_btn = '.dialog-qpcr-sample-out .el-tabs__content #pane-extraction .baseClass-btn-check-bacteria'
+qpcr_check_bacteria_btn = '.dialog-qpcr-sample-out .el-tabs__content #pane-libconstruction .baseClass-btn-check-bacteria'
 
 # 选择菌种
 choice_bacteria = '.multi-table-dialog .vxe-table--main-wrapper table tbody tr:nth-child({}) .multi-table-tableCol-bacteriaName'
