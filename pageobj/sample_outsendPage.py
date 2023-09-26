@@ -186,7 +186,7 @@ class SampleOutSendPage(BasePage):
 
         application_num = self.get_text('css', detail_task_id)
         application_status1 = self.get_text('css', detail_task_status)  # 取样中
-        log.info('获取审核后的申请单号%s和状态%s',application_status1,application_num)
+        log.info('获取审核后的申请单号:{}和状态:{}'.format(application_status1,application_num))
 
         log.info('点击完成取样确认')
         self.clicks('css', check_btn)
