@@ -29,8 +29,6 @@ def test2():
     print(a.strip()[-18:])
 
 def test3():
-    otherNub = get_lims_for_excel_by_rows(hstq_file_path_mNGS, 0, 1, 'lims号')  # 其他类型样本号
+    otherNub = get_lims_for_excel_by_rows(wkfj_file_path, 0, 1, 'lims号')  # 其他类型样本号
     print(otherNub)
-
-
 test3()

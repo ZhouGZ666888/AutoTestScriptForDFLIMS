@@ -35,7 +35,7 @@ class MyTest(unittest.TestCase):
 
     # 登录功能封装，调试用
     def initialize(self):
-        # self.lg.login_console('guoqi.dong')
+        self.lg.login_console('guoqi.dong')
         # self.lg.login_console('guanzhong.zhou')
         pass
 

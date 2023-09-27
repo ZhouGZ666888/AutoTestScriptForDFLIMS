@@ -180,10 +180,10 @@ class QpcrPage(BasePage):
             self.clicks('xpath', storage_next)
             self.wait_loading()
 
-            self.executeJscript('document.getElementsByClassName("vxe-table--body-wrapper")[0].scrollLeft=3080')
+            self.executeJscript('document.getElementsByClassName("vxe-table--body-wrapper")[0].scrollLeft=4080')
+            self.sleep(0.5)
             samples_status = self.get_text('css', submit_status)
             print('明细表状态', samples_status)
-            self.sleep(0.5)
             return samples_status
         except Exception as info:
             print(info)

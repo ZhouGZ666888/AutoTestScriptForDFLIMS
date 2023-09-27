@@ -42,7 +42,7 @@ class BasePage:
 
     def quit(self):
         """
-        关闭浏览器方法
+        退出浏览器驱动
         """
         self.driver.quit()
         log.info('关闭浏览器')
