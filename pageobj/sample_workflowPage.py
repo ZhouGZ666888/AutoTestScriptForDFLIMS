@@ -34,7 +34,7 @@ class SampleWorkflowPage(BasePage):
         self.input('xpath', workflow_samplesearch_sample_value, sample_lims_id)
 
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("流转表根据lims号进行搜索")
+        Screenshot(self.driver).get_img("流转表根据lims号进行搜索","成功检索出样本")
 
         self.sleep(0.5)
         log.info("点击确定按钮")
@@ -63,7 +63,7 @@ class SampleWorkflowPage(BasePage):
         self.input('css', workflow_samplesearch_samplelab_value, sample_lab)
 
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("流转表根据lims号进行搜索")
+        Screenshot(self.driver).get_img("流转表根据lims号进行搜索","成功检索出样本")
 
         self.sleep(0.5)
         log.info("点击确定按钮")
@@ -206,7 +206,7 @@ class SampleWorkflowPage(BasePage):
             self.sleep(0.5)
 
             # 这里调用自定义截图方法
-            Screenshot(self.driver).get_img("在流转表对数据，出库")
+            Screenshot(self.driver).get_img("在流转表选中接样节点的数据点击出库按钮","打开出库弹框")
 
             log.info("全选样本")
             self.clicks('xpath', sample_ck_allcheckbox)
@@ -245,7 +245,7 @@ class SampleWorkflowPage(BasePage):
             self.sleep(0.5)
             self.input('xpath', sample_ck_reason, '国旗测试出库')
             self.sleep(0.5)
-
+            Screenshot(self.driver).get_img("在出库弹框中录入出库信息", "录入出库信息成功")
             # 获取当前窗口句柄
             now_handle = self.get_current_window_handle()
             print('获取当前窗口句柄', now_handle)

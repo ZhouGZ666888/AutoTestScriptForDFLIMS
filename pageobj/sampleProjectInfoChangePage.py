@@ -61,7 +61,7 @@ class SampleProInfoChangePage(BasePage):
         self.wait_loading()
         self.sleep(0.5)
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("样本项目信息修改，导出样本-项目信息")
+        Screenshot(self.driver).get_img("样本项目信息修改，根据样本LIMS号检索并导出样本-项目信息","导出样本项目信息成功")
         self.clicks('css', download_sampleInfo_comfirm)
 
     def edit_download_info(self):
@@ -102,18 +102,15 @@ class SampleProInfoChangePage(BasePage):
         log.info('上传导入文件')
         self.input('css', upload_sampleInfo_btn, filepath)
         self.sleep(1)
-        Screenshot(self.driver).get_img("样本项目信息修改，导入修改后样本-项目信息")
+        Screenshot(self.driver).get_img("对导出的样本项目信息进行修改后，导入修改后样本-项目信息","导入修改后的样本项目信息成功")
         pageinfo = self.get_pageinfo()
         self.sleep(0.5)
 
         log.info('提交修改任务单')
         self.clicks('css', sampleProjectInfo_submit)
         self.wait_loading()
-
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("样本项目信息修改，提交修改任务单")
-
-        self.sleep(1)
+        Screenshot(self.driver).get_img("样本项目信息修改，导入修改后的样本项目信息后，点击提交按钮","提交修改任务成功")
         return pageinfo
 
     def get_sampleProId_by_changeAfter(self):

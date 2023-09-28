@@ -71,7 +71,7 @@ class NucleicAcidExtractionPage(BasePage):
         self.clicks('css', addSelect_or_save_btn)
 
         # 调用自定义截图方法
-        Screenshot(self.driver).get_img("核酸提取待选表")
+        Screenshot(self.driver).get_img("核酸提取待选表点击核对lims号，录入样本号进行查询，勾选查询结果，并保存任务单号","保存任务单成功")
 
         pageinfo = self.get_pageinfo()
         self.wait_loading()
@@ -109,7 +109,7 @@ class NucleicAcidExtractionPage(BasePage):
         self.clicks('css', aliquot_sample)  # 点击分管按钮
 
         # 调用自定义截图方法
-        Screenshot(self.driver).get_img("核酸提取明细表分管")
+        Screenshot(self.driver).get_img("核酸提取明细表选中一条样本，点击分管按钮","打开分管弹框")
 
         self.clicks('css', aliquot_sample_all_choice)  # 分管弹框全选按钮
         self.input('xpath', aliquot_number, 1)  # 分管弹框分管数文本录入
@@ -233,7 +233,7 @@ class NucleicAcidExtractionPage(BasePage):
         self.clicks('css', submit_comfirm)  # 提交弹框确认按钮
 
         # 调用自定义截图方法
-        Screenshot(self.driver).get_img("核酸提取明细表提交")
+        Screenshot(self.driver).get_img("核酸提取明细表点击提交按钮","弹出提交确认按钮")
         self.wait_loading()
 
     # 明细表入库
@@ -286,7 +286,7 @@ class NucleicAcidExtractionPage(BasePage):
         self.sleep(0.5)
 
         # 调用自定义截图方法
-        Screenshot(self.driver).get_img("核酸提取明细表入库")
+        Screenshot(self.driver).get_img("核酸提取明细表点击入库按钮，在弹框中录入库位信息和盒内位置后点击下一步","样本入库成功")
 
         self.click_by_js('css', storage_next)
         self.wait_loading()
@@ -381,7 +381,7 @@ class NucleicAcidExtractionPage(BasePage):
         log.info(' 核酸提取结果表,点击提交')
         self.clicks('css', result_submit)  # 提交按钮
         # 调用自定义截图方法
-        Screenshot(self.driver).get_img("核酸提取结果表提交")
+        Screenshot(self.driver).get_img("核酸提取结果表点击提交按钮","弹出提交确认按钮")
         self.wait_loading()
         if self.isElementExists('css', nextProcessorId):
             self.sleep(1)
@@ -420,7 +420,7 @@ class NucleicAcidExtractionPage(BasePage):
         self.click_by_js('css', result_complete_task_btn)
         self.wait_loading()
         # 调用自定义截图方法
-        Screenshot(self.driver).get_img("核酸提取结果表完成任务单")
+        Screenshot(self.driver).get_img("核酸提取结果表点击完成任务单按钮","完成任务单成功，状态改为完成")
         taskstatus = self.get_text('css', task_status)
         print("明细表提交状态",taskstatus)
         return taskstatus

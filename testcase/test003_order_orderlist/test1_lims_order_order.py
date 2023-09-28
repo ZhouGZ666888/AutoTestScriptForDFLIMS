@@ -33,8 +33,7 @@ class LimsOrder(MyTest):
         self.od.edit_order()
         self.od.save_add_order()
         result = self.od.findelement('xpath', '//*[text()="保存成功"]')
-        # 调用自定义截图方法
-        Screenshot(self.driver).get_img("保存订单")
+
         self.od.wait_loading()
         self.assertIsNotNone(result)
 

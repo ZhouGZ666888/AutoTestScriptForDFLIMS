@@ -52,7 +52,7 @@ class OrderPage(BasePage):
                 self.sleep(0.5)
 
                 # 调用自定义截图方法
-                Screenshot(self.driver).get_img("新建订单")
+                Screenshot(self.driver).get_img("点击新建订单按钮，弹框中录入订单号、用户名点击确认","新建订单成功")
 
                 self.clicks('css', add_confirm)
                 self.wait_loading()
@@ -72,7 +72,7 @@ class OrderPage(BasePage):
                 self.sleep(0.5)
 
                 # 调用自定义截图方法
-                Screenshot(self.driver).get_img("新建订单")
+                Screenshot(self.driver).get_img("点击新建订单按钮，弹框中录入订单号、用户名点击确认","新建订单成功")
                 self.clicks('css', add_confirm)
                 self.wait_loading()
                 order['ordernumb'] = str(new_ordernum)
@@ -163,3 +163,5 @@ class OrderPage(BasePage):
         """保存订单"""
         log.info('保存订单')
         self.click_by_js('css', save_button)
+        # 调用自定义截图方法
+        Screenshot(self.driver).get_img("录入订单信息后，点击保存订单","保存订单成功")

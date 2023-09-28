@@ -64,7 +64,7 @@ class SampleProcessingPage(BasePage):
         self.clicks('css', addSelect_or_save_btn)
 
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("样本处理待选表保存样本")
+        Screenshot(self.driver).get_img("样本处理待选表点击核对lims号，录入样本号进行查询，勾选查询结果，并保存任务单号","保存任务单成功")
 
         pageinfo = self.get_pageinfo()
         self.wait_loading()
@@ -172,13 +172,12 @@ class SampleProcessingPage(BasePage):
         self.clicks('css', submit_btn)
         self.sleep(0.5)
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("样本处理明细表提交")
+        Screenshot(self.driver).get_img("样本处理明细表点击提交按钮","弹出提交确认按钮")
         self.clicks('css', submit_comfirm)
         self.wait_loading()
 
         self.executeJscript('document.getElementsByClassName("vxe-table--body-wrapper")[0].scrollLeft=1890')
         self.sleep(0.5)
-        samples_status = self.get_text('css', submit_status)
 
 
     # 明细表入库操作
@@ -193,7 +192,7 @@ class SampleProcessingPage(BasePage):
         self.sleep(0.5)
         self.clicks('css', storage_all_choice)  # 入库弹框中全选样本
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("样本处理明细表入库")
+        Screenshot(self.driver).get_img("样本处理明细表点击入库按钮，在弹框中录入库位信息和盒内位置后点击下一步","样本入库成功")
         self.clicks('xpath', storage_next)  # 入库弹框点击下一步按钮
         self.wait_loading()
         self.executeJscript('document.getElementsByClassName("vxe-table--body-wrapper")[0].scrollLeft=1890')
@@ -248,7 +247,7 @@ class SampleProcessingPage(BasePage):
         self.clicks('xpath', choice_lab_baby)
 
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("样本处理结果表提交")
+        Screenshot(self.driver).get_img("样本处理结果表点击提交按钮","弹出提交确认按钮")
         self.clicks('css', result_submit_comfirm)  # 点击提交确认
         self.wait_loading()
 
@@ -285,7 +284,7 @@ class SampleProcessingPage(BasePage):
         self.clicks('css', complete_task_btn)
         self.sleep(0.5)
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("样本处理完成任务单")
+        Screenshot(self.driver).get_img("样本处理结果表点击完成任务单按钮","完成任务单成功，状态改为完成")
         log.info("获取任务单完成状态")
         taskstatus = self.get_text('css', task_status)
         print(taskstatus)

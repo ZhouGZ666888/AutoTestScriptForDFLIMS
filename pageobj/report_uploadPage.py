@@ -139,7 +139,7 @@ class ReportUploadPage(BasePage):
         decode_info = self.get_save_info()
         log.info("上传解读文件{}".format(decode_info))
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("报告上传，上传解读文件")
+        Screenshot(self.driver).get_img("报告上传弹框，上传解读文件","上传报告文件成功")
         self.sleep(1)
         return decode_info
 
@@ -156,7 +156,7 @@ class ReportUploadPage(BasePage):
         self.input('css', other_upload_btn, other_file_path)  # 用send_keys方法上传文件
         other_report_info = self.get_save_info()
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("报告上传，上传其他文件")
+        Screenshot(self.driver).get_img("报告上传弹框，上传其他文件","上传其他文件成功")
         self.sleep(1)
         self.clicks('css', report_upload_comfirm)
         self.wait_loading()
@@ -181,6 +181,7 @@ class ReportUploadPage(BasePage):
         log.info("新建QPCR复检任务")
         self.click_by_js('css', qpcr_task_add_btn.format(1))
         self.wait_loading()
+        Screenshot(self.driver).get_img("点击新建QPCR复检任务按钮", "打开复检任务弹框")
         log.info("新建QPCR复检任务,选择当日批次")
         self.click_by_js('css', report_belong_input)
         self.sleep(0.5)
@@ -201,10 +202,11 @@ class ReportUploadPage(BasePage):
         self.clicks('xpath', add_qpcr_basbacteria)
 
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("新建QPCR复检任务,添加菌种")
+
         self.clicks('css', add_qpcr_basbacteria_choice)  # 添加菌种弹框确认按钮
         self.clicks('css', create_qpcr_task_btn)  # 添加菌种弹框确认按钮
         self.wait_loading()
+        Screenshot(self.driver).get_img("点击新建QPCR复检任务按钮在弹框中录入复检任务信息", "录入复检信息成功")
 
     def get_save_info(self):
         """
