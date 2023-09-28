@@ -152,9 +152,7 @@ before_concentration_adjustment_next = (
     '.createTask_content .is-justify-end button:nth-child(3)')
 
 # 提交状态表单定位
-before_concentration_sumbit_status = (
-    '.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td:nth-child('
-    '10)')
+before_concentration_sumbit_status = '.createTask_content_table .vxe-table--main-wrapper tbody tr:nth-child(1) .sequencingPreResults-tableCol-submitStatus'
 
 # /************************入库******************************************************************************
 

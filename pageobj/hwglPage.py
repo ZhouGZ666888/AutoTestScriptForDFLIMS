@@ -70,7 +70,7 @@ class SampleHwgl(BasePage):
         self.sleep(1)
 
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("盒位管理，新增样本盒")
+        Screenshot(self.driver).get_img("盒位管理，点击新增按钮","弹出新增样本盒弹框")
 
         self.clicks('xpath', hwgl_detail_box_add_confirm)
         self.wait_loading()

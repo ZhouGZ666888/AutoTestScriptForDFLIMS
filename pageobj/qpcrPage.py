@@ -67,14 +67,10 @@ class QpcrPage(BasePage):
         """选中样本进入明细表"""
         self.clicks('css', all_choice)
         self.sleep(0.5)
-
         log.info('选择样本加入明细表')
         self.clicks('css', addSelect_or_save_btn)
         self.wait_loading()
-
-        Screenshot(self.driver).get_img("文库构建待选表核对lims号功能，并保存任务单号")
-        pageinfo = self.get_pageinfo()
-        self.wait_loading()
+        Screenshot(self.driver).get_img("文库构建待选表点击核对lims号，录入样本号进行查询，勾选查询结果，并保存任务单号","保存任务单成功")
 
     def enter_function_page(self, url):
         """进入指定url页面"""
@@ -175,15 +171,15 @@ class QpcrPage(BasePage):
             self.sleep(0.5)
 
             # 调用自定义截图方法
-            Screenshot(self.driver).get_img("QPCR明细表入库")
+            Screenshot(self.driver).get_img("QPCR明细表点击入库按钮，在弹框中录入库位信息和盒内位置后点击下一步","样本入库成功")
 
             self.clicks('xpath', storage_next)
             self.wait_loading()
 
-            self.executeJscript('document.getElementsByClassName("vxe-table--body-wrapper")[0].scrollLeft=3080')
+            self.executeJscript('document.getElementsByClassName("vxe-table--body-wrapper")[0].scrollLeft=4080')
+            self.sleep(0.5)
             samples_status = self.get_text('css', submit_status)
             print('明细表状态', samples_status)
-            self.sleep(0.5)
             return samples_status
         except Exception as info:
             print(info)

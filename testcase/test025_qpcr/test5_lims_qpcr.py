@@ -70,8 +70,6 @@ class QpcrReinspect(MyTest):
         """
         qpcr结果表完成任务单
         """
-        # log.info('qpcr返回明细表完成nc/pc 样本提交')
-        # self.qpcr.go_back_detail()
         log.info('qpcr结果表完成任务单')
         task_status = self.qpcr.complete_task()
         self.assertEqual(task_status.strip(), '完成', '完成任务单失败！')
@@ -80,7 +78,6 @@ class QpcrReinspect(MyTest):
         """
         新建qpcr-mNGS复检任务
         """
-
         log.info('进入QPCR复检页面')
         EnterTab.enter_qpcr_recheck(self.basepage)
 
@@ -88,7 +85,6 @@ class QpcrReinspect(MyTest):
         self.qpcr.add_qpcr_task()
         log.info('待选表选择mNGS复检任务类型')
         self.qpcr.to_be_select('mNGS')
-
         log.info('选中样本进入明细表')
         self.qpcr.add_sample_to_detail()
         self.qpcr.enter_result_list(enter_detail_list_btn, 'mNGS复检任务明细表')

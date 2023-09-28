@@ -33,7 +33,7 @@ class SampleOutSendPage(BasePage):
         新建样本外送任务
         """
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("样本外送列表")
+        Screenshot(self.driver).get_img("点击导航栏进入样本外送列表","进入模块成功")
 
         log.info('点击新建按钮新建样本外送任务，进入样本外详情页面')
         self.clicks('css', add_task)
@@ -80,7 +80,7 @@ class SampleOutSendPage(BasePage):
         self.sleep(0.5)
 
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("样本外送明细详情页")
+        Screenshot(self.driver).get_img("样本外送明细详情页录入外送申请单信息，点击保存","保存外送申请单成功 ")
 
     # 待选样本表选择样本至明细表
     def add_sample_to_task(self):
@@ -135,7 +135,7 @@ class SampleOutSendPage(BasePage):
         self.sleep(0.5)
         self.clicks('xpath', is_allOutsend_choice)
         self.sleep(0.5)
-
+        Screenshot(self.driver).get_img("样本外送明细表添加样本，是否全样外送选择：全部外送","外送样本处理成功")
         log.info('提交审核')
         self.clicks('css', submit_btn)
         self.wait_loading()
@@ -147,7 +147,7 @@ class SampleOutSendPage(BasePage):
         save_yaml(functionpageURL_path, urldata)  # 写入模式获取的URL地址到yaml文件中
         print("写入后的URL地址", urldata)
 
-        Screenshot(self.driver).get_img("样本外送明细表添加样本处理")
+
 
         task_status = self.get_text('css', detail_task_status)
         return task_status[3:].strip()
@@ -176,12 +176,12 @@ class SampleOutSendPage(BasePage):
         self.sleep(0.5)
 
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("样本外送明细审核页面")
+        Screenshot(self.driver).get_img("待办tab页进入样本外送明细审核页面","进入样本外送审核页面成功")
 
         log.info('点击完成审核')
         self.clicks('css', finishAudit_btn)
         self.wait_loading()
-        Screenshot(self.driver).get_img("样本外送审核")
+        Screenshot(self.driver).get_img("对外送样本进行审核样本外送审核","审核样本成功，样本状态为取样中")
 
 
         application_num = self.get_text('css', detail_task_id)
@@ -229,7 +229,6 @@ class SampleOutSendPage(BasePage):
         self.clicks('css', sendfinish_btn)
         self.wait_loading()
         self.sleep(0.5)
-        Screenshot(self.driver).get_img("样本外完成寄送")
 
         log.info('获取完成寄送后的申请单状态')
         application_status = self.get_text('css', detail_task_status)  # 完成

@@ -16,9 +16,8 @@ class ReportUploadPage(BasePage):
     """报告-基本信息任务分配模块页面基础方法封装"""
     # 定义类变量
     tips = None
+
     # 上传报告文件需要包含患者姓名和订单号，分别取出保存为文件名
-
-
 
     def search_by_order(self):
 
@@ -120,32 +119,14 @@ class ReportUploadPage(BasePage):
         self.sleep(1)
         return report_info
 
-    def upload_other_file(self):
-        # 上传其他文件
-        log.info("上传其他文件")
-        self.executeJscript(
-            "document.querySelector('.dialog-upload-file div:nth-child(4) .el-upload input').style.setProperty('display','block','important');")
-        # 创建doc类型的其他文件
-        with open(excel_doc_file_path + '/' + '自动化测试其他文件上传.doc', 'w', encoding='utf-8') as f:
-            f.write('自动化测试解读文件上传')
-        other_file_path = os.path.abspath(excel_doc_file_path + '/' + '自动化测试其他文件上传.doc')
-        self.input('css', other_upload_btn, other_file_path)  # 用send_keys方法上传文件
-        other_report_info = self.get_save_info()
-        # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("报告上传，上传其他文件")
-        self.sleep(1)
-        self.clicks('css', report_upload_comfirm)
-        self.wait_loading()
-        print("上传其它文件", other_report_info)
-        return other_report_info
-
     def upload_decode_file(self):
+        """上传解读文件"""
         # 上传解读文件
         testdata = read_yaml(order_medical_info_path)
         name = testdata['username']  # 读取病历模块患者姓名
         order = get_order()  # 读取订单号
         file_name = "报告上传文件_" + str(name) + "_" + str(order)  # 新建Excel文件，以读取的患者姓名和订单号为文件名
-        #上传解读文件
+        # 上传解读文件
         self.executeJscript(
             "document.querySelector('.dialog-upload-file div:nth-child(3) .el-upload input').style.setProperty('display','block','important');")
         # 创建TXT类型的解读文件
@@ -158,17 +139,49 @@ class ReportUploadPage(BasePage):
         decode_info = self.get_save_info()
         log.info("上传解读文件{}".format(decode_info))
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("报告上传，上传解读文件")
+        Screenshot(self.driver).get_img("报告上传弹框，上传解读文件","上传报告文件成功")
         self.sleep(1)
         return decode_info
 
+    def upload_other_file(self):
+        """上传其他文件"""
+        # 上传其他文件
+        log.info("上传其他文件")
+        self.executeJscript(
+            "document.querySelector('.dialog-upload-file div:nth-child(4) .el-upload input').style.setProperty('display','block','important');")
+        # 创建doc类型的其他文件
+        with open(excel_doc_file_path + '/' + '自动化测试其他文件上传.doc', 'w', encoding='utf-8') as f:
+            f.write('自动化测试解读文件上传')
+        other_file_path = os.path.abspath(excel_doc_file_path + '/' + '自动化测试其他文件上传.doc')
+        self.input('css', other_upload_btn, other_file_path)  # 用send_keys方法上传文件
+        other_report_info = self.get_save_info()
+        # 这里调用自定义截图方法
+        Screenshot(self.driver).get_img("报告上传弹框，上传其他文件","上传其他文件成功")
+        self.sleep(1)
+        self.clicks('css', report_upload_comfirm)
+        self.wait_loading()
+        print("上传其它文件", other_report_info)
+        return other_report_info
+
+    def complete_report_task(self):
+        """完成报告任务"""
+        log.info("完成报告任务")
+        self.sleep(1)
+        print(report_task_complete.format(ReportUploadPage.tips))
+
+        self.click_by_js('css', report_task_complete.format(ReportUploadPage.tips))
+        self.wait_loading()
+        self.sleep(1)
+        pageinfo = self.get_text('css', report_task_complete.format(1))
+        print('报告任务单状态', pageinfo)
+        return pageinfo
+
     def create_qpcrReinspect_task(self):
-        """
-        生成QPCR复检任务
-        """
+        """生成QPCR复检任务"""
         log.info("新建QPCR复检任务")
         self.click_by_js('css', qpcr_task_add_btn.format(1))
         self.wait_loading()
+        Screenshot(self.driver).get_img("点击新建QPCR复检任务按钮", "打开复检任务弹框")
         log.info("新建QPCR复检任务,选择当日批次")
         self.click_by_js('css', report_belong_input)
         self.sleep(0.5)
@@ -184,31 +197,16 @@ class ReportUploadPage(BasePage):
         self.sleep(0.5)
         self.clicks('xpath', qpcr_task_type_choice1)
 
-
         log.info("新建QPCR复检任务,添加菌种")
         self.clicks('css', add_qpcr_basbacteria_btn)
         self.clicks('xpath', add_qpcr_basbacteria)
 
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("新建QPCR复检任务,添加菌种")
+
         self.clicks('css', add_qpcr_basbacteria_choice)  # 添加菌种弹框确认按钮
         self.clicks('css', create_qpcr_task_btn)  # 添加菌种弹框确认按钮
         self.wait_loading()
-
-    def complete_report_task(self):
-        """
-        完成报告任务
-        """
-        log.info("完成报告任务")
-        self.sleep(1)
-        print(report_task_complete.format(ReportUploadPage.tips))
-
-        self.click_by_js('css', report_task_complete.format(ReportUploadPage.tips))
-        self.wait_loading()
-        self.sleep(1)
-        pageinfo = self.get_text('css', report_task_complete.format(1))
-        print('报告任务单状态', pageinfo)
-        return pageinfo
+        Screenshot(self.driver).get_img("点击新建QPCR复检任务按钮在弹框中录入复检任务信息", "录入复检信息成功")
 
     def get_save_info(self):
         """

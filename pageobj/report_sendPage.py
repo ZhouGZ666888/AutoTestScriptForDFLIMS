@@ -65,7 +65,7 @@ class ReportSendPage(BasePage):
         self.sleep(0.5)
         self.click_by_js('xpath', audit_status_select)  # 点击表单审核状态下拉
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("报告发送，修改报告审核状态")
+        Screenshot(self.driver).get_img("报告发送模块，选中报告，点击状态下拉框，选择已发送","修改报告状态成功")
 
         self.clicks('xpath', audit_status_choice)  # 表单审核状态选择---已审核
 

@@ -29,9 +29,10 @@ class QPCRReinspectTask(BasePage):
         self.input('css', seqSampleIdLabs_input, idNub)
         self.clicks('css', search_btn)
         self.wait_loading()
+        Screenshot(self.driver).get_img("根据上机号查询复检任务样本，录入上机号，点击搜索按钮","检索出新建的QPCR任务")
         samples = self.findelements('css', all_orders.format(3))
         log.info("获取到的复检任务编号：%s" % samples)
-        self.sleep(1)
+        self.sleep(0.5)
         return len(samples)
 
     def qpcr_multiple_out(self):
@@ -47,7 +48,7 @@ class QPCRReinspectTask(BasePage):
         self.clicks('css', all_orders.format(9))
         self.clicks('css', multiple_out)
         self.wait_loading()
-        Screenshot(self.driver).get_img("复检任务批量出库")
+        Screenshot(self.driver).get_img("选中检索出的QPCR复检任务，点击出库","QPCR复检任务出库成功")
         multiple_out_user = self.get_text('css', all_orders.format(12))
         print(multiple_out_user)
         return multiple_out_user

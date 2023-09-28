@@ -25,7 +25,7 @@ class SampleSheetPage(BasePage):
         self.input('css', sj_taskid, taskid["sj_taskid"])
         self.clicks('css', search_confirn)
         self.wait_loading()
-        Screenshot(self.driver).get_img("根据任务单号搜索ss数据，实际结果如下图：")
+        Screenshot(self.driver).get_img("搜索弹框录入任务单号，点击搜索按钮","检索出该任务单下的ss任务")
         log.info("选中搜索出的samplesheet，点击编辑按钮")
         self.clicks('css', search_result)
         self.clicks('css', edit_btn)
@@ -33,7 +33,7 @@ class SampleSheetPage(BasePage):
 
     def samplesheet_detail_download(self):
         """samplesheet详情页面,导出samplesheet"""
-        Screenshot(self.driver).get_img("根据搜索结果，进入samplesheet详情，实际结果如下图：")
+        Screenshot(self.driver).get_img("ss列表点击选中ss数据点击编辑按钮","进入ss详情页")
         self.clicks('css', download_csv_btn)
         self.sleep(1)
 
@@ -66,7 +66,7 @@ class SampleSheetPage(BasePage):
         self.sleep(2)  # 等待上个页面提示信息消失
         self.input('css', reason_for_modification, 'new_version')
         self.sleep(0.5)
-        Screenshot(self.driver).get_img("预期结果：打开samplesheet生成新版本弹框，实际结果如下图：")
+        Screenshot(self.driver).get_img("点击生成新版本按钮","打开生成新版本弹框")
         self.clicks('css', reason_for_modification_confirn)
         info = self.get_save_info()
         self.wait_loading()
@@ -77,7 +77,7 @@ class SampleSheetPage(BasePage):
         self.refresh()
         log.info("查看samplesheet修改记录")
         self.clicks('css', modify_record)
-        Screenshot(self.driver).get_img("预期结果：samplesheet修改记录弹框包含新版本，实际结果如下图：")
+        Screenshot(self.driver).get_img("点击查看samplesheet修改记录","打开查看samplesheet修改记录弹框")
 
         datas = self.findelements('css', modify_record_data)
         return len(datas)

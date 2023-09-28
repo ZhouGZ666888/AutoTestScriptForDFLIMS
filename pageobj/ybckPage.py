@@ -32,15 +32,14 @@ class GetSampleCK(BasePage):
             self.clicks('xpath', sample_ck_search_value)
             self.sleep(0.5)
 
-            # 这里调用自定义截图方法
-            Screenshot(self.driver).get_img("样本出库根据lims号搜索")
-
             log.info("输入指定样本号")
             self.input('xpath', sample_ck_search_value, get_sample_lims_id[0]['sample_id_lims'])
             self.sleep(0.5)
             log.info("点击确定按钮")
             self.clicks('xpath', sample_ck_search_confirm)
             self.wait_loading()
+            # 这里调用自定义截图方法
+            Screenshot(self.driver).get_img("样本出库根据lims号搜索，在搜索框中录入LIMS号", "检索出正确结果")
 
     def samplereceive_ck(self, sql):
         """
@@ -98,7 +97,7 @@ class GetSampleCK(BasePage):
             self.sleep(0.5)
 
             # 这里调用自定义截图方法
-            Screenshot(self.driver).get_img("样本出库信息录入")
+            Screenshot(self.driver).get_img("检索出样本信息后，选中样本录入样本出库信息","录入样本出库信息成功")
 
             log.info("点击保存全部，下一步按钮")
             self.clicks('xpath', sampleReceive_save_next_button)

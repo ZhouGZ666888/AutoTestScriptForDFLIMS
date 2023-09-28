@@ -102,7 +102,7 @@ class SampleYbyk(BasePage):
         self.sleep(0.5)
 
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("新建样本移库任务")
+        Screenshot(self.driver).get_img("点击新建按钮，新建移库任务","新建样本盒-库外到临时库任务成功")
 
         log.info("点击确定")
         self.clicks('xpath', ybhyk_list_select_confirm)
@@ -161,7 +161,7 @@ class SampleYbyk(BasePage):
             self.wait_loading()
 
             # 这里调用自定义截图方法
-            Screenshot(self.driver).get_img("样本移库选择库位")
+            Screenshot(self.driver).get_img("任务详情页，库位明细表选择库位信息","选择库位信息成功")
 
             log.info("弹框中，输入指定的库位信息：{}".format(storage_name))
             self.clicks('xpath', ybhyk_detail_list_select_storage_value)

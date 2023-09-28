@@ -4,9 +4,6 @@
 # @File    : mPCR模块测试用例
 
 import unittest
-
-from common.editYaml import read_yaml
-from conf.all_path import sampledata_path
 from pageobj.mPCRPage import mPCRTest
 from conf.enter_tab import EnterTab
 from common.logs import log
@@ -21,9 +18,7 @@ class mPCRTestCase(MyTest):
         self.mpcr = mPCRTest(self.driver)
 
     def test01_add_mPCR_task(self):
-        """
-        测试新建mPCR任务单，在待选表选择任务类型、sop,检索lims号，添加、保存任务单
-        """
+        """测试新建mPCR任务单，在待选表选择任务类型、sop,检索lims号，添加、保存任务单"""
         self.initialize()
         log.info('登录系统，进入mPCR页面')
         EnterTab.enter_test_center(self.basepage)
@@ -93,8 +88,6 @@ class mPCRTestCase(MyTest):
 
     def test12_mPCR_result_enter_detail(self):
         """测试mPCR结果表返回明细表完成提交入库操作"""
-        # self.initialize()
-        # self.enter_func_page()
         log.info("mPCR结果表，返回明细表完成提交入库操作")
         self.mpcr.enter_detail()
 

@@ -35,7 +35,7 @@ class LimsMedical(MyTest):
         log.info('保存病历')
         self.mp.save_medical()
         self.mp.continue_save()
-
+        Screenshot(self.driver).get_img("新增病例，录入患者信息，点击保存按钮","保存病历成功")
         self.mp.wait_loading()
         self.mp.sleep(0.5)
         self.mp.wait_loading()
@@ -75,7 +75,6 @@ class LimsMedical(MyTest):
         log.info('保存病历')
         self.mp.save_medical()
 
-        Screenshot(self.driver).get_img("保存病历")
 
         result = re.search(r'请输入正确的姓名、证件号码', self.mp.get_source)
         self.mp.sleep(1)
