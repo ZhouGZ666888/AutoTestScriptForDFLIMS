@@ -187,7 +187,8 @@ class QpcrPage(BasePage):
     def qpcr_result_export_out_btn(self):
         """QPCR结果表，导出复孔信息"""
         log.info('QPCR结果表，导出复孔信息')
-        self.clicks('xpath', export_out_btn)
+        self.sleep(1)
+        self.click_by_js('xpath', export_out_btn)
         self.wait_loading()
 
     def qpcr_result_export_in_btn(self):
