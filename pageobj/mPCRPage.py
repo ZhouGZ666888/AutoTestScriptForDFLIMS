@@ -295,13 +295,11 @@ class mPCRTest(BasePage):
         self.findelement('xpath', batch_paste_position_input).send_keys(Keys.CONTROL, 'v')
         self.sleep(0.5)
         self.clicks('xpath', batch_paste_position_confirm_btn)  # 结果表批量粘贴导入弹框确认按钮
-        self.sleep(0.5)
+        self.sleep(1)
 
     # 结果表自动计算
     def result_auto_complete(self):
         """结果表自动计算"""
-        # self.clicks('css', result_all_choice)
-        # self.sleep(0.5)
         self.clicks('css', result_auto_complete_btn)
         self.wait_loading()
 
