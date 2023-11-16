@@ -47,20 +47,14 @@ class LoginPage(BasePage):
         self.clicks('css', select_login_city_confirm)
 
     def explorer_console(self):
-        """
-        操作浏览器
-
-        """
+        """操作浏览器"""
         log.info('打开浏览器')
         self.max()
         log.info('访问地址')
         self.openbrower()
 
     def login_single(self, name):
-        """
-        单独测试正确的账号密码登录
-        """
-
+        """单独测试正确的账号密码登录"""
         datas = read_yaml(testdata_path)  # 获取测试登录的账号/密码配置数据
         try:
             # log.info("------TestCase Start!------")

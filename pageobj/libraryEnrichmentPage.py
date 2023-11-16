@@ -79,7 +79,7 @@ class LibraryenrichmentPage(BasePage):
 
         log.info('选中核对后的样本，点击【加入选中样本&保存】')
         self.click_by_js('css', all_choice)
-        self.sleep(0.5)
+        self.sleep(1)
         self.click_by_js('css', addSelect_or_save_btn)
         pageinfo = self.get_pageinfo()
         Screenshot(self.driver).get_img("文库富集待选表点击核对lims号，录入样本号进行查询，勾选查询结果，并保存任务单号","保存任务单成功")
@@ -94,7 +94,7 @@ class LibraryenrichmentPage(BasePage):
         :param page: 下一节点页面名称
         """
         urldata = read_yaml(functionpageURL_path)
-
+        self.sleep(1)
         self.clicks('css', ele)
         log.info('点击按钮进入{}'.format(page))
         self.wait_loading()
