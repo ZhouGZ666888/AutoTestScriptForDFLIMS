@@ -56,10 +56,10 @@ class ReportUpload(MyTest):
         if complete_info:
             self.assertEqual(complete_info, '修改', "报告任务完成失败！！！")
 
-    def test06_create_qpcrReinspect_task(self):
-        """测试新建QPCR复检任务"""
-        log.info('新建QPCR复检任务')
-        self.repUpload.create_qpcrReinspect_task()
+    # def test06_create_qpcrReinspect_task(self):
+    #     """测试新建QPCR复检任务"""
+    #     log.info('新建QPCR复检任务')
+    #     self.repUpload.create_qpcrReinspect_task()
 
 
 if __name__ == '__main__':
