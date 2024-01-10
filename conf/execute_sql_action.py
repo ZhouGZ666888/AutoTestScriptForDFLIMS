@@ -63,6 +63,8 @@ wkgj_detail_sql1 = "UPDATE exp_libconstruction_item_t set selected_bigness=0 whe
 # 构建明细表查询样本lims号
 wkgj_detail_sql2 = "SELECT sample_id_lims from exp_libconstruction_item_t where task_id='{}';"
 
+#构建明细表查询样本lims号和实验室号
+wkgj_detail_sql3="SELECT t1.sample_id_lims,t1.sample_id_lab from  sample_id_lab_v t1 JOIN exp_libconstruction_item_t t2  on t1.sample_id_lims =t2.sample_id_lims where t2.task_id='{}';"
 
 
 
@@ -71,7 +73,7 @@ wkgj_detail_sql2 = "SELECT sample_id_lims from exp_libconstruction_item_t where 
 
 # 文库构建结果表
 # 文库浓度1ng/μL*、文库浓度2ng/μL*、平均文库浓度ng/μL*、index_id录入
-wkgj_result_sql1 = "UPDATE exp_libconstruction_result_t set consistence_amt=5,consistence_amt_one=5,consistence_amt_two=5 ,index_id='1' where task_id='{}';"
+wkgj_result_sql1 = "UPDATE exp_libconstruction_result_t set consistence_amt=5,consistence_amt_one=5,consistence_amt_two=5 where task_id='{}';"
 
 wkgj_result_sql2 ="UPDATE sample_info_t SET preinstall_throughput = 7.14 WHERE sample_id_lims IN ( SELECT " \
                   "sample_id_lims FROM sample_info_t WHERE previous_sample_id_lims IN ( SELECT sample_id_lims FROM " \

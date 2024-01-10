@@ -135,3 +135,6 @@ identificationNo_file_path = os.path.join(file_path, 'import_excel', '自动化�
 
 # 批量粘贴盒内位置导入文件
 position_in_box_path = os.path.join(file_path, 'import_excel', 'position_in_box_lims.xlsx')
+
+# 构建-96孔板位置+INDEX导入文件
+index_96_import = os.path.join(file_path, 'import_excel', '构建-96孔板位置+INDEX导入模板E.xlsx')

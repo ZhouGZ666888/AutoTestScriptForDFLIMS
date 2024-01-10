@@ -43,13 +43,13 @@ action_type = '.task_info_form .select-operation-type input'
 operationType_choice = '//*[@class="el-select-dropdown el-popper operation-type-unique"]/descendant::span[contains(text(),"人工")]'
 
 # 核对lims样本号按钮
-check_lims_sample_num = '.task_info_form .body-btns .commonTaskDetailNew-btn-judgeLims button'
+check_lims_sample_num = '.task_info_form .body-btns .commonTaskDetailNew-btn button'
 
 # 核对样本号文本录入框
 check_lims_sample_number_textarea = '//*[@aria-label="核对LIMS样本号"]/descendant::textarea'
 
 # 核对lims样本号确认按钮，元素定位
-check_lims_sample_number_confirm = '//*[@aria-label="核对LIMS样本号"]/descendant::button[span[contains(text(),"确 定")]]'
+check_lims_sample_number_confirm = '.dialog-match .el-dialog__footer .sampleId-btn-confirm'
 
 # 待选列表全选按钮
 all_choice = '.vxe-table--main-wrapper .vxe-table--header-wrapper .vxe-header--row .vxe-checkbox--icon.vxe-checkbox--unchecked-icon'
