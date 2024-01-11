@@ -9,7 +9,7 @@ from common.DataBaseConnection import executeSql
 from common.xlsx_excel import add_write_excel_xlsx
 from common.logs import log
 from conf.all_path import testdata_path, hstq_file_path_mNGS, wkgj_file_path, qpcr_dxk_file_path, sj_file_path, \
-    ybrk_file_path, wkfj_file_path, functionpageURL_path, mpcr_file_path
+    ybrk_file_path, wkfj_file_path, functionpageURL_path, mpcr_file_path, wkdl_file_path
 from .exceptionsTools import ElementNotFound, ElementNotTextAttr
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
@@ -514,9 +514,14 @@ class BasePage:
                 data_list.append(result[item])
                 add_write_excel_xlsx(ybrk_file_path, data_list)
 
+            elif next_step == '文库定量':
+                data_list.append(result[item])
+                add_write_excel_xlsx(wkdl_file_path, data_list)
+
             elif next_step == 'pooling':
                 data_list.append(result[item])
                 add_write_excel_xlsx(wkfj_file_path, data_list)
+
             elif next_step == 'mpcr':
                 data_list.append(result[item])
                 add_write_excel_xlsx(mpcr_file_path, data_list)

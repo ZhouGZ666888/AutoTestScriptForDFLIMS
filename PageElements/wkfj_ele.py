@@ -31,6 +31,13 @@ sample_page_list = (
 """
 待选表元素定位,
 """
+
+#任务类型下拉框
+task_type='.select-task-type input'
+
+#任务类型下拉值选择
+task_type_choice='//*[@class="el-select-dropdown el-popper task-type-unique"]/descendant::span[text()="{}"]'
+
 # 任务描述文本录入框
 task_description = (
     '.poolingDetail-form-taskDesc input')
@@ -43,8 +50,7 @@ action_stlye_choice='.select-operationType-options li:nth-child(1)'
 
 
 # 选择sop下拉框
-select_sop = (
-    '.select-sop-type input')
+select_sop = '.select-sop-type input'
 
 # 选择sop下拉值,m默认选择第一条
 select_sop_choice = (
@@ -90,6 +96,9 @@ page_failed_info = (
 detail_all_choice = (
     '.createTask_content .show--head .vxe-table--fixed-left-wrapper .vxe-table--header-wrapper .vxe-checkbox--icon.vxe-checkbox--unchecked-icon')
 
+#自动生成序号按钮
+generatedSortNo='.button-list .baseClass-btn-generatedSortNo'
+
 # 样本数据获取样本数据总数量
 all_samples = (
     '.createTask_content .show--head .vxe-table--fixed-left-wrapper .vxe-table--body-wrapper tbody tr')
@@ -98,7 +107,20 @@ all_samples = (
 all_sample_lims = (
     '.schedule-experiment-table-height-auto-enrich .el-card__body .vxe-table--fixed-left-wrapper .vxe-table--body-wrapper tbody tr:nth-child({}) td:nth-child(2)')
 
+#实设探针选择文本框
+probe_select='.vxe-table--main-wrapper .vxe-table--body tbody tr:nth-child({}) .enrichmentSchedule-tableCol-actualProbe'
+probe_select_input='.vxe-table--main-wrapper .vxe-table--body tbody tr:nth-child({}) ' \
+              '.enrichmentSchedule-tableCol-actualProbe input'
 
+#实设探针选项
+probe_choice='.vxe-select--panel .vxe-select-option--wrapper div'
+
+#进入量文本框定位
+theoreticalUsedAmt='.vxe-table--main-wrapper .vxe-table--body tbody tr:nth-child({}) .enrichmentSchedule-tableCol-theoreticalUsedAmt'
+
+#进入量文本录入框
+theoreticalUsedAmt_input='.vxe-table--main-wrapper .vxe-table--body tbody tr:nth-child({}) ' \
+                    '.enrichmentSchedule-tableCol-theoreticalUsedAmt input'
 # 样本数据获取样本实验室号
 all_sample_lab = (
     '.schedule-experiment-table-height-auto-enrich .el-card__body .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child({}) td:nth-child(3)')
@@ -149,7 +171,7 @@ tips='.el-message-box__wrapper .el-message-box__btns button'
 
 # 生成结果状态表单展示
 result_status='.createTask_content .vxe-editable .vxe-table--main-wrapper .vxe-table--body-wrapper table tbody ' \
-              'tr:nth-child(1) td:nth-child(42)'
+              'tr:nth-child(1) td:nth-child({})'
 
 
 # /************************入库****************************
@@ -209,7 +231,7 @@ storage_next = (
 
 #提交状态文本定位
 detail_sumbit_status=(
-    '.createTask_content .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td:nth-child(43)')
+    '.createTask_content .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td:nth-child({})')
 
 # 样本列表滚动条
 scroll_line = (
@@ -242,10 +264,6 @@ result_batch_paste_import_package_textarea = (
 result_batch_paste_import_package_comfirm = (
     '.dialog-copy-data .el-dialog__footer .baseClass-btn-confirm')
 
-# 生成上机分组号
-create_sequencing_group_number = (
-    '.createTask_content .sampleDetail_header .button-list .enrichmentResults-btn-generateSqcNum')
-
 # 获取所有样本lims号
 result_samples_lims = (
     '.createTask_content_table .vxe-table--fixed-left-wrapper .vxe-table--body-wrapper tbody tr:nth-child({}) td:nth-child(4)')
@@ -265,15 +283,25 @@ result_samples_for_total = (
 result_samples_all = (
     '.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child({}) td:nth-child(13)')
 
+#Pooling浓度1表单定位
+consistenceAmtOne='.vxe-table--main-wrapper .vxe-table--body-wrapper table tbody tr:nth-child({}) .enrichmentResults-tableCol-consistenceAmtOne'
+consistenceAmtOne_input='.vxe-table--main-wrapper .vxe-table--body-wrapper table tbody tr:nth-child(1) ' \
+                   '.enrichmentResults-tableCol-consistenceAmtOne input'
 
+#Pooling浓度2表单定位
+consistenceAmtTwo='.vxe-table--main-wrapper .vxe-table--body-wrapper table tbody tr:nth-child({}) .enrichmentResults-tableCol-consistenceAmtTwo'
+consistenceAmtTwo_input='.vxe-table--main-wrapper .vxe-table--body-wrapper table tbody tr:nth-child(1) ' \
+                   '.enrichmentResults-tableCol-consistenceAmtTwo input'
+
+#自动计算
+result_automatic='//*[@class="button-list"]/descendant::span[text()="自动计算"]'
 
 # 提交按钮
 result_submit = (
     '.sampleDetail_header .button-list .baseClass-btn-submit')
 
 #结果表是否已提交文本定位
-result_sumbit_status=(
-    '.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr td:nth-child(19)')
+result_sumbit_status='.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td:nth-child(17)'
 
 # 返回明细表
 goback_detail = '.createTask_content .row-bg button:nth-child(1)'

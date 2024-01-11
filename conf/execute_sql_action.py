@@ -87,6 +87,9 @@ wkgj_result_sql6 = "UPDATE  exp_libconstruction_result_t set index_id ='1' WHERE
 # 文库富集明细表,获取lims号
 wkfj_detail_sql1 = "SELECT sample_id_lims from exp_pooling_item_t WHERE task_id = '{}';"
 wkfj_detail_sql2 = "UPDATE sample_info_t SET preinstall_throughput = 7.14 WHERE sample_id_lims in (SELECT sample_id_lims from sample_info_t WHERE original_sample_id_lims in (SELECT sample_id_lims from sample_receive_item_t WHERE order_code ='{}') and previous_step='libconstruction');"
+wkfj_detail_sql3 = "SELECT sit.previous_sample_id_lims FROM sample_info_t sit INNER JOIN ( SELECT sample_id_lims FROM sample_info_t WHERE preinstall_probe IS NOT NULL AND order_code = '{}' ) AS subquery ON sit.sample_id_lims = subquery.sample_id_lims WHERE sit.module_task_id IS NULL ORDER BY sit.sample_id_lims asc limit 1;"
+
+
 
 # 文库富集结果表
 
@@ -174,7 +177,7 @@ next_step_sql = "SELECT  DISTINCT previous_sample_id_lims,sample_id_lab_core,cur
                 "previous_sample_id_lims IN ( SELECT sample_id_lims FROM {} WHERE task_id = '{}') AND is_valid = '1')"
 
 # 数据库获取富集结果表下一步流向
-fj_next_step = "SELECT libquant_lims_id, pooling_name, next_step_name FROM {}  WHERE task_id = '{}';"
+fj_next_step = "SELECT sample_id_lims, pooling_name, next_step_name FROM {}  WHERE task_id = '{}';"
 
 # 数据库获取定量结果表下一步流向
 dl_next_step = "SELECT sample_id_lims,sqc_group_num,next_step_name FROM {}  WHERE task_id='{}';"

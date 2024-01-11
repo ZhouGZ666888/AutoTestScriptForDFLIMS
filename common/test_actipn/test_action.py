@@ -4,9 +4,10 @@ import openpyxl
 import pandas as pd
 from openpyxl import Workbook
 from common.DataBaseConnection import executeSql
-from common.xlsx_excel import pandas_write_excel
-from conf.all_path import excel_doc_file_path, index_96_import
-from conf.execute_sql_action import wkgj_detail_sql3
+from common.editYaml import get_order
+from common.xlsx_excel import pandas_write_excel, write_data_toexcle
+from conf.all_path import excel_doc_file_path, index_96_import, wkfj_probe_file_path
+from conf.execute_sql_action import wkgj_detail_sql3, wkfj_detail_sql3
 
 
 def test01():
@@ -34,5 +35,13 @@ def test03():
             worksheet.cell(row=row_index, column=column_index, value=cell_value)
     workbook.save(index_96_import)
 
+def test04():
+    # order = get_order()
+    # ata=executeSql.test_select_limsdb(wkfj_detail_sql3.format(order))
+    # values_list = [list(d.values()) for d in ata]
+    # print(values_list)
+    # write_data_toexcle(wkfj_probe_file_path,values_list)
+    for i in range(1):
+        print(i)
 if __name__ == '__main__':
-    test03()
+    test04()

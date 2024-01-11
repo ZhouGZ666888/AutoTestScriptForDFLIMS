@@ -96,6 +96,12 @@ wkgj_file_path = os.path.join(file_path, 'excel_doc', 'wkgj_id_lims.xlsx')
 # 文库富集结果记录表
 wkfj_file_path = os.path.join(file_path, 'excel_doc', 'wkfj_id_lims.xlsx')
 
+# 文库富集有探针结果记录表
+wkfj_probe_file_path = os.path.join(file_path, 'excel_doc', 'wkfj_probe_id_lims.xlsx')
+
+# 文库定量结果记录表
+wkdl_file_path = os.path.join(file_path, 'excel_doc', 'wkdl_id_lims.xlsx')
+
 # 上机结果记录表
 sj_file_path = os.path.join(file_path, 'excel_doc', 'sj_id_lims.xlsx')
 
