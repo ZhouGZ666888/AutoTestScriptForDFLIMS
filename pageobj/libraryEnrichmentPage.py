@@ -134,8 +134,7 @@ class LibraryenrichmentPage(BasePage):
     # 准备批量粘贴导入的数据
     def read_import_data(self, probe):
         """读取Excel中批量粘贴导入的数据"""
-        now_time = datetime.now()
-        str_time = now_time.strftime('%Y%m%d')  # 获取当前时间
+        str_time = datetime.now().strftime('%Y%m%d')  # 获取当前时间
 
         samples = self.findelements('css', all_samples)
         wb = load_workbook(filename=wkfj_detail_import_path)  # 打开明细表导入excel文件

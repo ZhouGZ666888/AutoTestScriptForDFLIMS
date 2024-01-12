@@ -247,7 +247,6 @@ class BasePage:
         :param element_loc:对应输入框的元素定位
         :param text:需要输入的文本
         """
-
         try:
             element = self.findelement(ele_type, element_loc)
         except Exception as e:
