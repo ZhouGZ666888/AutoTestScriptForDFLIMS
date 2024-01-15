@@ -10,7 +10,7 @@ from selenium.webdriver.common.keys import Keys
 from common.screenshot import Screenshot
 from common.DataBaseConnection import executeSql
 from conf.all_path import position_in_box_path, wkdl_file_path
-from conf.config import  libquant_result
+from conf.config import libquant_result
 from common.xlsx_excel import read_excel_col, get_lims_for_excel_by_col, pandas_write_excel
 from PageElements.wkdl_ele import *
 from conf.execute_sql_action import wkdl_detail_update, dl_next_step, dl_detail_lims_sql
@@ -33,6 +33,7 @@ class libraryquantificationPage(BasePage):
         self.sleep(0.5)
         self.clicks('css', task_sop_choice)
         self.wait_loading()
+        return self.check_lims_num()
 
     # 待选表校验lims号
     def check_lims_num(self):
@@ -83,6 +84,7 @@ class libraryquantificationPage(BasePage):
     # 明细表编辑定量混合产物名称
     def edit_quantifying_mix_product_name(self):
         """明细表编辑定量混合产物名称"""
+        self.set_form_data()  # 数据库写入表单数据
         str_time = datetime.now().strftime('%Y%m%d')  # 获取当前时间
         fjwkmc = 'NJ-' + str_time + '-101-A-1@1'  # 编辑定量混合产物名称
         log.info('定量明细表录入定量混合产物名称')
@@ -92,17 +94,18 @@ class libraryquantificationPage(BasePage):
             self.sleep(0.2)
             self.input('css', quantifying_mix_product_name_input.format(i), fjwkmc)
             self.sleep(0.5)
-        self.clicks('css', detail_save_btn)  # 保存结果
-        self.wait_loading()
+        self.sleep(0.5)
 
     def create_reselt(self):
         """定量明细表生成结果"""
-        self.clicks('css', create_result)
+        log.info('定量明细表生成结果')
+        self.clicks('xpath', create_result)
         self.wait_loading()
-        if self.isDisplayed('css', '.common-task-schedule-new > div:nth-child(12)'):
-            self.clicks('css', create_result_tips)
-            self.wait_loading()
-            Screenshot(self.driver).get_img("定量明细表生成结果", "明细表生成结果成功")
+        self.clicks('css', create_result_tips)
+        info = self.get_pageinfo()
+        self.wait_loading()
+        Screenshot(self.driver).get_img("定量明细表生成结果", "明细表生成结果成功")
+        return info
 
     # 进入结果表
     def enter_result(self):
@@ -154,9 +157,7 @@ class libraryquantificationPage(BasePage):
         self.sleep(0.5)
 
         log.info('文库定量明细表，样本入库批量粘贴盒内位置')
-
         lims_list = self.position_index(detail_task_id, dl_detail_lims_sql)
-
         data = xlrd.open_workbook(position_in_box_path)
         num_list = []
         for B in range(0, len(lims_list)):
@@ -194,21 +195,21 @@ class libraryquantificationPage(BasePage):
         return lims_list
 
     # 结果表录入表单数值
-    def result_product_type(self):
+    def result_edit_form_data(self):
         """文库定量结果表录入产物体积、产物浓度、总量"""
         log.info('文库定量结果表，录入产物体积、产物浓度、总量')
-        #根据总样本数，循环录入产物体积、浓度、总量
+        # 根据总样本数，循环录入产物体积、浓度、总量
         result_total_samples = self.findelements('css', result_all_samples)
         for i in range(1, len(result_total_samples) + 1):
-            #录入产物体积
+            # 录入产物体积
             self.clicks('css', quantifying_mix_product_vol.format(i))
             self.input('css', quantifying_mix_product_vol_input.format(i), 5)
             self.sleep(0.4)
-            #录入产物浓度
+            # 录入产物浓度
             self.clicks('css', quantifying_mix_product_consistenceAmt.format(i))
             self.input('css', quantifying_mix_product_consistenceAmt_input.format(i), 5)
             self.sleep(0.4)
-            #录入产物总量
+            # 录入产物总量
             self.clicks('css', quantifying_mix_product_total.format(i))
             self.input('css', quantifying_mix_product_total_input.format(i), 25)
             self.sleep(0.4)
@@ -231,7 +232,7 @@ class libraryquantificationPage(BasePage):
         self.wait_loading()
 
         submit_info = self.get_text('css', result_sample_status)
-        print('样本处理结果表提交状态', submit_info)#样本提交成功
+        print('样本处理结果表提交状态', submit_info)  #
         return submit_info.strip()
 
     # 结果表样本流程环节写入Excel

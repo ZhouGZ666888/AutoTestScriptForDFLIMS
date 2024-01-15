@@ -84,7 +84,8 @@ wkfj_detail_sql2 = "UPDATE sample_info_t SET preinstall_throughput = 7.14 WHERE 
 wkfj_detail_sql3 = "SELECT sit.previous_sample_id_lims FROM sample_info_t sit INNER JOIN ( SELECT sample_id_lims FROM sample_info_t WHERE preinstall_probe IS NOT NULL AND order_code = '{}' ) AS subquery ON sit.sample_id_lims = subquery.sample_id_lims WHERE sit.module_task_id IS NULL ORDER BY sit.sample_id_lims asc limit 1;"
 
 # 文库定量明细表,更新表单值
-wkdl_detail_update = "UPDATE exp_libquant_item_t SET remaining_volume_amt = 19, remaining_total_amt = 38, actual_loading_total_amt = 2, theoretical_loading_total_amt = 2, used_total_amt = 2, actual_fragment_len = 3, theoretica_fragment_len = 3, actual_molar_concentration = 5, theoretical_molar_concentration = 5 WHERE task_id = '{}';"
+wkdl_detail_update = "UPDATE exp_libquant_item_t SET remaining_volume_amt = 10, remaining_total_amt = 20, " \
+                     "actual_loading_total_amt = 2, theoretical_loading_total_amt = 2, used_total_amt = 2, actual_fragment_len = 3, theoretica_fragment_len = 3, actual_molar_concentration = 5, theoretical_molar_concentration = 5 WHERE task_id = '{}';"
 
 # 文库富集结果表
 

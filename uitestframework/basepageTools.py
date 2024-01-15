@@ -15,6 +15,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class BasePage:
@@ -46,7 +47,6 @@ class BasePage:
         """
         self.driver.quit()
         log.info('关闭浏览器')
-
 
     @staticmethod
     def sleep(t):
@@ -226,6 +226,24 @@ class BasePage:
             flag = False
             return flag
 
+    def is_element_clickable(self, ele_type, locator):
+        """
+        判断页面元素是否可以点击。
+        :param ele_type:
+        :param locator: 用于定位元素的定位器，例如(By.ID, 'element_id')
+        :return: 可点击返回True，否则返回False
+        """
+        try:
+            # 等待元素变得可以点击
+            element = self.findelement(ele_type, locator)
+            WebDriverWait(self.driver, 1).until(
+                EC.element_to_be_clickable(element)
+            )
+            return True
+        except TimeoutException:
+            # 超时说明元素无法点击
+            return False
+
     def isDisplayed(self, ele_type, element_loc):
         """
         判断元素是否可见，返回布尔值
@@ -265,6 +283,7 @@ class BasePage:
         except Exception as e:
             raise ElementNotFound(e)
         self.executeJscript(js, element)
+
     @staticmethod
     def updata_sql(sqls):
         """
