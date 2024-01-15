@@ -151,6 +151,15 @@ class EnterTab(BasePage):
             log.warning("无法进入文库富集列表")
             raise ElementNotFound(e)
 
+    def enter_libraryquantification(self):
+        """点击文库定量tab封装"""
+        try:
+            self.clicks('xpath', "//span[contains(text(),'文库定量')]")
+            self.wait_loading()
+        except Exception as e:
+            log.warning("无法进入文库定量列表")
+            raise ElementNotFound(e)
+
     def enter_sequencing(self):
         """点击上机tab封装"""
         try:
