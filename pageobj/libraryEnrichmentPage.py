@@ -140,25 +140,30 @@ class LibraryenrichmentPage(BasePage):
         wb = load_workbook(filename=wkfj_detail_import_path)  # 打开明细表导入excel文件
         wb_result = load_workbook(filename=wkfj_result_import_path)  # 打开结果表导入excel文件
         # 把流程中的样本号写入待导入模板
-        for i in range(0, len(samples)):
-            j = i + 1
-            k = i + 2
+        for i in range(1, len(samples) + 1):
+            k = i + 1
             self.sleep(0.5)
-            samples_lims_id = self.get_text('css', all_sample_lims.format(j))
-            samples_lab_id = self.get_text('css', all_sample_lab.format(j))
+            samples_lims_id = self.get_text('css', all_sample_lims.format(i))
+            samples_lab_id = self.get_text('css', all_sample_lab.format(i))
             ws = wb.active
             ws2 = wb_result.active
             # 根据需要修改表格数据
+            fjwkmc = 'NJ-' + str_time + '-' + probe + 'FJ01'
             ws.cell(k, 1, samples_lims_id)  # 修改第k行，第index列值,lims号
             ws.cell(k, 2, samples_lab_id)  # 修改第k行，第index列值，实验室号
-            if j < 10:
-                fjwkmc = 'NJ-' + str_time + '-' + probe + 'FJ0{}'  # 富集名称
-                ws.cell(k, 3, fjwkmc.format(j))  # pooling号
-                ws2.cell(k, 1, fjwkmc.format(j))  # 把富集名称同时写入结果表
-            elif j >= 0:
-                fjwkmc = 'NJ-' + str_time + '-' + probe + 'FJ0{}'  # 富集名称
-                ws.cell(k, 3, fjwkmc.format(j))  # pooling号
-                ws2.cell(k, 1, fjwkmc.format(j))  # 把富集名称同时写入结果表
+            ws.cell(k, 3, fjwkmc)  # pooling号
+            ws2.cell(k, 1, fjwkmc)  # 把富集名称同时写入结果表
+
+            # 为每个样本生成不同富集名称
+
+            # if j < 10:
+            #     fjwkmc = 'NJ-' + str_time + '-' + probe + 'FJ0{}'  # 富集名称
+            #     ws.cell(k, 3, fjwkmc.format(j))  # pooling号
+            #     ws2.cell(k, 1, fjwkmc.format(j))  # 把富集名称同时写入结果表
+            # elif j >= 0:
+            #     fjwkmc = 'NJ-' + str_time + '-' + probe + 'FJ{}'  # 富集名称
+            #     ws.cell(k, 3, fjwkmc.format(j))  # pooling号
+            #     ws2.cell(k, 1, fjwkmc.format(j))  # 把富集名称同时写入结果表
             # elif j < 20:
             #     fjwkmc = 'NJ-' + str_time + '-101-B-1@{}'  # 富集名称
             #     ws.cell(k, 3, fjwkmc.format(int(j) - 10))  # pooling号
@@ -271,7 +276,7 @@ class LibraryenrichmentPage(BasePage):
         self.wait_loading()
 
     # 明细表生成结果，保存数据
-    def detail_create_result(self,index):
+    def detail_create_result(self, index):
         log.info("批量数据后生成结果")
         self.click_by_js('css', detail_all_choice)  # 列表全选按钮
         self.sleep(1)
@@ -295,7 +300,7 @@ class LibraryenrichmentPage(BasePage):
         self.wait_loading()
 
     # 明细表入库
-    def detail_into_storage(self,nub):
+    def detail_into_storage(self, nub):
         """文库富集明细表样本入库操作"""
         log.info('文库富集明细表，样本入库操作')
         self.clicks('css', detail_all_choice)  # 列表全选按钮
@@ -398,7 +403,7 @@ class LibraryenrichmentPage(BasePage):
         all_sample = self.findelements('css', result_samples_for_total)
         for i in range(1, len(all_sample) + 1):
             self.clicks('css', consistenceAmtOne.format(i))
-            self.input('css', consistenceAmtOne_input.format(i),2)
+            self.input('css', consistenceAmtOne_input.format(i), 2)
             self.sleep(0.5)
             self.clicks('css', consistenceAmtTwo.format(i))
             self.input('css', consistenceAmtTwo_input.format(i), 2)
@@ -441,7 +446,7 @@ class LibraryenrichmentPage(BasePage):
         return taskstatus
 
     # 文库富集任务列表查询样本所在任务单
-    def serach_task(self,path):
+    def serach_task(self, path):
         """首页面查询已完成的样本任务单"""
         lims_id = read_excel_col(path, 'lims号')
         self.clicks('css', search)
