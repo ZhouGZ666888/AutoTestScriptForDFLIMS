@@ -5,7 +5,7 @@ import xlrd
 from xlrd import sheet
 import pandas as pd
 
-from conf.all_path import hstq_file_path_dxk, mpcr_result_consistence_amt_import_path
+from conf.all_path import hstq_file_path_dxk, mpcr_result_consistence_amt_import_path, index_96_import
 
 
 def write_excel_xlsx(path, value1, value2, colname1, colname2):
@@ -130,9 +130,11 @@ def pandas_write_excel(company_name_list, path):
     """
     # list转dataframe
     df = pd.DataFrame(company_name_list)
-
+    if path==index_96_import:
     # 保存到本地excel，不带表头
-    df.to_excel(path, header=None, index=False)
+        df.to_excel(path,  index=False)
+    else:
+        df.to_excel(path, header=None, index=False)
 
 
 def add_write_excel_xlsx(path, value):
@@ -185,7 +187,17 @@ def openpyxl_edit_data(filepath,datas,nub):
     # 保存修改后的Excel文件
     workbook.save(filepath)
 
-
+def write_data_toexcle(path,data_list):
+    """将一行二维列表的数据写入Excel，不限制二维列表中元素个数
+    列表实例：[[1, 'GSD231214019B001', 'BJ23BD0020-DF03XXXXXXXFX-N002J019', 1], [2, 'GSD240105060B001',
+    'NT24151980-1XXXXXXXFX-N002', 2],...]
+    """
+    workbook = openpyxl.load_workbook(path)
+    worksheet = workbook.active
+    for row_index, row_data in enumerate(data_list, start=2):#从Excel的第几行开始写入
+        for column_index, cell_value in enumerate(row_data, start=1):
+            worksheet.cell(row=row_index, column=column_index, value=cell_value)
+    workbook.save(path)
 
 
 if __name__ == '__main__':

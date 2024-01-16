@@ -48,8 +48,8 @@ class SampleProcessing(MyTest):
 
     def test05_result_complete_task(self):
         """结果表完成任务单"""
-        save_info3 = self.spp.complete_task()
-        self.assertEqual(save_info3[6:].strip(), '完成', '完成任务单失败！')
+        save_info = self.spp.complete_task()
+        self.assertEqual(save_info[6:].strip(), '完成', '完成任务单失败！')
 
     def test06_search_task_by_lims(self):
         """测试根据添加到的任务单中的lims样本号搜索对应的任务单"""

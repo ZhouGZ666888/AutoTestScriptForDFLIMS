@@ -68,10 +68,9 @@ check_lims_sample_number_textarea = (
 check_lims_sample_number_confirm = (
     '.dialog-expMgmt-detail .dialog-footer .qcResult-btn-confirm')
 
-#查询结果有不存在样本号提示信息
-error_info=(
+# 查询结果有不存在样本号提示信息
+error_info = (
     '//*[@aria-label="核对结果"]/div[@class="el-dialog__footer"]/descendant::span/button')
-
 
 # 待选列表全选按钮
 all_choice = (
@@ -125,13 +124,14 @@ batch_remaining_sample_package_amount_comfirm = (
 
 # *********************************************表单录入**********************************************
 
-# 自动生成96孔版位置表单定位
-col_96_well_plate_position = (
-    '.createTask_content_table .vxe-table--main-wrapper tbody tr:nth-child(1) .libconstructionSchedule-tableCol-positionInOrifice')
+# 96孔板位置+INDEX导入按钮
+col_96_well_plate_position = '.button-list .libconstructionSchedule-btn-importIndex'
 
-# 自动生成96孔版位置表单文本录入框
-col_create_96_well_plate_position_input = (
-    '.createTask_content_table .vxe-table--main-wrapper tbody tr:nth-child(1) .libconstructionSchedule-tableCol-positionInOrifice   input')
+# 96孔板位置+INDEX导入上传标签
+col_96_well_plate_position_input = '.el-dialog--center .el-dialog__body .el-upload__input'
+
+# 96孔板位置+INDEX导入弹框上传按钮
+col_96_well_plate_position_upload = '.el-dialog--center .el-dialog__footer .baseClass-btn-upload'
 
 # 自动生成96孔板位置按钮
 auto_create_96_well_plate_position = (
@@ -189,14 +189,13 @@ batch_copy_BoxPosition_comfirm = '.dialog-position-box-copy .dialog-footer .base
 # 入库弹框下一步按钮
 storage_next = '.dialog-check-storage .dialog-footer button:nth-child(2)'
 
-
 # *********************************************************************************
 # 核酸浓度（实测）文本定位
 consistenceAmt = (
     '.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td.libconstructionSchedule-tableCol-consistenceAmt')
 
-#核酸总量文本定位
-actualTotalAmt=(
+# 核酸总量文本定位
+actualTotalAmt = (
     '.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td.libconstructionSchedule-tableCol-actualTotalAmt')
 
 # 建库进入量文本定位
@@ -248,7 +247,7 @@ result_change_product_type_choice = (
 result_change_product_type_comfirm = (
     '.multi-table-dialog .dialog-footer .baseClass-btn-confirm')
 
-error_info_box='//div[child::div[@class="el-dialog el-dialog--center dialog-show-error"]]'
+error_info_box = '//div[child::div[@class="el-dialog el-dialog--center dialog-show-error"]]'
 
 # 修改产物类型，类型不一致提示框确认按钮
 result_change_product_type_continue_comfirm = (
@@ -427,8 +426,8 @@ result_task_id = (
 detail_task_status = (
     '.createTask .clearfix div span:nth-child(3)')
 
-#页面提示信息
-pageinfo=(
+# 页面提示信息
+pageinfo = (
     '.el-message.el-message--error .el-message__content')
 
 # 返回明细表

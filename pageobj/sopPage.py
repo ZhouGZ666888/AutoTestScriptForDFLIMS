@@ -44,7 +44,7 @@ class SopPage(BasePage):
         self.sleep(1)
 
         log.info("详情页，填写sop名称")
-        self.clicks('xpath', sop_detail_sopname)
+        self.click_by_js('xpath', sop_detail_sopname)
         self.input('xpath', sop_detail_sopname, sop_name)
         self.sleep(0.5)
         log.info("详情页，填写sop版本号")

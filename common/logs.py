@@ -4,7 +4,7 @@ from conf.all_path import log_path
 
 
 
-class Log:
+class Log1:
 
     def __init__(self):
         # 文件的命名
@@ -57,7 +57,7 @@ class Log:
         self.__console('error', message)
 
 
-class Log1:
+class Log:
 
     def __init__(self):
         # 文件的命名

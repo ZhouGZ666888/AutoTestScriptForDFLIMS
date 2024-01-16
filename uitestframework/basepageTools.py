@@ -9,12 +9,13 @@ from common.DataBaseConnection import executeSql
 from common.xlsx_excel import add_write_excel_xlsx
 from common.logs import log
 from conf.all_path import testdata_path, hstq_file_path_mNGS, wkgj_file_path, qpcr_dxk_file_path, sj_file_path, \
-    ybrk_file_path, wkfj_file_path, functionpageURL_path, mpcr_file_path
+    ybrk_file_path, wkfj_file_path, functionpageURL_path, mpcr_file_path, wkdl_file_path
 from .exceptionsTools import ElementNotFound, ElementNotTextAttr
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class BasePage:
@@ -46,7 +47,6 @@ class BasePage:
         """
         self.driver.quit()
         log.info('关闭浏览器')
-
 
     @staticmethod
     def sleep(t):
@@ -226,6 +226,24 @@ class BasePage:
             flag = False
             return flag
 
+    def is_element_clickable(self, ele_type, locator):
+        """
+        判断页面元素是否可以点击。
+        :param ele_type:
+        :param locator: 用于定位元素的定位器，例如(By.ID, 'element_id')
+        :return: 可点击返回True，否则返回False
+        """
+        try:
+            # 等待元素变得可以点击
+            element = self.findelement(ele_type, locator)
+            WebDriverWait(self.driver, 1).until(
+                EC.element_to_be_clickable(element)
+            )
+            return True
+        except TimeoutException:
+            # 超时说明元素无法点击
+            return False
+
     def isDisplayed(self, ele_type, element_loc):
         """
         判断元素是否可见，返回布尔值
@@ -247,7 +265,6 @@ class BasePage:
         :param element_loc:对应输入框的元素定位
         :param text:需要输入的文本
         """
-
         try:
             element = self.findelement(ele_type, element_loc)
         except Exception as e:
@@ -266,6 +283,7 @@ class BasePage:
         except Exception as e:
             raise ElementNotFound(e)
         self.executeJscript(js, element)
+
     @staticmethod
     def updata_sql(sqls):
         """
@@ -514,9 +532,14 @@ class BasePage:
                 data_list.append(result[item])
                 add_write_excel_xlsx(ybrk_file_path, data_list)
 
+            elif next_step == '文库定量':
+                data_list.append(result[item])
+                add_write_excel_xlsx(wkdl_file_path, data_list)
+
             elif next_step == 'pooling':
                 data_list.append(result[item])
                 add_write_excel_xlsx(wkfj_file_path, data_list)
+
             elif next_step == 'mpcr':
                 data_list.append(result[item])
                 add_write_excel_xlsx(mpcr_file_path, data_list)

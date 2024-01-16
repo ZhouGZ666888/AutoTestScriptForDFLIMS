@@ -60,7 +60,7 @@ class mPCRTest(BasePage):
             self.sleep(0.5)
             self.input('xpath', check_lims_sample_number_textarea, sample_nub)
             self.sleep(0.5)
-            self.clicks('xpath', check_lims_sample_number_confirm)
+            self.clicks('css', check_lims_sample_number_confirm)
             self.wait_loading()
         except Exception as error:
             log.error('mpcr核对样本号信息有误:%s' % error)

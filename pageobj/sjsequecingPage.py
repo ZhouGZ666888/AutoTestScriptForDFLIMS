@@ -52,13 +52,13 @@ class SjSequecingPage(BasePage):
 
         # 获取当前时间
         str_time = time.strftime("%Y.%m.%d %H:%M:%S", time.localtime())
-
+        lims_nub = read_excel_col(sj_file_path, '上机分组号')
         log.info("上机首页，点击新建按钮，进入样本待选表，新增上机任务")
         self.clicks('css', add_task)
         self.wait_loading()
 
         log.info("录入上机批次号")
-        self.input('css', sequencing_batch_number, str_time + "批次")
+        self.input('css', sequencing_batch_number, lims_nub[0])
         self.sleep(0.5)
 
         log.info("选择测序仪")
@@ -84,11 +84,11 @@ class SjSequecingPage(BasePage):
         self.sleep(0.5)
 
         log.info("samplesheet名称")
-        self.input('css', samplesheetname, time.strftime("%m_%d")+'_samplesheet')
+        self.input('css', samplesheetname, time.strftime("%m-%d")+'-Nextseq550DX-2')
         self.sleep(0.5)
 
         log.info("任务描述")
-        self.input('css', task_des, '自动化测试任务')
+        self.input('css', task_des, lims_nub[0])
         self.sleep(0.5)
 
         log.info(" 选择上机SOP")

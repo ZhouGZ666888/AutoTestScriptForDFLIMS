@@ -96,6 +96,12 @@ wkgj_file_path = os.path.join(file_path, 'excel_doc', 'wkgj_id_lims.xlsx')
 # 文库富集结果记录表
 wkfj_file_path = os.path.join(file_path, 'excel_doc', 'wkfj_id_lims.xlsx')
 
+# 文库富集有探针结果记录表
+wkfj_probe_file_path = os.path.join(file_path, 'excel_doc', 'wkfj_probe_id_lims.xlsx')
+
+# 文库定量结果记录表
+wkdl_file_path = os.path.join(file_path, 'excel_doc', 'wkdl_id_lims.xlsx')
+
 # 上机结果记录表
 sj_file_path = os.path.join(file_path, 'excel_doc', 'sj_id_lims.xlsx')
 
@@ -135,3 +141,6 @@ identificationNo_file_path = os.path.join(file_path, 'import_excel', '自动化�
 
 # 批量粘贴盒内位置导入文件
 position_in_box_path = os.path.join(file_path, 'import_excel', 'position_in_box_lims.xlsx')
+
+# 构建-96孔板位置+INDEX导入文件
+index_96_import = os.path.join(file_path, 'import_excel', '构建-96孔板位置+INDEX导入模板E.xlsx')

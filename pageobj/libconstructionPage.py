@@ -11,10 +11,11 @@ from PageElements.wkgj_ele import *
 from common.screenshot import Screenshot
 from common.DataBaseConnection import executeSql
 from common import editYaml
-from common.xlsx_excel import get_lims_for_excel_by_col, pandas_write_excel, read_excel_col
-from conf.all_path import wkgj_file_path, functionpageURL_path, position_in_box_path
+from common.xlsx_excel import get_lims_for_excel_by_col, pandas_write_excel, read_excel_col, write_data_toexcle
+from conf.all_path import wkgj_file_path, functionpageURL_path, position_in_box_path, index_96_import
 from conf.config import libconstruction_result
-from conf.execute_sql_action import wkgj_detail_sql2, wkgj_result_sql1, next_step_sql,wkgj_result_sql2
+from conf.execute_sql_action import wkgj_detail_sql2, wkgj_result_sql1, next_step_sql, wkgj_result_sql2, \
+    wkgj_detail_sql3
 from uitestframework.basepageTools import BasePage
 from common.logs import log
 
@@ -91,7 +92,7 @@ class LibconstructionPage(BasePage):
         self.sleep(0.5)
         self.clicks('css', addSelect_or_save_btn)
         pageInfo = self.get_pageinfo()
-        Screenshot(self.driver).get_img("文库构建待选表点击核对lims号，录入样本号进行查询，勾选查询结果，并保存任务单号","保存任务单成功")
+        Screenshot(self.driver).get_img("文库构建待选表点击核对lims号，录入样本号进行查询，勾选查询结果，并保存任务单号", "保存任务单成功")
         self.wait_loading()
         return pageInfo
 
@@ -118,9 +119,7 @@ class LibconstructionPage(BasePage):
 
     # 明细表入库信息、批量包装余量、录入96孔版位置
     def detail_libconstruction(self):
-        """
-        文库构建明细表，选择入库信息、批量包装余量、录入96孔版位置
-        """
+        """文库构建明细表，选择入库信息、批量包装余量"""
         log.info("文库构建明细表选择入库类型：余样入库")
         self.clicks('css', detail_all_choice)  # 列表全选按钮
         self.sleep(0.5)
@@ -133,20 +132,36 @@ class LibconstructionPage(BasePage):
         self.clicks('css', batch_remaining_sample_package_amount)  # 明细表批量包装余量
         self.sleep(0.5)
         self.clicks('css', batch_remaining_sample_package_amount_comfirm)  # 明细表批量包装余量确认
-        self.sleep(0.5)
+        self.sleep(1)
 
-        log.info("文库构建明细表录入96孔版位置")
-        self.clicks('css', col_96_well_plate_position)  # 明细表选中一条数据
+    def index_96_import(self):
+        """96孔板位置和INDEX导入"""
+        log.info("文库构建明细表96孔板位置和INDEX导入")
+        taskstatus = self.get_text('css', detail_task_id)  # 获取任务单号
+        print('富集任务单号', taskstatus)
+        lims_list = executeSql.test_select_limsdb(
+            wkgj_detail_sql3.format(taskstatus[5:].strip()))
+        values_list = [list(d.values()) for d in lims_list]
+        new_list = [[i + 1] + item + [i + 1] for i, item in enumerate(values_list)]  # 从数据库获取当前任务单号下样本lims号和实验室号，转换为二维列表
+        print(new_list)
+        write_data_toexcle(index_96_import, new_list)  # 将二维列表写入Excel
+        log.info("点击文库构建明细表96孔板位置和INDEX导入按钮")
+        self.clicks('css', col_96_well_plate_position)  # 点击96孔板位置和INDEX导入按钮
         self.sleep(0.5)
-        self.input('css', col_create_96_well_plate_position_input, 1)  # 录入96孔板位置
+        Screenshot(self.driver).get_img("文库构建明细表点击96孔板位置和INDEX导入按钮", "弹出导入弹框")
+        # 执行修改元素属性js
+        self.executeJscript(
+            "document.querySelector('.el-dialog--center .el-dialog__body .el-upload__input').style.setProperty('display','block','important');")
         self.sleep(0.5)
-        self.clicks('css', auto_create_96_well_plate_position)  # 点击自动生成96孔板位置
+        log.info("点击文库构建明细表96孔板位置和INDEX上传导入文件")
+        self.input('css', col_96_well_plate_position_input, index_96_import)  # 上传导入文件
+        self.sleep(1)
+        self.clicks('css', col_96_well_plate_position_upload)
         self.wait_loading()
-        self.sleep(0.5)
 
-    # # 明细表表单自动计算
+    # 明细表表单自动计算
     def detail_libconstruction_form_input(self):
-
+        """明细表表单自动计算"""
         log.info("点击自动计算")
         self.sleep(0.5)
         self.clicks('css', detail_auto_calculate)
@@ -155,16 +170,13 @@ class LibconstructionPage(BasePage):
 
     # 明细表提交
     def detail_sumbit(self):
-        """
-        文库构建明细表，样本提交操作
-        :return:
-        """
+        """文库构建明细表，样本提交操作"""
         log.info("文库构建明细表样本提交")
         self.click_by_js('css', detail_all_choice)
         self.sleep(0.5)
         self.clicks('css', submit_btn)  # 提交按钮
         self.sleep(0.5)
-        Screenshot(self.driver).get_img("文库构建明细表点击提交按钮","弹出提交确认按钮")
+        Screenshot(self.driver).get_img("文库构建明细表点击提交按钮", "弹出提交确认按钮")
         self.click_by_js('css', submit_comfirm)  # 提交弹框确认按钮
         self.wait_loading()
         self.sleep(1)
@@ -225,7 +237,7 @@ class LibconstructionPage(BasePage):
             self.sleep(0.5)
 
             # 调用自定义截图方法
-            Screenshot(self.driver).get_img("文库构建明细表点击入库按钮，在弹框中录入库位信息和盒内位置后点击下一步","样本入库成功")
+            Screenshot(self.driver).get_img("文库构建明细表点击入库按钮，在弹框中录入库位信息和盒内位置后点击下一步", "样本入库成功")
 
             self.clicks('css', storage_next)
             self.wait_loading()
@@ -321,7 +333,7 @@ class LibconstructionPage(BasePage):
         ##文库浓度1ng/μL*、文库浓度2ng/μL*、平均文库浓度ng/μL*录入
 
         self.updata_sql(wkgj_result_sql1.format(taskstatus[5:].strip()))
-        self.updata_sql(wkgj_result_sql1.format(taskstatus[5:].strip()))
+        # self.updata_sql(wkgj_result_sql1.format(taskstatus[5:].strip()))
         executeSql.test_updateByParam(wkgj_result_sql2.format(taskstatus[5:].strip()))  # 为对照样本设置预期通量
         print("为对照样本设置预期通量")
         # 刷新页面
@@ -329,7 +341,7 @@ class LibconstructionPage(BasePage):
         self.wait_loading()
 
         self.clicks('css', result_all_choice)
-        log.info(' 文库构建结果表,点击批量计算')
+        log.info('文库构建结果表,点击批量计算')
         self.clicks('css', result_auto_calculate)
         self.wait_loading()
         self.sleep(1)
@@ -338,7 +350,7 @@ class LibconstructionPage(BasePage):
         if ele:
             self.click_by_js('css', result_auto_calculate_promote)
             self.sleep(1)
-        log.info(' 文库构建结果表,生成盒内位置')
+        log.info('文库构建结果表,生成盒内位置')
         self.clicks('css', result_postionInBox)
         self.sleep(0.5)
         self.clicks('css', result_postionInBox_confirm)
@@ -347,11 +359,7 @@ class LibconstructionPage(BasePage):
         self.sleep(1)
 
     def goback_detail(self):
-        """
-        返回明细表
-
-        """
-
+        """返回明细表"""
         urldata = editYaml.read_yaml(functionpageURL_path)
         log.info('点击按钮返回明细表')
         self.click_by_js('css', goback_detail)
@@ -376,7 +384,7 @@ class LibconstructionPage(BasePage):
         self.wait_loading()
         self.sleep(0.5)
 
-        Screenshot(self.driver).get_img("文库构建结果表点击提交按钮","弹出提交确认按钮")
+        Screenshot(self.driver).get_img("文库构建结果表点击提交按钮", "弹出提交确认按钮")
 
         self.clicks('css', result_submit_comfirm)  # 提交确认按钮
         self.wait_loading()
@@ -411,7 +419,7 @@ class LibconstructionPage(BasePage):
 
             self.wait_loading()
 
-            Screenshot(self.driver).get_img("文库构建结果表点击完成任务单按钮","完成任务单成功，状态改为完成")
+            Screenshot(self.driver).get_img("文库构建结果表点击完成任务单按钮", "完成任务单成功，状态改为完成")
             task_status = self.get_text('css', detail_task_status)
             print(task_status)
             return task_status

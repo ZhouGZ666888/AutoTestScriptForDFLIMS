@@ -1,46 +1,32 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2023/05/22
+# @Time    : 2024/01/11
 # @Author  : guanzhong.zhou
-# @File    : mpcr页面元素定位
+# @File    : 文库定量页面元素定位
 # -*-*************************************************************************************-*-
 
 
 """
-MPCR首页元素定位
+文库定量首页元素定位
 """
 # 搜索项lims号录入文本
-search_lims_sample_num = (
-    '.search-list >form>div>div:nth-child(5) input')
+search_lims_sample_num = '.search-list .commonTaskList-form-sampleIdLims input'
 # 搜索按钮
-search_btn = (
-    '.search-list >div>button:nth-child(2)')
+search_btn ='.search-list-btns .baseClass-btn-dialog-search'
+
 # 新增按钮
-add_sample_MPCR_task = (
-    '.table-list .baseClass-btn-add')
+add_sample_task = '.table-list .baseClass-btn-add'
 ##页面列表样本
 sample_page_list = (
     '.table-list .sample_receive_detail .vxe-table--main-wrapper .vxe-table--body-wrapper table tbody tr')
 # -*-*************************************************************************************-*-
 
-
 """
-MPCR待选表元素定位
+文库定量待选表元素定位
 """
-# 任务类型下拉选择框
-task_type = '.task_info_form .select-task-type input'
-# 任务类型下拉选择
-task_type_choice = '//*[@class="el-select-dropdown el-popper task-type-unique"]/descendant::span[contains(text(),"结核耐药mPCR")]'
-
 # 选择sop下拉框
 task_sop = '.task_info_form .select-task-sopId input'
 # 选项sop下拉选择
 task_sop_choice = '.task-type-sopId .el-scrollbar .el-select-dropdown__wrap ul ul:nth-child(1) .el-select-group li:nth-child(1)'
-
-# 操作方式下拉框
-action_type = '.task_info_form .select-operation-type input'
-
-# 操作方式点击下拉值
-operationType_choice = '//*[@class="el-select-dropdown el-popper operation-type-unique"]/descendant::span[contains(text(),"人工")]'
 
 # 核对lims样本号按钮
 check_lims_sample_num = '.task_info_form .body-btns .commonTaskDetailNew-btn button'
@@ -64,13 +50,29 @@ enter_detail_list_btn = '.head-list .commonTaskDetailNew-commonTaskDetailBtn-goS
 page_success_info = '//*[@class="el-message el-message--success"]/descendant::p'
 
 """
-MPCR明细表元素定位
+文库定量明细表元素定位
 """
 # 明细表列表全选按钮
 detail_all_choice = '.createTask_content .show--head .vxe-table--fixed-left-wrapper .vxe-table--header-wrapper .vxe-checkbox--icon.vxe-checkbox--unchecked-icon'
 
+#明细表全部样本总数
+detail_all_samples='.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper table tbody tr'
+
+
+#定量混合产物名称表单定位
+quantifying_mix_product_name='.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper table tbody tr:nth-child({}) td:nth-child(6)'
+
+#定量混合产物名称表单录入
+quantifying_mix_product_name_input='.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper table tbody tr:nth-child({}) td:nth-child(6) input'
+
+#定量明细表生成结果按钮
+create_result='//*[@class="button-list"]/descendant::span[text()="生成结果"]'
+
+#定量明细表index重复判定提示
+create_result_tips='.common-task-schedule-new > div:nth-child(12) .el-dialog__footer .baseClass-btn-confirm'
+
 # 明细表自动计算按钮
-detail_auto_complete = '.button-list .mpcr-btn-autoComplete'
+detail_auto_complete = '.button-list .btn-autoComplete'
 
 # 明细表提交按钮
 sumbit_btn = '.button-list .mpcr-btn-submit'
@@ -124,85 +126,40 @@ go_result = '.head-list .baseClass-btn-goResults'
 
 
 """
-MPCR结果表元素定位
+文库定量结果表元素定位
 """
 # 结果表全选按钮
 result_all_choice = '.createTask_content .show--head .vxe-table--fixed-left-wrapper .vxe-table--header-wrapper .vxe-checkbox--icon.vxe-checkbox--unchecked-icon'
 
-# 结果表lims号获取
-result_all_samples = '.createTask_content_table .vxe-table--fixed-left-wrapper .vxe-table--body-wrapper table tbody tr td:nth-child(2) span'
+# 结果表样本总数
+result_all_samples = '.createTask_content_table .vxe-table--fixed-left-wrapper .vxe-table--body-wrapper table tbody tr'
 
-# 结果表修改NTC对照
-ntc_choice_btn = '.button-list .baseClass-btn-changeNtc'
+#定量混合产物体积表单定位
+quantifying_mix_product_vol='.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper table tbody tr:nth-child({}) td:nth-child(4)'
 
-# 结果表ntc查询
-ntc_search = '//*[@aria-label="修改NTC对照"]/descendant::button[child::span[contains(text(),"搜索")]]'
+#定量混合产物体积表单录入
+quantifying_mix_product_vol_input='.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper table ' \
+                              'tbody tr:nth-child({}) td:nth-child(4) input'
 
-# 结果表ntc选择
-ntc_choice = '//*[@aria-label="修改NTC对照"]/descendant::tbody/tr[1]'
+#定量混合产物浓度表单定位
+quantifying_mix_product_consistenceAmt='.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper ' \
+                                       'table tbody tr:nth-child({}) td:nth-child(5)'
 
-# 结果表ntc选择后保存
-ntc_choice_confirm_btn = '//*[@aria-label="修改NTC对照"]/descendant::button[child::span[contains(text(),"保 存")]]'
+#定量混合产物浓度表单录入
+quantifying_mix_product_consistenceAmt_input='.createTask_content_table .vxe-table--main-wrapper ' \
+                                          '.vxe-table--body-wrapper table tbody ' \
+                            'tr:nth-child({}) td:nth-child(5) input'
 
-# 结果表批量数据按钮
-result_batch_data = '.button-list .baseClass-btn-handleBatchData'
+#定量混合产物总量表单定位
+quantifying_mix_product_total='.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper table ' \
+                              'tbody ' \
+                            'tr:nth-child({}) td:nth-child(6)'
 
-# 结果表批量-mPCR产物包装量
-sampl_package_amount = '.dialog-batch-data .mpcrResults-dialogBatchData-mpcr input'
+#定量混合产物总量表单录入
+quantifying_mix_product_total_input='.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper ' \
+                                    'table tbody ' \
+                            'tr:nth-child({}) td:nth-child(6) input'
 
-# 结果表批量-包装单位
-sampl_package_amount_unit = '.dialog-batch-data .mpcrResults-dialogBatchData-samplePkgAmtUnit input'
-
-# 结果表批量-包装单位下拉选择
-sampl_package_amount_unit_choice = '//*[@class="el-select-dropdown el-popper mpcrResults-samplePkgAmtUnit"]/descendant::li[span[text()="管"]]'
-
-# 结果表批量-圆标签打印份数
-circular_labels_print = '.dialog-batch-data .mpcrResults-dialogBatchData-noOfRoundLabels input'
-
-# 结果表批量-长标签打印份数
-long_labels_print = '.dialog-batch-data .mpcrResults-dialogBatchData-noOfLongLabels input'
-
-# 结果表批量-循环数
-number_cycles = '.dialog-batch-data .mpcrResults-dialogBatchData-loopNum input'
-
-# 结果表批量-mPCR产物体积
-volume_mPCR_product = '.dialog-batch-data .mpcrResults-dialogBatchData-volumeAmt input'
-
-# 结果表批量-弹框确认按钮
-batch_data_confirm_btn = '.dialog-batch-data .el-dialog__footer button:nth-child(2)'
-
-# 结果表导入mPCR产物浓度
-import_mpcr_consistence_amt = '.button-list .mpcrResult-btn-batchConsistenceAmt'
-
-# 结果表导入mPCR产物浓度弹框文本录入框
-import_mpcr_consistence_amt_input = '//*[@aria-label="导入mPCR产物浓度"]/descendant::textarea'
-
-# 结果表导入mPCR产物浓度弹框确认按钮
-import_mpcr_consistence_amt_confirm_btn = '//*[@aria-label="导入mPCR产物浓度"]/descendant::button[child::span[text()="确定"]]'
-
-# 结果表批量粘贴盒内位置
-batch_paste_position = '.button-list .baseClass-btn-batchPositionInBox'
-
-# 结果表批量粘贴盒内位置弹框文本录入框
-batch_paste_position_input = '//*[@aria-label="批量粘贴盒内位置"]/descendant::textarea'
-
-# 结果表批量粘贴盒内位置弹框确认按钮
-batch_paste_position_confirm_btn = '//*[@aria-label="批量粘贴盒内位置"]/descendant::button[child::span[text()="确定"]]'
-
-# 结果表自动判读
-result_auto_complete_btn = '.button-list .baseClass-btn-autoComplete'
-
-# 结果表修改产物类型
-product_type = '.button-list .baseClass-btn-changeResultType'
-
-# 结果表选择产物类型
-choice_product_type = '//*[@aria-label="修改产物类型"]/descendant::tbody/tr[1]'
-
-# 结果表选择产物类型弹框确认按钮
-choice_product_type_confirm = '//*[@aria-label="修改产物类型"]/descendant::button[child::span[contains(text(),"确 定")]]'
-
-# 结果表选择产物类型确认提示弹框确认按钮
-choice_product_type_tip = '.common-task-results-new > div:nth-child(3) .el-dialog__footer button:nth-child(2)'
 
 # 结果表保存按钮
 result_save_btn = '.button-list .mpcrResult-btn-save'
@@ -217,7 +174,7 @@ result_submit_comfirm = '.dialog-result-commit .el-dialog__footer button:nth-chi
 result_task_id = '.header_test'
 
 #结果表样本提交状态
-result_sample_status='.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper table tbody tr:nth-child(1) td:nth-child(4) div div '
+result_sample_status='.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper table tbody tr:nth-child(1) td:nth-child(12)'
 
 # 返回明细表
 go_back = '.head-list .baseClass-btn-goSchedule'

@@ -37,8 +37,10 @@ class Libconstruction(MyTest):
 
     def test02_libconstruction_detail(self):
         """测试文库构建明细表批量数量录入、入库信息、批量包装余量、录入96孔版位置"""
-        log.info(" 文库构建明细表，选择入库信息、批量包装余量、录入96孔版位置")
+        log.info("文库构建明细表，选择入库信息、批量包装余量")
         self.wkgj.detail_libconstruction()
+        log.info("文库构建明细表，导入96孔板位置和INDEX")
+        self.wkgj.index_96_import()
         log.info("文库构建明细表选，进行自动计算")
         self.wkgj.detail_libconstruction_form_input()
         log.info('进入文库构建结果表')
@@ -48,16 +50,12 @@ class Libconstruction(MyTest):
         """测试文库构建结果表批量数量录入、表单数据录入、修改产物类型、自动计算、录入预计富集时间"""
         log.info("文库构建结果表，修改产物类型、批量数据")
         self.wkgj.ultrasonic_result_data_input()
-
         log.info("文库构建结果表，修改预计富集时间")
         self.wkgj.edit_estimated_enrichment_time()
-
         log.info("文库构建结果表，结果表表单录入,生成盒内位置")
         self.wkgj.ultrasonic_result_formdata_input()
-
         log.info("文库构建结果表，结果表提交")
         self.wkgj.result_submit_sample()
-
         log.info("文库构建结果表，结果表下一步数据写入对应Excel")
         self.wkgj.write_data_to_excel()
         log.info("文库构建结果表，返回明细表完成提交入库操作")

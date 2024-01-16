@@ -211,11 +211,23 @@ cancel_all_check = (
 
 # 全选富集节点的复选框
 get_wkfj_allcheckbox = (
-    '.baseClass-pageName-pooling > span')
+    '.baseClass-pageName-pooling > span:nth-child(1)')
 
 # 点击【修改富集信息】按钮
 update_wkfj_data_button = (
     '//*[@class="el-button baseClass-btn-0-show-edit-probe el-button--primary el-button--small"]')
+
+# 选择一条样本
+choice_one_sample='.dialog-probe .el-dialog__body .vxe-table--fixed-left-wrapper .vxe-table--body-wrapper table tbody tr:nth-child(1) td:nth-child(2)'
+
+#批量修改预设探针按钮
+preinstallProbe_btn= '//span[text()="批量修改预设探针"]'
+
+#选择探针弹框，第一条探针数据
+preinstallProbe_choice='.batch-edit-probe .el-dialog__body .el-table__body-wrapper tbody tr:nth-child(1)'
+
+#选择探针弹框,确定按钮
+preinstallProbe_confirm='.batch-edit-probe .el-dialog__footer .baseClass-btn-confirm'
 
 # 全选样本复选框
 update_wkfj_data_allcheckbox = (

@@ -416,7 +416,7 @@ result_submit_comfirm = (
 # 结果表提交状态文本定位
 result_sample_status = (
     '.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper table tbody tr:nth-child(1) '
-    'td:nth-child(9)')
+    'td:nth-child(8)')
 
 # 完成任务单按钮
 result_complete_task_btn = (
