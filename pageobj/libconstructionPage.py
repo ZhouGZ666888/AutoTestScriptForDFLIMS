@@ -3,7 +3,6 @@
 # @Author  : guanzhong.zhou
 # @File    : 文库构建模块页面功能封装
 from datetime import datetime
-
 import pyperclip
 import xlrd
 from selenium.webdriver.common.keys import Keys
@@ -14,8 +13,8 @@ from common import editYaml
 from common.xlsx_excel import get_lims_for_excel_by_col, pandas_write_excel, read_excel_col, write_data_toexcle
 from conf.all_path import wkgj_file_path, functionpageURL_path, position_in_box_path, index_96_import
 from conf.config import libconstruction_result
-from conf.execute_sql_action import wkgj_detail_sql2, wkgj_result_sql1, next_step_sql, wkgj_result_sql2, \
-    wkgj_detail_sql3
+from conf.execute_sql_action import wkgj_detail_sql2, wkgj_result_sql1, wkgj_result_sql2, \
+    wkgj_detail_sql3, gj_next_step
 from uitestframework.basepageTools import BasePage
 from common.logs import log
 
@@ -395,7 +394,7 @@ class LibconstructionPage(BasePage):
         """
          根据结果表样本下一步流程，把对应的样本lims号、实验室号、下一步流程以追加形式写入该流程的Excel
         """
-        self.add_excel_xlxs(next_step_sql, libconstruction_result, result_task_id)
+        self.add_excel_xlxs(gj_next_step, libconstruction_result, result_task_id)
         print("下一步流程写入成功")
 
     # 完成任务单
