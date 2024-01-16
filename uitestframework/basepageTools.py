@@ -498,7 +498,10 @@ class BasePage:
         taskid = re.findall(r'[a-zA-Z0-9]+', taskidstr)[0]
 
         # 执行SQL，获取二维列表，lims号和下一步流向
-        dada = self.select_sql(sql.format(table_name, taskid))
+        if sql == "gj_next_step":  # 构建查询结构不一致，单独拿出来
+            dada = self.select_sql(sql.format(table_name, taskid, table_name, taskid))
+        else:
+            dada = self.select_sql(sql.format(table_name, taskid))
 
         # 把任务单号添加进二维列表
         result = [list(dct.values()) + [taskid] for dct in dada]  # ID，next，task_id

@@ -325,7 +325,7 @@ class SampleWorkflowPage(BasePage):
         self.sleep(0.5)
 
         log.info("全选修改富集信息样本复选框")
-        self.clicks('css', update_wkfj_data_allcheckbox)
+        self.click_by_js('css', update_wkfj_data_allcheckbox)
         self.sleep(0.5)
         log.info("点击【批量修改通量】")
         self.clicks('xpath', update_wkfj_thought)
