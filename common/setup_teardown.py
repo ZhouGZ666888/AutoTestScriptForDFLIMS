@@ -33,7 +33,7 @@ class MyTest(unittest.TestCase):
 
     # 登录功能封装，调试用
     def initialize(self):
-        self.lg.login_console('guoqi.dong')
+        # self.lg.login_console('guoqi.dong')
         # self.lg.login_console('guanzhong.zhou')
         pass
 
@@ -51,5 +51,5 @@ class MyTest(unittest.TestCase):
             log.info("TESTING END!")
 
         # 调试用
-        cls.driver.close()
-        cls.driver.quit()
+        # cls.driver.close()
+        # cls.driver.quit()
