@@ -52,5 +52,5 @@ if __name__ == '__main__':
     dr = webdriver.Chrome()
     dr.get('https:www.baidu.com')
     driver = Screenshot(dr)
-    driver.get_img('123')
+    driver.get_img('123',3)
     dr.quit()

@@ -114,10 +114,10 @@ class SopPage(BasePage):
 
         log.info("详情页，点击【新增产物类型】按钮后，点击搜索产物样本类型弹框")
         self.clicks('css', sop_detail_product_sample_type)
-        self.sleep(0.5)
+        self.sleep(1)
 
         log.info("详情页，默认选择首选项")
-        self.clicks('css', sop_detail_product_sample_type_search_result)
+        self.click_by_js('css', sop_detail_product_sample_type_search_result)
         self.sleep(0.5)
         log.info("详情页，点击确定")
         self.clicks('xpath', sop_detail_product_sample_type_search_comfirm)

@@ -105,7 +105,7 @@ sop_detail_original_sample_type_search_comfirm = '//*[@aria-label="原样类型"
 sop_detail_product_sample_type = '.SOPversionDetail_info_box-card .el-card__body .el-table__body-wrapper tbody tr td:nth-child(2) .el-icon-search'
 
 # 详情页，sop点击新增产物按钮,原始样本类型按钮,点击后的弹框，选择首选项
-sop_detail_product_sample_type_search_result = ' .el-table--scrollable-y .el-table__body-wrapper tbody tr:nth-child(1)'
+sop_detail_product_sample_type_search_result = '.el-table--scrollable-y .el-table__body-wrapper tbody tr:nth-child(1)'
 
 # 详情页，点击确定按钮
 sop_detail_product_sample_type_search_comfirm = '//*[@aria-label="产物类型"]//descendant::button[4]'

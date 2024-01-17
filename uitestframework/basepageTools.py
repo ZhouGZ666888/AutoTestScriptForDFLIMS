@@ -1,5 +1,4 @@
 import re
-
 import pyperclip, time
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support import expected_conditions
@@ -10,7 +9,8 @@ from common.xlsx_excel import add_write_excel_xlsx
 from common.logs import log
 from conf.all_path import testdata_path, hstq_file_path_mNGS, wkgj_file_path, qpcr_dxk_file_path, sj_file_path, \
     ybrk_file_path, wkfj_file_path, functionpageURL_path, mpcr_file_path, wkdl_file_path
-from .exceptionsTools import ElementNotFound, ElementNotTextAttr
+from conf.execute_sql_action import gj_next_step
+from .exceptionsTools import ElementNotFound, ElementNotTextAttr, ElementNotClickable
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium import webdriver
@@ -225,7 +225,19 @@ class BasePage:
         except ElementNotFound:
             flag = False
             return flag
-
+    def isClickable(self, stype, element_loc):
+        """
+        判断元素是否可点击，返回布尔值
+        :param stype:
+        :param element_loc:
+        :return:True or False
+        """
+        element = self.findelement(stype, element_loc)
+        try:
+            if element.is_displayed() and element.is_enabled():
+                return True
+        except ElementNotClickable:
+            return False
     def is_element_clickable(self, ele_type, locator):
         """
         判断页面元素是否可以点击。
@@ -498,7 +510,7 @@ class BasePage:
         taskid = re.findall(r'[a-zA-Z0-9]+', taskidstr)[0]
 
         # 执行SQL，获取二维列表，lims号和下一步流向
-        if sql == "gj_next_step":  # 构建查询结构不一致，单独拿出来
+        if sql ==gj_next_step:  # 构建查询结构不一致，单独拿出来
             dada = self.select_sql(sql.format(table_name, taskid, table_name, taskid))
         else:
             dada = self.select_sql(sql.format(table_name, taskid))

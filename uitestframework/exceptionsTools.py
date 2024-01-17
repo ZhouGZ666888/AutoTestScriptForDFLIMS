@@ -18,11 +18,14 @@ class ValidationFailure(MyBaseFailure):
 class ExtractFailure(MyBaseFailure):
     pass
 
+
 class HttpFailure(MyBaseFailure):
     pass
 
+
 class LoginFailure(MyBaseFailure):
     pass
+
 
 """ error type exceptions
     these exceptions will mark test as error
@@ -30,15 +33,22 @@ class LoginFailure(MyBaseFailure):
 
 from selenium.common.exceptions import TimeoutException
 
+
 class MyBaseError(Exception):
+    pass
+
+
+class ElementNotClickable(MyBaseError):
     pass
 
 
 class FileFormatError(MyBaseError):
     pass
 
+
 class TimeoutExceptions(TimeoutException):
     pass
+
 
 class ParamsError(MyBaseError):
     pass
@@ -67,8 +77,10 @@ class EnvNotFound(NotFoundError):
 class DbNotConnect(MyBaseError):
     pass
 
+
 class DbExecuteNotFound(MyBaseError):
     pass
+
 
 class ApiNotFound(NotFoundError):
     pass
@@ -82,11 +94,13 @@ class SummaryEmpty(MyBaseError):
     """ test result summary data is empty
     """
 
+
 class ElementNotFound(NotFoundError):
     '''
     test result summary data is not find
     '''
     pass
+
 
 class ElementNotTextAttr(NotFoundError):
     pass

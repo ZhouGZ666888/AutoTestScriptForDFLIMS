@@ -119,14 +119,7 @@ class LibconstructionPage(BasePage):
     # 明细表入库信息、批量包装余量、录入96孔版位置
     def detail_libconstruction(self):
         """文库构建明细表，选择入库信息、批量包装余量"""
-        log.info("文库构建明细表选择入库类型：余样入库")
         self.clicks('css', detail_all_choice)  # 列表全选按钮
-        self.sleep(0.5)
-        self.moved_to_element('css', detail_batch_storage_type)  # 明细表批量入库类型下拉框
-        self.sleep(1)
-        self.clicks('css', detail_batch_storage_type_choice)  # 明细表批量入库类型下拉值,选择余样入库
-        self.sleep(1)
-
         log.info("文库构建明细表录入批量包装余量")
         self.clicks('css', batch_remaining_sample_package_amount)  # 明细表批量包装余量
         self.sleep(0.5)
