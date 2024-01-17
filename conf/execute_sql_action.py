@@ -173,20 +173,19 @@ next_step_sql = "SELECT  DISTINCT previous_sample_id_lims,sample_id_lab_core,cur
                 "previous_sample_id_lims IN ( SELECT sample_id_lims FROM {} WHERE task_id = '{}') AND is_valid = '1')"
 
 
-gj_next_step="""WITH relevant_samples AS (
-    SELECT original_sample_id_lims
-    FROM sample_info_t
-    WHERE original_sample_id_lims IN (
-        SELECT original_sample_id_lims
-        FROM {}
-        WHERE task_id = '{}'
+gj_next_step="""SELECT DISTINCT si.previous_sample_id_lims, si.sample_id_lab_core, si.current_step
+FROM sample_info_t si
+JOIN (
+    SELECT elcr.sample_id_lims
+    FROM {} elcr
+    WHERE elcr.task_id = '{}'
+    AND NOT EXISTS (
+        SELECT 1
+        FROM sample_info_t sit
+        WHERE sit.original_sample_id_lims = elcr.original_sample_id_lims
+        AND sit.preinstall_probe IS NOT NULL
     )
-    AND preinstall_probe IS NOT NULL
-)
-SELECT *
-FROM {}
-WHERE task_id = '{}'
-AND original_sample_id_lims NOT IN (SELECT original_sample_id_lims FROM relevant_samples);"""
+) AS subquery ON si.previous_sample_id_lims = subquery.sample_id_lims;"""
 
 # 数据库获取富集结果表下一步流向
 fj_next_step = "SELECT sample_id_lims, pooling_name, next_step_name FROM {}  WHERE task_id = '{}';"
