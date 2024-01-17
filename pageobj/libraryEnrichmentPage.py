@@ -63,7 +63,7 @@ class LibraryenrichmentPage(BasePage):
         log.info("选择操作方式")
         self.clicks('css', action_stlye)
         self.clicks('css', action_stlye_choice)
-
+        self.sleep(0.5)
         log.info("选择sop")
         self.clicks('css', select_sop)
         self.sleep(0.5)
@@ -268,8 +268,8 @@ class LibraryenrichmentPage(BasePage):
         log.info("富集明细表自动计算")
         self.clicks('xpath', automatic)  # 自动计算
         self.sleep(0.5)
-        # if self.isDisplayed('css', 'el-message-box__wrapper'):
-        self.clicks('css', tips)
+        if self.isDisplayed('css', 'el-message-box__wrapper'):
+            self.clicks('css', tips)
         self.sleep(0.5)
         log.info("富集明细表保存页面数据操作")
         self.clicks('css', detail_save_result)

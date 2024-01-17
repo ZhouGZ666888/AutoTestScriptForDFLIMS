@@ -154,7 +154,8 @@ class DataChangePage(BasePage):
         self.wait_loading()
 
         log.info('数据修改弹框-样本数量不一致提示确认（只修改任务单）')
-        self.clicks('css', change_data_info)
+        if self.isClickable('css', change_data_info):
+            self.clicks('css', change_data_info)
         self.wait_loading()
 
     def batch_submit_for_review(self):
