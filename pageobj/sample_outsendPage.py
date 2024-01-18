@@ -189,14 +189,16 @@ class SampleOutSendPage(BasePage):
 
 
         application_num = self.get_text('css', detail_task_id)
+        self.sleep(0.5)
         application_status1 = self.get_text('css', detail_task_status)  # 取样中
+        self.sleep(0.5)
         log.info('获取审核后的申请单号:{}和状态:{}'.format(application_status1,application_num))
 
         log.info('点击完成取样确认')
         self.clicks('css', check_btn)
         self.wait_loading()
         application_status2 = self.get_text('css', detail_task_status)  # 待寄送
-
+        self.sleep(0.5)
         log.info('将获取的申请单号写入临时文件')
         application_num = application_num[5:].strip()
         urldata = read_yaml(sampleOutDataFile)
@@ -232,10 +234,10 @@ class SampleOutSendPage(BasePage):
         log.info('完成寄送操作')
         self.clicks('css', sendfinish_btn)
         self.wait_loading()
-        self.sleep(0.5)
 
         log.info('获取完成寄送后的申请单状态')
         application_status = self.get_text('css', detail_task_status)  # 完成
+        self.sleep(0.5)
         print(application_status)
         return application_status[3:].strip()
 
