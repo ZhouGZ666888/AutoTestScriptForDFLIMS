@@ -125,6 +125,6 @@ sop_effect_button = '.SOPversionDetail_info_box-card .el-card__header button'
 # 弹框中点击确认按钮
 sop_effect_button_confirm = '//*[@aria-label="提示"]//button[@class="el-button el-button--primary el-button--medium"]'
 # 点击返回列表按钮
-sop_go_back_list_button = '.SOPversionDetail_header >div >button'
+sop_go_back_list_button = '.SOPversionDetail .SOPversionDetail_header .ChangRouteDialog .baseClass-btn-back-list'
 # 点击确认返回列表
 sop_go_back_list_button_confirm = '.SOPversionDetail_header .el-dialog__wrapper .el-dialog__footer button:nth-child(2)'

@@ -142,7 +142,7 @@ class SopPage(BasePage):
 
         log.info("详情页，点击返回列表页，开始新的sop新建任务")
         self.clicks('css', sop_go_back_list_button)
-        self.sleep(1)
+        self.sleep(0.5)
         self.clicks('css', sop_go_back_list_button_confirm)
         self.wait_loading()
         self.sleep(1)
