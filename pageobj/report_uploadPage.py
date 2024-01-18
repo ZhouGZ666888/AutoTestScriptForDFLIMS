@@ -134,7 +134,7 @@ class ReportUploadPage(BasePage):
             f.write('自动化测试解读文件上传')
         decode_file_path = os.path.abspath(excel_doc_file_path + '/' + '{}_解读文件.txt'.format(file_name))
         self.input('css', decode_upload_btn, decode_file_path)  # 用send_keys方法上传文件
-        if self.isDisplayed('xpath', '//body/div[4]'):
+        if self.isDisplayed('css', '.el-message-box__wrapper'):
             self.clicks('css', info_confirm2)
         decode_info = self.get_save_info()
         log.info("上传解读文件{}".format(decode_info))
