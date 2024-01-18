@@ -100,8 +100,9 @@ class libraryquantificationPage(BasePage):
         """定量明细表生成结果"""
         log.info('定量明细表生成结果')
         self.clicks('xpath', create_result)
-        if self.isClickable('css', create_result_tips):
-            self.clicks('css', create_result_tips)
+        self.sleep(0.5)
+        if self.isDisplayed('css', create_result_tips):
+            self.clicks('css', create_result_tips_btn)
         info = self.get_pageinfo()
         self.wait_loading()
 

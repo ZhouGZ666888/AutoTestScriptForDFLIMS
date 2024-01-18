@@ -69,7 +69,9 @@ quantifying_mix_product_name_input='.createTask_content_table .vxe-table--main-w
 create_result='//*[@class="button-list"]/descendant::span[text()="生成结果"]'
 
 #定量明细表index重复判定提示
-create_result_tips='.common-task-schedule-new > div:nth-child(12) .el-dialog__footer .baseClass-btn-confirm'
+create_result_tips='.common-task-schedule-new > div:nth-child(12)'
+#定量明细表index重复判定提示确认按钮
+create_result_tips_btn='.common-task-schedule-new > div:nth-child(12) .el-dialog__footer .baseClass-btn-confirm'
 
 # 明细表自动计算按钮
 detail_auto_complete = '.button-list .btn-autoComplete'
