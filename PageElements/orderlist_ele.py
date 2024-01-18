@@ -139,7 +139,7 @@ change_fee_confirm = '.dialog-payment .el-dialog__footer .baseClass-btn-payment-
 pay_style='.orderDetail-orderInfo-settlementMethod input'
 
 #结算方式选择
-pay_style_choice='//*[@class="el-select-dropdown el-popper"]/descendant::span[text()="科研"]'
+pay_style_choice='//*[@class="el-select-dropdown el-popper"]/descendant::span[text()="进院"]'
 
 # 保存成功提示信息
 save_success_info = '.el-message.el-message--success'
