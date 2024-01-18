@@ -323,6 +323,7 @@ class SampleWorkflowPage(BasePage):
         self.sleep(0.5)
         self.clicks('css',preinstallProbe_confirm)
         self.sleep(0.5)
+        Screenshot(self.driver).get_img("修改富集信息为样本设置预设探针", "设置预设探针成功")
 
         log.info("全选修改富集信息样本复选框")
         self.click_by_js('css', update_wkfj_data_allcheckbox)
