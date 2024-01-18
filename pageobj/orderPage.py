@@ -155,7 +155,7 @@ class OrderPage(BasePage):
         self.clicks('css', change_fee_confirm)
         self.sleep(1)
 
-        log.info('选择结算方式为科研')
+        log.info('选择结算方式为进院')
         self.clicks('css', pay_style)
         self.clicks('xpath', pay_style_choice)
 
