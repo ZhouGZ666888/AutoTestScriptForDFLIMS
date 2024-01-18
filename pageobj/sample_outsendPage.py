@@ -110,7 +110,11 @@ class SampleOutSendPage(BasePage):
         self.sleep(0.5)
 
         log.info("选择筛选结果，添加至明细表")
-        self.clicks('css', detail_all_choice)
+        for i in lims_nub[:2]:
+            if self.isElementExists('xpath',"//span[text()='{}']".format(i)):
+                self.clicks('xpath',"//span[text()='{}']".format(i))
+
+        # self.clicks('css', detail_all_choice)
         self.clicks('css', add_detail)
         self.wait_loading()
 
