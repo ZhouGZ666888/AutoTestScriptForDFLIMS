@@ -98,18 +98,18 @@ class SampleProcessingPage(BasePage):
         样本处理明细表数据录入、提交操作
         """
         self.sleep(0.5)
-        log.info("全选样本，点击生成排序号")
         self.click_by_js('css', create_sort_number)  # 生成排序号
         print('已生成排序号')
-        self.sleep(0.5)
+        self.sleep(1)
+        log.info("全选样本，点击生成排序号")
         self.clicks('css', detail_all_choice)  # 样本列表数据全选
-        self.sleep(0.5)
-        print('已生成排序号')
+        self.sleep(1)
 
         log.info("选择批量入库类型：样本入库")
         self.moved_to_element('css', batch_storage_type)  # 批量入库类型下拉框
         self.sleep(0.5)
         self.clicks('xpath', batch_actual_data_choice)  # 选择批量入库类型下拉值：临时库
+        self.sleep(0.5)
 
         log.info("录入批量实测数据")
         self.clicks('css', batch_actual_data)  # 批量实测数据
