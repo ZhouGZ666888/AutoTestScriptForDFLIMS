@@ -170,8 +170,7 @@ automatic='//span[text()="自动计算"]'
 tips='.el-message-box__wrapper .el-message-box__btns button'
 
 # 生成结果状态表单展示
-result_status='.createTask_content .vxe-editable .vxe-table--main-wrapper .vxe-table--body-wrapper table tbody ' \
-              'tr:nth-child(1) td:nth-child({})'
+result_status='.createTask_content .vxe-editable .vxe-table--main-wrapper .vxe-table--body-wrapper table tbody tr:nth-child(1) td:nth-child({})'
 
 
 # /************************入库****************************

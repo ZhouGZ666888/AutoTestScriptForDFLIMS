@@ -60,7 +60,6 @@ class GetSqlHelper:
                 password=self.test_limsdb_password,
                 host=self.test_limsdb_ip,
                 port=self.test_limsdb_port)
-
         except pymysql.Error as e:
             print("建立数据库Connect对象失败:%s" % e)
         try:
@@ -77,7 +76,6 @@ class GetSqlHelper:
             print('关闭游标成功')
         except Exception as e:
             print('关闭游标失败：', e)
-
         try:
             self.con.close()
             print('关闭链接成功!')

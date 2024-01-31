@@ -218,6 +218,8 @@ class LibraryenrichmentPage(BasePage):
     # 明细表入库信息、批量粘贴导入实验数据
     def detail_libraryenrichment(self, probe):
         """文库富集明细表，选择入库信息、批量包装余量、录入96孔版位置,无探针任务类型"""
+        self.clicks('css', generatedSortNo)  # 自动生成序号
+        self.sleep(0.5)
         self.click_by_js('css', detail_all_choice)  # 列表全选按钮
         log.info("文库富集明细表批量粘贴导入实验数据")
         self.read_import_data(probe)
@@ -231,7 +233,7 @@ class LibraryenrichmentPage(BasePage):
         log.info("富集明细表自动计算")
         self.clicks('xpath', automatic)  # 自动计算
         self.sleep(0.5)
-        if self.isDisplayed('css', 'el-message-box__wrapper'):
+        if self.isClickable('css',tips):
             self.clicks('css', tips)
         log.info("富集明细表保存页面数据操作")
         self.clicks('css', detail_save_result)
@@ -283,6 +285,7 @@ class LibraryenrichmentPage(BasePage):
         self.click_by_js('css', create_result)
         self.wait_loading()
         Screenshot(self.driver).get_img("文库富集明细表生成结果", "生成结果成功")
+        self.executeJscript('document.getElementsByClassName("vxe-table--body-wrapper")[0].scrollLeft=6000')
         self.sleep(1)
         result_info = self.get_text('css', result_status.format(index))
         return result_info
@@ -350,7 +353,7 @@ class LibraryenrichmentPage(BasePage):
 
         self.clicks('css', storage_next)
         self.wait_loading()
-
+        self.executeJscript('document.getElementsByClassName("vxe-table--body-wrapper")[0].scrollLeft=6000')
         pageinfo = self.get_text('css', detail_sumbit_status.format(nub))  # 入库后获取样本状态，判断是否入库成功
         print(pageinfo)
         return pageinfo
