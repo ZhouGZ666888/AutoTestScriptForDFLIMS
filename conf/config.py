@@ -7,7 +7,7 @@ from common.xlsx_excel import write_excel_xlsx_by_openpyxl
 
 # 样本接收模块生成样本数量
 # specimen_list = {'DNA': 4, '迪迅康-基础(8)': 3,'DNA+耐药':3}
-specimen_list = {'DNA': 20, '迪迅康-基础(8)': 10,'DNA+耐药':5}
+specimen_list = {'DNA': 10, '迪迅康-基础(8)': 5,'DNA+耐药':5}
 
 """
 数据库配置

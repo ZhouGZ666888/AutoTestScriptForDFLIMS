@@ -67,7 +67,6 @@ class SampleReceivePage(BasePage):
         # order = get_order()  # 获取订单号
 
         try:
-
             self.clicks('css',project_name_chioce)
             self.sleep(0.5)
             self.clicks('css',project_name_input)
