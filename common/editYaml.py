@@ -31,6 +31,7 @@ def save_yaml(path, date):
 def get_order():
     """读取订单号"""
     order = read_yaml(order_medical_info_path)
+    print("获取订单号：",order['ordernumb'])
     return order['ordernumb']
 
 

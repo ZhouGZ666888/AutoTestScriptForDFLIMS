@@ -79,7 +79,6 @@ class SampleWorkflowPage(BasePage):
         在流转表搜索订单号
         """
         order = get_order()  # 读出样本审核通过对应的订单号
-        print("订单号为：" + order)
 
         log.info("点击样本筛选按钮")
         self.clicks('xpath', workflow_samplesearch)
@@ -310,7 +309,7 @@ class SampleWorkflowPage(BasePage):
         self.click_by_js('css', cancel_all_check)
         self.sleep(1)
         log.info("勾选富集样本复选框")
-        self.clicks('css', get_wkfj_allcheckbox)
+        self.click_by_js('css', get_wkfj_allcheckbox)
         self.sleep(0.5)
         log.info("点击【修改富集信息】按钮")
         self.clicks('xpath', update_wkfj_data_button)

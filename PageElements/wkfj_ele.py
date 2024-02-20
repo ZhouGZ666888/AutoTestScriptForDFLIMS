@@ -68,6 +68,8 @@ check_lims_sample_number_textarea = (
 check_lims_sample_number_confirm = (
     '.dialog-expMgmt-detail .dialog-footer .qcResult-btn-confirm')
 
+#结果核对
+result_check='//*[@aria-label="核对结果"]/div[@class="el-dialog__footer"]/descendant::button'
 # 待选列表全选按钮
 all_choice = (
     '.vxe-table--main-wrapper .vxe-table--header-wrapper .vxe-header--row .vxe-checkbox--icon.vxe-checkbox--unchecked-icon')

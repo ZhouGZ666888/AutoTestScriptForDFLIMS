@@ -93,7 +93,7 @@ sop详情页，产物样本类型数据填写元素
 sop_detail_product = '.SOPversionDetail_info_box-card .addSopSample-btn-addSopSampleType'
 
 # 详情页，sop点击新增产物按钮,原始样本类型按钮
-sop_detail_original_sample_type = '.SOPversionDetail_info_box-card .el-card__body .el-table__body-wrapper tbody tr td:nth-child(1) .el-icon-search'
+sop_detail_original_sample_type = '.SOPversionDetail_info_box-card .productConfig-tableCol-originalSampleTypeName .el-icon-search'
 
 # 详情页，sop点击新增产物按钮,原始样本类型按钮,点击后的弹框，搜索输入框（输入：硕美抗凝血），选择首选项
 sop_detail_original_sample_type_search_result = ' .el-table--scrollable-y .el-table__body-wrapper tbody tr:nth-child(1)'

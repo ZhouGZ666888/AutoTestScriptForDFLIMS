@@ -104,6 +104,9 @@ class LibraryenrichmentPage(BasePage):
         self.sleep(0.5)
         self.clicks('css', check_lims_sample_number_confirm)
         self.wait_loading()
+        if self.isElementExists('xpath',result_check):
+            self.click_by_js('xpath',result_check)
+            self.sleep(0.5)
         log.info('选中核对后的样本，点击【加入选中样本&保存】')
         self.click_by_js('css', all_choice)
         self.sleep(1)
@@ -233,8 +236,8 @@ class LibraryenrichmentPage(BasePage):
         log.info("富集明细表自动计算")
         self.clicks('xpath', automatic)  # 自动计算
         self.sleep(0.5)
-        if self.isClickable('css',tips):
-            self.clicks('css', tips)
+        # if self.isClickable('css',tips):
+        #     self.clicks('css', tips)
         log.info("富集明细表保存页面数据操作")
         self.clicks('css', detail_save_result)
         self.wait_loading()
@@ -270,7 +273,7 @@ class LibraryenrichmentPage(BasePage):
         log.info("富集明细表自动计算")
         self.clicks('xpath', automatic)  # 自动计算
         self.sleep(0.5)
-        if self.isDisplayed('css', 'el-message-box__wrapper'):
+        if self.isDisplayed('css', tips):
             self.clicks('css', tips)
         self.sleep(0.5)
         log.info("富集明细表保存页面数据操作")
@@ -354,6 +357,7 @@ class LibraryenrichmentPage(BasePage):
         self.clicks('css', storage_next)
         self.wait_loading()
         self.executeJscript('document.getElementsByClassName("vxe-table--body-wrapper")[0].scrollLeft=6000')
+        self.sleep(1)
         pageinfo = self.get_text('css', detail_sumbit_status.format(nub))  # 入库后获取样本状态，判断是否入库成功
         print(pageinfo)
         return pageinfo

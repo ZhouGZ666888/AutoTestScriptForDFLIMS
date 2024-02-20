@@ -6,7 +6,8 @@ from openpyxl import Workbook
 from common.DataBaseConnection import executeSql
 from common.editYaml import get_order
 from common.xlsx_excel import pandas_write_excel, write_data_toexcle, read_excel_col
-from conf.all_path import excel_doc_file_path, index_96_import, wkfj_probe_file_path, hstq_file_path_mNGS
+from conf.all_path import excel_doc_file_path, index_96_import, wkfj_probe_file_path, hstq_file_path_mNGS, \
+    hstq_file_path_dxk
 from conf.execute_sql_action import wkgj_detail_sql3, wkfj_detail_sql3
 
 
@@ -45,8 +46,9 @@ def test04():
     # values_list = [list(d.values()) for d in ata]
     # print(values_list)
     # write_data_toexcle(wkfj_probe_file_path,values_list)
-    lims_nub = read_excel_col(hstq_file_path_mNGS, 'lims号')
-    print(lims_nub)
+    lims_id = read_excel_col(hstq_file_path_dxk, 'lims号')
+    print(lims_id)
+    print(lims_id[0])
 
 
 if __name__ == '__main__':
