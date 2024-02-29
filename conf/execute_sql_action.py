@@ -8,7 +8,7 @@ bl_sql = "SELECT count(*) from crm_patient_t where identification_no ='{}';"
 # 订单模块查询订单表是否存在新建订单号
 order_isexists_sql = "select count(*) from order_info_t where order_code='{}'; "
 # 接样写入备注
-ybjs_sql = "UPDATE sample_receive_item_t set remarks='自动化测试数据' where order_code='{}';"
+ybjs_sql = "UPDATE sample_receive_item_t set remarks='测试数据' where order_code='{}';"
 
 # j接样表，获取样本lims号、实验室号和样本报告类型
 ybjs_sql2 = "SELECT t1.sample_id_lims,t3.sample_main_lab_code,t2.dt_name_cn FROM sample_receive_item_t t1,bas_dictionary_t t2,sample_id_lab_v t3 WHERE t1.order_code = '{}' AND t1.product_id = t2.dt_code and t1.sample_id_lims=t3.sample_id_lims AND t2.dt_type = 'report_type';"
@@ -64,7 +64,8 @@ wkgj_detail_sql2 = "SELECT sample_id_lims from exp_libconstruction_item_t where 
 
 # 构建明细表查询样本lims号和实验室号
 wkgj_detail_sql3 = "SELECT t1.sample_id_lims,t1.sample_id_lab from  sample_id_lab_v t1 JOIN exp_libconstruction_item_t t2  on t1.sample_id_lims =t2.sample_id_lims where t2.task_id='{}';"
-
+#构建明细表设置样本的标化16s-qPCR ct值，主要为有探针样本设置，在富集有探针类型明细表中，自动计算会使用该值
+wkgj_detail_sql4="	UPDATE exp_libconstruction_item_t SET standard16s_qpcr_ct_value =24.68 WHERE task_id='{}';"
 # 文库构建结果表
 # 文库浓度1ng/μL*、文库浓度2ng/μL*、平均文库浓度ng/μL*、index_id录入
 wkgj_result_sql1 = "UPDATE exp_libconstruction_result_t set consistence_amt=5,consistence_amt_one=5,consistence_amt_two=5 where task_id='{}';"

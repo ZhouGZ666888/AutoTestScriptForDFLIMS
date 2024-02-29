@@ -43,7 +43,7 @@ class SampleReceivePage(BasePage):
         self.sleep(0.5)
 
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("样本接收，在搜索弹框中，根据lims号搜索","搜索出订单模块已有订单")
+        Screenshot(self.driver).get_img("样本接收，在搜索弹框中，根据lims号搜索", "搜索出订单模块已有订单")
 
         self.clicks('css', chioce_result)
         self.sleep(0.5)
@@ -61,25 +61,22 @@ class SampleReceivePage(BasePage):
 
     # 样本接收详情页面，增加样本项目信息、检测产品、订单备注
     def add_order_project(self):
-        """
-        样本接收详情页面，增加样本项目信息、订单备注
-        """
+        """样本接收详情页面，增加样本项目信息、订单备注"""
         # order = get_order()  # 获取订单号
-
         try:
-            self.clicks('css',project_name_chioce)
+            self.clicks('css', project_name_chioce)
             self.sleep(0.5)
-            self.clicks('css',project_name_input)
+            self.clicks('css', project_name_input)
             self.wait_loading()
-            self.input('css',project_search_input,'J019')
+            self.input('css', project_search_input, 'J019')
             self.sleep(0.5)
-            self.clicks('css',project_search_button)
+            self.clicks('css', project_search_button)
             self.wait_loading()
-            self.clicks('css',chioce_project_result)
+            self.clicks('css', chioce_project_result)
             self.wait_loading()
-            self.clicks('css',back_button)
+            self.clicks('css', back_button)
             self.wait_loading()
-            self.clicks('css',order_project_confirm)
+            self.clicks('css', order_project_confirm)
             self.wait_loading()
             log.info('选择样本所属项目J019')
             # order_project_id = executeSql.test_select_limsdb(ybjs_get_order_project_id)#sql插入法
@@ -91,9 +88,7 @@ class SampleReceivePage(BasePage):
             # executeSql.test_insertByParam(
             #     ybjs_set_product.format(order_product_id[0]["order_product_id"] + 1, order))
         except Exception as a:
-            log.error("设置样本接样模块，订单项目错误:%s"%a)
-
-
+            log.error("设置样本接样模块，订单项目错误:%s" % a)
 
     # 封装选择样本类型方法
     def set_sampleType(self):
@@ -160,23 +155,22 @@ class SampleReceivePage(BasePage):
                 self.sleep(0.2)
 
         lists = self.findelements('css', all_samples)
-        print("统计新增样本总数：",len(lists))
+        print("统计新增样本总数：", len(lists))
         try:
             tips = 0  # 计数器
             for sampleType, num in specimen_list.items():  # 从字典取值，样本类型以及对应的要添加的数量
                 if sampleType == 'DNA':  # 跟据取值依次判断
                     choice_reportType(sampleType)
-                elif sampleType == '迪迅康-基础(8)':
-                    choice_reportType(sampleType)
+
                 elif sampleType == 'DNA+耐药':
                     choice_reportType(sampleType)
                 tips += num  # 每次循环取不同样本，所以各样本数量相加，取其排序下标，在页面中根据对应下标进行定位
-        except Exception as a :
-            log.error('设置样本类型错误%s'%a)
+        except Exception as a:
+            log.error('设置样本类型错误%s' % a)
         self.sleep(1)
 
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("样本接收明细表，点击新增样本按钮，保存","保存新增样本成功")
+        Screenshot(self.driver).get_img("样本接收明细表，点击新增样本按钮，保存", "保存新增样本成功")
 
     # 生成实验流程
     def generate_laboratory_process(self):
@@ -216,15 +210,14 @@ class SampleReceivePage(BasePage):
         self.wait_loading()
 
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("样本接收，点击生成实验流程按钮","打开实验流程弹框")
+        Screenshot(self.driver).get_img("样本接收，点击生成实验流程按钮", "打开实验流程弹框")
 
         tips = 0
         for sampleType, num in specimen_list.items():  # 取出样本类型及其数量
             log.info('生成{}报告类型样本的实验流程'.format(sampleType))
             if sampleType == 'DNA':
                 expProcess('血液分离')
-            elif sampleType == "迪迅康-基础(8)":
-                expProcess('迪迅康-基础(8)（直接提取）')
+
             elif sampleType == "DNA+耐药":
                 expProcess('mPCR-核酸提取')
 
@@ -269,9 +262,9 @@ class SampleReceivePage(BasePage):
             if sampleType[2] == "DNA":
                 limsListValues.append(sampleType)
                 add_write_excel_xlsx(sampleprocessing_file_path, limsListValues)
-            elif sampleType[2] == "迪迅康-基础(8)":
-                limsListValues.append(sampleType)
-                add_write_excel_xlsx(hstq_file_path_dxk, limsListValues)
+            # elif sampleType[2] == "迪迅康-基础(8)":
+            #     limsListValues.append(sampleType)
+            #     add_write_excel_xlsx(hstq_file_path_dxk, limsListValues)
             elif sampleType[2] == "DNA+耐药":
                 limsListValues.append(sampleType)
                 add_write_excel_xlsx(hstq_file_path_mNGS, limsListValues)
@@ -369,7 +362,7 @@ class SampleReceivePage(BasePage):
         self.sleep(0.5)
 
         # 这里调用自定义截图方法
-        Screenshot(self.driver).get_img("样本接收，审核页面选中待审核样本，点击批量审核","打开审核弹框")
+        Screenshot(self.driver).get_img("样本接收，审核页面选中待审核样本，点击批量审核", "打开审核弹框")
 
         # 弹出框录入用户密码
         self.input('xpath', password_inpt, 1)
@@ -380,6 +373,8 @@ class SampleReceivePage(BasePage):
         # 点击提交
         self.clicks('xpath', review_confirm)
         self.wait_loading()
+
+
 if __name__ == '__main__':
-    cd=SampleReceivePage(BasePage)
+    cd = SampleReceivePage(BasePage)
     cd.save_all_samples_excel()

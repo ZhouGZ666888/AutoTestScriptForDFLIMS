@@ -14,7 +14,7 @@ from common.xlsx_excel import get_lims_for_excel_by_col, pandas_write_excel, rea
 from conf.all_path import wkgj_file_path, functionpageURL_path, position_in_box_path, index_96_import
 from conf.config import libconstruction_result
 from conf.execute_sql_action import wkgj_detail_sql2, wkgj_result_sql1, wkgj_result_sql2, \
-    wkgj_detail_sql3, gj_next_step
+    wkgj_detail_sql3, gj_next_step, wkgj_detail_sql4
 from uitestframework.basepageTools import BasePage
 from common.logs import log
 
@@ -91,7 +91,8 @@ class LibconstructionPage(BasePage):
         self.sleep(0.5)
         self.clicks('css', addSelect_or_save_btn)
         pageInfo = self.get_pageinfo()
-        Screenshot(self.driver).get_img("文库构建待选表点击核对lims号，录入样本号进行查询，勾选查询结果，并保存任务单号", "保存任务单成功")
+        Screenshot(self.driver).get_img("文库构建待选表点击核对lims号，录入样本号进行查询，勾选查询结果，并保存任务单号",
+                                        "保存任务单成功")
         self.wait_loading()
         return pageInfo
 
@@ -133,6 +134,7 @@ class LibconstructionPage(BasePage):
         print('富集任务单号', taskstatus)
         lims_list = executeSql.test_select_limsdb(
             wkgj_detail_sql3.format(taskstatus[5:].strip()))
+        executeSql.test_updateByParam(wkgj_detail_sql4.format(taskstatus[5:].strip()))  # 设置标化16s-qPCR ct值
         values_list = [list(d.values()) for d in lims_list]
         new_list = [[i + 1] + item + [i + 1] for i, item in enumerate(values_list)]  # 从数据库获取当前任务单号下样本lims号和实验室号，转换为二维列表
         print(new_list)
@@ -229,7 +231,8 @@ class LibconstructionPage(BasePage):
             self.sleep(0.5)
 
             # 调用自定义截图方法
-            Screenshot(self.driver).get_img("文库构建明细表点击入库按钮，在弹框中录入库位信息和盒内位置后点击下一步", "样本入库成功")
+            Screenshot(self.driver).get_img("文库构建明细表点击入库按钮，在弹框中录入库位信息和盒内位置后点击下一步",
+                                            "样本入库成功")
 
             self.clicks('css', storage_next)
             self.wait_loading()

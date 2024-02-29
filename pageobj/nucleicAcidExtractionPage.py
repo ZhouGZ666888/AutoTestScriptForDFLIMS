@@ -107,6 +107,10 @@ class NucleicAcidExtractionPage(BasePage):
         self.clicks('css', first_sample)
         self.sleep(0.5)
         self.clicks('css', aliquot_sample)  # 点击分管按钮
+        self.sleep(0.5)
+        self.clicks('css',aliquot_before_tips)
+        self.sleep(1)
+
 
         # 调用自定义截图方法
         Screenshot(self.driver).get_img("核酸提取明细表选中一条样本，点击分管按钮","打开分管弹框")

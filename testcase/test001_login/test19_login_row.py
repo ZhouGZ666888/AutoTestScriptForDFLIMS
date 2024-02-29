@@ -1,3 +1,4 @@
+import re
 import unittest
 from common.setup_teardown import MyTest
 from common import editYaml
@@ -26,11 +27,15 @@ class LimsLogin(MyTest):
     def tearDown(self):
         log.info("------登录用例结束！------")
 
-    def test01_error_username_login(self):
-        """
-        用戶名错误，登录失败
-        """
 
+    def test01_Check_record_information(self):
+        """测试网站备案信息是否正确"""
+        result = re.search(r'Copyright © 2020 迪飞医学科技（南京）有限公司 版权所有 苏ICP备20046744号-2', self.lg.get_source)
+        self.lg.sleep(1)
+        self.assertIsNotNone(result)
+
+    def test02_error_username_login(self):
+        """用戶名错误，登录失败"""
         try:
             log.info('输入错误账号/密码登录：error/error')
             self.lg.input_username("error")
@@ -51,10 +56,8 @@ class LimsLogin(MyTest):
             print('错误信息： %s' % r)
 
     @data(*datas["companies"])
-    def test02_login_data(self, datas):
-        """
-        数据驱动测试多个账号登录LIMS系统
-        """
+    def test03_login_data(self, datas):
+        """数据驱动测试多个账号登录LIMS系统"""
         try:
 
             log.info("清空输入框信息")

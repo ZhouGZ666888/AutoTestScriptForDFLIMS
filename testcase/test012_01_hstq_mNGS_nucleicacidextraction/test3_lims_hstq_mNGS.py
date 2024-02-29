@@ -29,7 +29,7 @@ class NucleicAcidExtractionMngs(MyTest):
             self.assertEqual(info, "任务单保存成功", "保存样本到明细表失败！！")
 
     def test02_extraction_detail(self):
-        """测试核酸提取明细表样本批量数据录入、自动计算、提交、入库功能"""
+        """测试核酸提取明细表样本分管、批量数据录入、自动计算、提交、入库功能"""
         self.hstq.aliquot_sample()  # 明细表分管
         self.hstq.add_NTC_type(ntc_mNGS)  # 添加ntc
         self.hstq.extraction_detail()  # 核酸提取明细表数据录入、自动计算操作

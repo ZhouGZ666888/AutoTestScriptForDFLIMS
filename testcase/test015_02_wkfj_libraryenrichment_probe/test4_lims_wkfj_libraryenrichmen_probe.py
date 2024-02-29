@@ -36,7 +36,7 @@ class LibraryenrichMentProbe(MyTest):
         log.info("文库富集明细表批量粘贴导入实验数据")
         self.wkfj.detail_libraryenrichment_probe('1A')
         log.info("批量数据后生成结果")
-        res_info = self.wkfj.detail_create_result(40)
+        res_info = self.wkfj.detail_create_result(42)
         log.info('进入文库富集结果表')
         self.wkfj.enter_result_list(enter_result_list_btn, '文库富集结果表')  # 进入文库富集结果表
         self.assertEqual(res_info, '是', '生成结果失败!')
@@ -58,7 +58,7 @@ class LibraryenrichMentProbe(MyTest):
         log.info("文库富集明细表提交")
         self.wkfj.detail_submit()  # 明细表提交操作
         log.info("文库富集明细表入库")
-        pageinfo = self.wkfj.detail_into_storage(41)  # 明细表样本入库操作
+        pageinfo = self.wkfj.detail_into_storage(43)  # 明细表样本入库操作
         log.info('返回富集结果表，完成任务单')
         save_info3 = self.wkfj.complete_task()
         self.assertEqual(pageinfo, '完成', "入库失败，请检查数据！！！")

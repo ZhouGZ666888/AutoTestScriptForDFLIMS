@@ -120,6 +120,9 @@ choice_one_sample = (
 aliquot_sample = (
     '.button-list .extractionSchedule-btn-dividedSample')
 
+#分管前注意事项提示框
+aliquot_before_tips='.el-message-box__wrapper .el-message-box__btns button:nth-child(2)'
+
 # 分管弹框全选按钮
 aliquot_sample_all_choice = (
     '.el-dialog .el-dialog__body .vxe-table--main-wrapper .vxe-table--header-wrapper table .vxe-checkbox--unchecked-icon')
