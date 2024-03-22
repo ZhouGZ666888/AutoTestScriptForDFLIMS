@@ -212,7 +212,8 @@ remaining_TotalAmt = (
 
 # 提交状态文本定位
 submit_status = (
-    '.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td:nth-child(27)')
+    '.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td:nth-child('
+    '14)')
 
 # 样本列表滚动条
 scroll_line = (

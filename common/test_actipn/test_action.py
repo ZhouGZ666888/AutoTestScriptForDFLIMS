@@ -46,10 +46,10 @@ def test04():
     # values_list = [list(d.values()) for d in ata]
     # print(values_list)
     # write_data_toexcle(wkfj_probe_file_path,values_list)
-    lims_id = read_excel_col(hstq_file_path_dxk, 'lims号')
-    print(lims_id)
-    print(lims_id[0])
-
-
+    # lims_id = read_excel_col(hstq_file_path_dxk, 'lims号')
+    # print(lims_id)
+    # print(lims_id[0])
+    lims_list = executeSql.test_select_limsdb(wkgj_detail_sql3.format('WKGJD2024022900006'))
+    print(lims_list)
 if __name__ == '__main__':
     test04()

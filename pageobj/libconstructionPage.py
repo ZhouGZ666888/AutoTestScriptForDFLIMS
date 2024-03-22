@@ -11,14 +11,23 @@ from common.screenshot import Screenshot
 from common.DataBaseConnection import executeSql
 from common import editYaml
 from common.xlsx_excel import get_lims_for_excel_by_col, pandas_write_excel, read_excel_col, write_data_toexcle
-from conf.all_path import wkgj_file_path, functionpageURL_path, position_in_box_path, index_96_import
+from conf.all_path import wkgj_file_path, functionpageURL_path, position_in_box_path, index_96_import, \
+    report_views_refresh_sql
 from conf.config import libconstruction_result
 from conf.execute_sql_action import wkgj_detail_sql2, wkgj_result_sql1, wkgj_result_sql2, \
     wkgj_detail_sql3, gj_next_step, wkgj_detail_sql4
 from uitestframework.basepageTools import BasePage
 from common.logs import log
 
-
+def execute_sql():
+    """
+    报告模块操作前先执行一遍sql，刷新报告数据对的视图
+    """
+    # 读取sql
+    with open(report_views_refresh_sql, 'r', encoding='utf-8', errors='ignore') as f:
+        sa = f.read()
+    executeSql.test_updateByParam(sa)
+    print('执行数据库刷新视图成功<+_+>')
 class LibconstructionPage(BasePage):
     """
     文库构建页面方法封装
@@ -130,6 +139,7 @@ class LibconstructionPage(BasePage):
     def index_96_import(self):
         """96孔板位置和INDEX导入"""
         log.info("文库构建明细表96孔板位置和INDEX导入")
+        execute_sql()
         taskstatus = self.get_text('css', detail_task_id)  # 获取任务单号
         print('富集任务单号', taskstatus)
         lims_list = executeSql.test_select_limsdb(
@@ -237,7 +247,8 @@ class LibconstructionPage(BasePage):
             self.clicks('css', storage_next)
             self.wait_loading()
 
-            # self.executeJscript('document.getElementsByClassName("vxe-table--body-wrapper")[0].scrollLeft=3080')
+            self.executeJscript('document.getElementsByClassName("vxe-table--body-wrapper")[0].scrollLeft=4000')
+            self.sleep(0.5)
             samples_status = self.get_text('css', submit_status)
             print('明细表状态', samples_status)
             self.sleep(1)

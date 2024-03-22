@@ -310,8 +310,7 @@ storage_next = (
 
 # 明细表提交状态文本定位
 submit_status = (
-    '.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td:nth-child('
-    '26)')
+    '.createTask_content_table .vxe-table--main-wrapper .vxe-table--body-wrapper tbody tr:nth-child(1) td:nth-child(27)')
 
 # 获取所有样本数量
 all_samples = (
